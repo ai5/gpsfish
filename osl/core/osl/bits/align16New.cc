@@ -8,7 +8,7 @@ void * osl::misc::Align16New::operator new(size_t size)
 {
   char *ptr = ::new char[size+Alignment];
   for (int i=0; i<Alignment; ++i) {
-    if (reinterpret_cast<unsigned long>(ptr + i + 1) % Alignment == 0) {
+    if (reinterpret_cast<unsigned long long>(ptr + i + 1) % Alignment == 0) {
       *(ptr + i) = i + 1;
       // std::cerr << ">> " << (long)ptr << " => " << (long)(ptr + i + 1) << "\n";
       return ptr + i + 1;

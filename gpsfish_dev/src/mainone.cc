@@ -53,6 +53,7 @@
 #include "../../osl/core/osl/eval/eval_pieceStand.cc"
 #include "../../osl/core/osl/eval/eval_pin.cc"
 #include "../../osl/core/osl/eval/weights.cc"
+#include "../../osl/core/osl/bits/binaryIO.cc"
 #include "../../osl/core/osl/oslConfig.cc"
 #include "../../osl/core/osl/bits/pieceStand.cc"
 #include "../../osl/core/osl/book/openingBook.cc"

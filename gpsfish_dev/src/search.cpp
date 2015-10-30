@@ -3125,13 +3125,9 @@ struct Closure8{
 
     s << "info depth " << depth
       << " seldepth " << selDepth
-#ifndef GPSFISH
       << " multipv " << pvIdx + 1
-#endif
       << " score " << value_to_uci(pv_score)
-#ifndef GPSFISH
       << (pv_score >= beta ? " lowerbound" : pv_score <= alpha ? " upperbound" : "")
-#endif
       << speed_to_uci(pos.nodes_searched())
       << " pv ";
 

@@ -13,11 +13,11 @@ CXX_CPP_FLAGS += -I../../osl/std -I../../osl/core
 		| sed 's/\(.*\.o\)[ :]*/$(subst /,\/,$(patsubst .deps/%.cpp.d,%.o,$@)) $(subst /,\/,$@) : /g' > $@
 	grep $< $@ > /dev/null 2>&1 || (rm -f $@; false)
 
-LOADLIBES += -lpthread
+LOADLIBES += -lpthread -lpsapi
 
-GPSFISH_HOME_FLAGS = -DGPSFISH_HOME=\"$(shell dirname `pwd`)\"
+GPSFISH_HOME_FLAGS = -DGPSFISH_HOME=\"./\"
 OSL_HOME_FLAGS = -DOSL_HOME=\"$(shell dirname `dirname \`pwd\``)/osl\"
-CXXFLAGS += -msse -DGPSFISH -DPROMOTE_AS_CAPTURE $(GPSFISH_HOME_FLAGS) $(OSL_HOME_FLAGS)
+CXXFLAGS += -msse -DGPSFISH -DPROMOTE_AS_CAPTURE -DOLD_LOCKS $(GPSFISH_HOME_FLAGS) $(OSL_HOME_FLAGS)
 
 SRCS = benchmark.cpp misc.cpp timeman.cpp evaluate.cpp move.cpp position.cpp tt.cpp main.cpp movegen.cpp search.cpp uci.cpp book.cpp movepick.cpp thread.cpp ucioption.cpp
 OBJS = $(patsubst %.cpp,%.o,$(SRCS))
@@ -31,14 +31,11 @@ programs : gpsfish
 gpsfish: $(OBJS) $(FILE_OSL_ALL)
 	$(CXX) -o $@ $(CXXFLAGS) $(PROFILE_USE) $(LDFLAGS) $(OBJS) $(FILE_OSL_ALL) $(LDLIBS) $(LOADLIBES) -lbz2
 
-binaryIO.o:
-	ln -s ../../osl/core/osl/bits/binaryIO.o
+gpsfishoneprof: mainone.cc
+	$(CXX) -o $@ $(CXXFLAGS) $(PROFILE_GENERATE) $(LDFLAGS) $< $(LDLIBS) $(filter-out -losl_%,$(LOADLIBES)) -lbz2
 
-gpsfishoneprof: mainone.cc binaryIO.o
-	$(CXX) -o $@ $(CXXFLAGS) $(PROFILE_GENERATE) $(LDFLAGS) $^ $(LDLIBS) $(filter-out -losl_%,$(LOADLIBES)) -lbz2
-
-gpsfishone: mainone.cc mainone.gcda gpsfishoneprof binaryIO.o
-	$(CXX) -o $@ $(CXXFLAGS) $(PROFILE_USE) $(LDFLAGS) $< binaryIO.o $(LDLIBS) $(filter-out -losl_%,$(LOADLIBES)) -lbz2
+gpsfishone: mainone.cc mainone.gcda gpsfishoneprof
+	$(CXX) -o $@ $(CXXFLAGS) $(PROFILE_USE) $(LDFLAGS) $< $(LDLIBS) $(filter-out -losl_%,$(LOADLIBES)) -lbz2
 
 update-gpsfishone:
 	-rm gpsfishone gpsfishoneprof mainone.gcda
