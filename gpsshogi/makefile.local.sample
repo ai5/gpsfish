@@ -1,0 +1,2 @@
+# set if you have tokyocabinet and want to use it
+USE_TOKYO_CABINET = 1

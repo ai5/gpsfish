@@ -1,0 +1,14 @@
+2015-05-04T18:24:57.890846 status=4 elapsed 3698 msec-max 7051
+root + -29999 +5646OU-7666RY (2 1) 0k solved 5.5s
+  +5646OU - -29999 -7666RY (1 0) 0k NC solved
+P1 * -KE *  *  *  * -GI-KE-KY
+P2 *  *  *  * -KI-OU-KI *  * 
+P3 * +TO * -FU-FU-FU * -FU * 
+P4 *  * -FU *  *  * -FU-KY * 
+P5 * +KE *  * +FU *  *  * -FU
+P6 *  * -RY+HI+OU *  *  *  * 
+P7 *  *  * -GI * +FU+FU+FU+FU
+P8 *  *  *  * +KY+GI+GI *  * 
+P9 *  *  *  *  *  * -KA+KE+KY
+P-00KA00KI00KI00FU00FU00FU00FU00FU
++

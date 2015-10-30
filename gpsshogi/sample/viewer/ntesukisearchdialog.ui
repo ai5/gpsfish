@@ -1,0 +1,515 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>NtesukiSearchDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>NtesukiSearchDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>579</width>
+            <height>205</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>NtesukiSearch</string>
+    </property>
+    <widget class="QLayoutWidget">
+        <property name="name">
+            <cstring>layout6</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>560</width>
+                <height>29</height>
+            </rect>
+        </property>
+        <hbox>
+            <property name="name">
+                <cstring>unnamed</cstring>
+            </property>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>textLabel4</cstring>
+                </property>
+                <property name="text">
+                    <string>Node Limit</string>
+                </property>
+            </widget>
+            <widget class="QSpinBox">
+                <property name="name">
+                    <cstring>nodeLimitBox</cstring>
+                </property>
+                <property name="maxValue">
+                    <number>999999999</number>
+                </property>
+                <property name="lineStep">
+                    <number>100000</number>
+                </property>
+                <property name="value">
+                    <number>10000000</number>
+                </property>
+            </widget>
+            <spacer>
+                <property name="name">
+                    <cstring>spacer2</cstring>
+                </property>
+                <property name="orientation">
+                    <enum>Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                    <enum>Expanding</enum>
+                </property>
+                <property name="sizeHint">
+                    <size>
+                        <width>50</width>
+                        <height>20</height>
+                    </size>
+                </property>
+            </spacer>
+            <widget class="QComboBox">
+                <item>
+                    <property name="text">
+                        <string>No Widening(NO)</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Strict Iterative Widening(IW)</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>PN based Widening(PN)</string>
+                    </property>
+                </item>
+                <property name="name">
+                    <cstring>iwScheme</cstring>
+                </property>
+                <property name="currentItem">
+                    <number>2</number>
+                </property>
+            </widget>
+            <widget class="QComboBox">
+                <item>
+                    <property name="text">
+                        <string>No Inversion</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Tonshi only</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Delay Inversion</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Full Inversion</string>
+                    </property>
+                </item>
+                <property name="name">
+                    <cstring>isScheme</cstring>
+                </property>
+            </widget>
+            <widget class="QComboBox">
+                <item>
+                    <property name="text">
+                        <string>Lambda</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Dual Lambda</string>
+                    </property>
+                </item>
+                <property name="name">
+                    <cstring>psScheme</cstring>
+                </property>
+            </widget>
+        </hbox>
+    </widget>
+    <widget class="QLayoutWidget">
+        <property name="name">
+            <cstring>layout10</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>10</x>
+                <y>150</y>
+                <width>560</width>
+                <height>42</height>
+            </rect>
+        </property>
+        <hbox>
+            <property name="name">
+                <cstring>unnamed</cstring>
+            </property>
+            <widget class="QCheckBox">
+                <property name="name">
+                    <cstring>NMF</cstring>
+                </property>
+                <property name="text">
+                    <string>NMF</string>
+                </property>
+                <property name="checked">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QCheckBox">
+                <property name="name">
+                    <cstring>PPT_ID</cstring>
+                </property>
+                <property name="text">
+                    <string>PTT_ID</string>
+                </property>
+                <property name="checked">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <spacer>
+                <property name="name">
+                    <cstring>spacer1</cstring>
+                </property>
+                <property name="orientation">
+                    <enum>Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                    <enum>Expanding</enum>
+                </property>
+                <property name="sizeHint">
+                    <size>
+                        <width>220</width>
+                        <height>40</height>
+                    </size>
+                </property>
+            </spacer>
+            <widget class="QPushButton">
+                <property name="name">
+                    <cstring>okButton</cstring>
+                </property>
+                <property name="text">
+                    <string>&amp;OK</string>
+                </property>
+                <property name="accel">
+                    <string>Alt+O</string>
+                </property>
+                <property name="default">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QPushButton">
+                <property name="name">
+                    <cstring>cancelButton</cstring>
+                </property>
+                <property name="text">
+                    <string>&amp;Cancel</string>
+                </property>
+                <property name="accel">
+                    <string>Alt+C</string>
+                </property>
+            </widget>
+        </hbox>
+    </widget>
+    <widget class="QLayoutWidget">
+        <property name="name">
+            <cstring>layout5</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>10</x>
+                <y>70</y>
+                <width>560</width>
+                <height>22</height>
+            </rect>
+        </property>
+        <hbox>
+            <property name="name">
+                <cstring>unnamed</cstring>
+            </property>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>textLabel5</cstring>
+                </property>
+                <property name="text">
+                    <string>Table Size Limit</string>
+                </property>
+            </widget>
+            <widget class="QSpinBox">
+                <property name="name">
+                    <cstring>tableSizeLimitBox</cstring>
+                </property>
+                <property name="maxValue">
+                    <number>999999999</number>
+                </property>
+                <property name="lineStep">
+                    <number>1000</number>
+                </property>
+                <property name="value">
+                    <number>10000</number>
+                </property>
+            </widget>
+            <widget class="QSpinBox">
+                <property name="name">
+                    <cstring>gcRatio</cstring>
+                </property>
+                <property name="maxValue">
+                    <number>100</number>
+                </property>
+                <property name="lineStep">
+                    <number>1</number>
+                </property>
+                <property name="value">
+                    <number>30</number>
+                </property>
+                <property name="toolTip" stdset="0">
+                    <string></string>
+                </property>
+            </widget>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>textLabelGc</cstring>
+                </property>
+                <property name="text">
+                    <string>% Max GC Count</string>
+                </property>
+            </widget>
+            <widget class="QSpinBox">
+                <property name="name">
+                    <cstring>gcMaxCount</cstring>
+                </property>
+                <property name="maxValue">
+                    <number>10000</number>
+                </property>
+                <property name="value">
+                    <number>5</number>
+                </property>
+            </widget>
+            <spacer>
+                <property name="name">
+                    <cstring>spacer2</cstring>
+                </property>
+                <property name="orientation">
+                    <enum>Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                    <enum>Expanding</enum>
+                </property>
+                <property name="sizeHint">
+                    <size>
+                        <width>190</width>
+                        <height>20</height>
+                    </size>
+                </property>
+            </spacer>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>textLabel4_2</cstring>
+                </property>
+                <property name="text">
+                    <string>Cost</string>
+                </property>
+            </widget>
+            <widget class="QSpinBox">
+                <property name="name">
+                    <cstring>cEstimates</cstring>
+                </property>
+                <property name="maxValue">
+                    <number>100</number>
+                </property>
+                <property name="lineStep">
+                    <number>1</number>
+                </property>
+                <property name="value">
+                    <number>2</number>
+                </property>
+                <property name="toolTip" stdset="0">
+                    <string>The cost added to non-check move.</string>
+                </property>
+            </widget>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>textLabel4_2_2</cstring>
+                </property>
+                <property name="text">
+                    <string>Estimates</string>
+                </property>
+                <property name="toolTip" stdset="0">
+                    <string></string>
+                </property>
+            </widget>
+            <widget class="QSpinBox">
+                <property name="name">
+                    <cstring>hEstimates</cstring>
+                </property>
+                <property name="maxValue">
+                    <number>100</number>
+                </property>
+                <property name="lineStep">
+                    <number>1</number>
+                </property>
+                <property name="value">
+                    <number>0</number>
+                </property>
+                <property name="toolTip" stdset="0">
+                    <string>The estimate of proof number  of a non-check move(0 for the same with check moves).</string>
+                </property>
+            </widget>
+        </hbox>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>FD_LABEL</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>503</x>
+                <y>111</y>
+                <width>16</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>FD</string>
+        </property>
+    </widget>
+    <widget class="QLayoutWidget">
+        <property name="name">
+            <cstring>layout5</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>11</x>
+                <y>110</y>
+                <width>560</width>
+                <height>22</height>
+            </rect>
+        </property>
+        <hbox>
+            <property name="name">
+                <cstring>unnamed</cstring>
+            </property>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>textLabel7</cstring>
+                </property>
+                <property name="text">
+                    <string>Search &amp;Time</string>
+                </property>
+                <property name="buddy" stdset="0">
+                    <cstring>searchTimeBox</cstring>
+                </property>
+            </widget>
+            <widget class="QSpinBox">
+                <property name="name">
+                    <cstring>searchTimeBox</cstring>
+                </property>
+                <property name="maxValue">
+                    <number>600</number>
+                </property>
+                <property name="value">
+                    <number>60</number>
+                </property>
+            </widget>
+            <spacer>
+                <property name="name">
+                    <cstring>spacer3</cstring>
+                </property>
+                <property name="orientation">
+                    <enum>Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                    <enum>Expanding</enum>
+                </property>
+                <property name="sizeHint">
+                    <size>
+                        <width>30</width>
+                        <height>20</height>
+                    </size>
+                </property>
+            </spacer>
+            <widget class="QCheckBox">
+                <property name="name">
+                    <cstring>MAX_FOR_SPLIT</cstring>
+                </property>
+                <property name="text">
+                    <string>MAX_FOR_SPLIT</string>
+                </property>
+                <property name="checked">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QCheckBox">
+                <property name="name">
+                    <cstring>NONATTACK</cstring>
+                </property>
+                <property name="text">
+                    <string>NONATTACK</string>
+                </property>
+                <property name="checked">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QCheckBox">
+                <property name="name">
+                    <cstring>DOMINANCE</cstring>
+                </property>
+                <property name="text">
+                    <string>DOMINANCE</string>
+                </property>
+                <property name="checked">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QCheckBox">
+                <property name="name">
+                    <cstring>INTERPOSE</cstring>
+                </property>
+                <property name="text">
+                    <string>INTERPOSE</string>
+                </property>
+                <property name="checked">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QCheckBox">
+                <property name="name">
+                    <cstring>NOPROMOTE</cstring>
+                </property>
+                <property name="text">
+                    <string>NOPROMOTE</string>
+                </property>
+                <property name="checked">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QSpinBox">
+                <property name="name">
+                    <cstring>FD</cstring>
+                </property>
+            </widget>
+        </hbox>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>okButton</sender>
+        <signal>clicked()</signal>
+        <receiver>NtesukiSearchDialog</receiver>
+        <slot>accept()</slot>
+    </connection>
+    <connection>
+        <sender>cancelButton</sender>
+        <signal>clicked()</signal>
+        <receiver>NtesukiSearchDialog</receiver>
+        <slot>reject()</slot>
+    </connection>
+</connections>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

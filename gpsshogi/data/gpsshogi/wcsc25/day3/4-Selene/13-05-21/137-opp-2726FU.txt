@@ -1,0 +1,13 @@
+2015-05-05T13:31:35.716053 status=4 elapsed 3899 msec-max 6300
+root + -29994 +2726FU-1415FU+1627OU-4637UM+2937KE (5 5) 22k [2] solved (7.7s)
+P1 *  *  * -FU *  * -KY * -KY
+P2-FU-KI *  *  *  *  * -KI * 
+P3-OU+KE-FU-KI-FU *  * -FU * 
+P4 * -FU *  *  * -KE *  * -FU
+P5-KY * +FU *  *  * +KE *  * 
+P6 * +HI+KI *  * -KA+GI * +OU
+P7 *  *  *  *  * -UM+FU+FU+FU
+P8 *  *  * -HI *  *  *  *  * 
+P9 *  *  *  *  *  * +GI+KE+KY
+P-00GI00GI00FU00FU00FU00FU00FU00FU00FU
++

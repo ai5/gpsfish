@@ -1,0 +1,15 @@
+2015-05-04T14:15:18.046052 status=3 elapsed 61 msec-max 7952
+root + 29999 +8594UM-0083FU+9483UM-6171OU+8472NK (5 4) 0k p 6 solved (0.0s)
+  +8594UM - 29999 -0083FU+9483UM-6171OU+8472NK (4 3) 0k p 2 solved (0.0s)
+P1 * -KE * -OU-GI *  * -KI+HI
+P2 *  *  *  *  *  *  * -KI * 
+P3 *  * -KI+GI-FU *  * -KE-FU
+P4-KY+KE * -GI * -FU+FU *  * 
+P5-FU+UM+FU *  *  * -FU *  * 
+P6 *  *  * +FU * +KE * +HI+KY
+P7+FU+FU * +KI * +FU * +GI * 
+P8 *  *  *  *  *  * +OU *  * 
+P9-UM *  *  * +KY *  *  *  * 
+P+00KY00FU00FU00FU00FU00FU00FU
+P-00FU
++

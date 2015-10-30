@@ -1,0 +1,70 @@
+H1 {
+  text-align:center;
+  color: #000000;
+  background: #FFFFFF;
+  line-height:1.2;
+  border-width:3px .5em 3px .5em;
+  border-color:#886622;
+  border-style:solid solid solid solid;
+}
+
+H2 {
+  color: #000000;
+  background: #FFFFEE;
+  line-height:1.2;
+  border-width:0 0 3px 0;
+  border-color:#884422;
+  border-style:none none solid none;
+}
+
+H3 {
+  color: #000000;
+  background: #FFFFFF;
+  line-height:1.2;
+  margin-top:1.5em;
+  border-color:#884422;
+  border-bottom:2px;
+  border-top:2px;
+  border-style:dotted none dotted none;
+}
+
+H4 {
+  color: #000000;
+  background: #FFFFFF;
+  line-height:1.2;
+  margin-top:1.5em;
+  border-color:#88FF88;
+  border-bottom:1px;
+  border-style:none none dotted none
+}
+
+body { background:#FFEEAA; }
+
+.hidden { display: none; }
+.board  { border: 1px solid #333333; border-style: outset;  width: 700px;  padding: 2.5% 0% 1% 0%; margin-left: auto; margin-right: auto; background:#FFFFFF; }
+.clickable:hover { background:#FFEE88; }
+.moves { font-family:monospace; border: 1px solid #333333; border-style: inset; }
+.graph { margin: auto; width: 650px; background:#F8F0E0; }
+
+.summary { background: #FFFFFF; text-align: center; margin: 3%; }
+.winner { font-weight: bold; }
+
+th { background: #EEDEBB; }
+
+.odd { background: #FFEECC; }
+.even { background: #FFFFFF; }
+
+.today { background: #FFEEEE; }
+
+.floodgate30 { background: #EEEEBB; }
+.floodgate00 { background: #FFFFFF; }
+
+.moreloss { color: red;   font-size: 60%; vertical-align:super; }
+.morewin  { color: green; font-size: 60%; vertical-align:super; }
+
+.super { font-size: 60%; vertical-align:super; }
+.newplayer { 
+    border-top: 1px; border-color: #AA0000; 
+    border-style: solid none none none; 
+    background: #FFEECC;
+}

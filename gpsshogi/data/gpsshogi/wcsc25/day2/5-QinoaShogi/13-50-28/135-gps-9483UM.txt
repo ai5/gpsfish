@@ -1,0 +1,15 @@
+2015-05-04T14:15:21.696019 status=3 elapsed 66 msec-max 7201
+root + 29999 +9483UM-6171OU+8472NK (3 2) 57k solved 3.7s (3.7s)
+  +9483UM - 29999 -6171OU+8472NK (2 1) 0k solved 3.7s
+  others  + 29993 +5953NY-2111KI+9483UM-6171OU+8472NK-7372KI (6 5) 57k [8] solved (3.7s)
+P1 * -KE * -OU-GI *  * -KI+HI
+P2 *  *  *  *  *  *  * -KI * 
+P3 * -FU-KI+GI-FU *  * -KE-FU
+P4+UM+KE * -GI * -FU+FU *  * 
+P5-FU * +FU *  *  * -FU *  * 
+P6 *  *  * +FU * +KE * +HI+KY
+P7+FU+FU * +KI * +FU * +GI * 
+P8 *  *  *  *  *  * +OU *  * 
+P9-UM *  *  * +KY *  *  *  * 
+P+00KY00KY00FU00FU00FU00FU00FU00FU
++

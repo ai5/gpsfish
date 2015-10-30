@@ -1,0 +1,16 @@
+2015-05-04T15:02:34.440170 status=4 elapsed 10463 msec-max 8000
+root + 29999 +0032HI-2223OU+0015KE (3 2) 21k solved 10.3s (10.3s)
+  +0032HI - 29999 -2223OU+0015KE (2 1) 0k solved 10.3s
+  others  + 29989 +0023FU-2233OU+0031HI-3324OU+0016KE-2423OU (8 5) 21k [4] solved (10.3s)
+P1-KY *  *  *  *  *  * -KE-KY
+P2 * +TO *  *  *  *  * -OU * 
+P3 *  *  *  * -FU-KI *  * -FU
+P4-FU * +KI * -KY * -FU+KE * 
+P5 *  * -GI *  *  *  *  *  * 
+P6 * +FU *  *  * +FU+FU *  * 
+P7+FU *  * +KI+FU * +KE * +FU
+P8 *  *  *  *  *  *  *  *  * 
+P9-UM * +OU *  *  *  *  * +KY
+P+00HI00KI00KE00FU00FU00FU00FU00FU00FU
+P-00HI00KA00GI00GI00GI00FU
++

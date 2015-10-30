@@ -1,0 +1,51 @@
+# jamroot
+project
+    : requirements <threading>multi
+    : build-dir build
+    ;
+
+build-project bin//gpsshogi ;
+
+lib tbbmalloc ;
+lib tbb ;
+
+explicit binary-dist binary-dist-smp ;
+install binary-dist
+    : bin//gpsshogi
+      bin//gpsusi
+    : <install-type>EXE
+      <location>dist/release/usr/bin
+    : <variant>release 
+      <link>static
+      <smp>off
+    ;
+    
+install binary-dist-smp
+    : bin//gpsshogi
+      bin//gpsusi
+    : <install-type>EXE
+      <location>dist-smp/release/usr/bin
+    : <variant>release 
+      <link>static
+      <smp>on
+    ;
+
+# Combining with binary-dist causes a duplicated file error.
+# Separating like this is a workaround.
+install binary-dist-viewer
+    : sample/viewer//gpsshogi_viewer
+    : <install-type>EXE
+      <location>dist/release/usr/bin
+    : <variant>release 
+      <link>static
+      <smp>off
+    ;
+
+install binary-dist-smp-viewer
+    : sample/viewer//gpsshogi_viewer
+    : <install-type>EXE
+      <location>dist-smp/release/usr/bin
+    : <variant>release 
+      <link>static
+      <smp>on
+    ;

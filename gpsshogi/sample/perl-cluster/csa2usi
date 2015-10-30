@@ -1,0 +1,98 @@
+#!/usr/bin/tclsh
+#
+# Wrapper script to run csa2usi.pl.
+#
+# USAGE: csa2usi <path/to/gpsfish>
+#
+# Environment variable:
+#   - CSA_HOST
+#   - CSA_ID
+#   - CSA_PASSWORD
+#   - CSA_GAME
+#   - HASH
+#
+# Example:
+#
+# % CSA_HOST=wdoortest.nlogn.jp CSA_ID=gpsfish_XeonX5470_8c CSA_GAME=default-900-0 HASH=6000 \
+#   ./csa2usi.tcl /home/daigo/cprojects/wdoortest/gpsfish_dev/src/gpsfish
+#
+
+set curdir [file dirname [file normalize "$argv0"]]
+file mkdir [file join $curdir log]
+
+proc log { msg } {
+  set t [clock format [clock seconds] -format {%Y-%m-%d %T}]
+  exec logger -s "$t $msg" >&@stdout
+}
+
+proc max { a b } {
+  if { $a >= $b } {
+    return $a
+  } else {
+    return $b
+  }
+}
+
+if { $argc < 1 } {
+  puts "Specify an engine path"
+  exit 1
+}
+
+set engine [file normalize [lindex $argv 0]]
+
+if { ! [file executable "$engine"] } {
+  puts "Executable not found: $engine"
+  exit 1
+}
+
+if { ![info exists ::env(CSA_ID)] } {
+  puts "Specify CSA_ID evironment variable"
+  exit 1
+}
+
+if { ![info exists ::env(CSA_PASSWORD)] } {
+  set pwfile [file join ~ .$::env(CSA_ID).password]
+  if { [file readable "$pwfile"] } {
+    set fd [open "$pwfile" r]
+    set ::env(CSA_PASSWORD) [string trim [read $fd]]
+    close $fd
+  } else {
+    puts "Password file not found: ~/.$::env(CSA_ID).password"
+  }
+}
+
+set csa_host "wdoor.c.u-tokyo.ac.jp"
+if { [info exists ::env(CSA_HOST)] } {
+  set csa_host $::env(CSA_HOST)
+}
+
+set csa_game "floodgate-900-0"
+if { [info exists ::env(CSA_GAME)] } {
+  set csa_game $::env(CSA_GAME)
+}
+
+set hash 6000
+if { [info exists ::env(HASH)] } {
+  set hash $::env(HASH)
+}
+
+regexp {\w+-(\d+)-(\d+)} $csa_game dummy sec_limit sec_limit_up
+
+set sec_limit_up [max 0 [expr {$sec_limit_up - 5}]]
+
+log "$csa_game, $sec_limit, $sec_limit_up"
+
+while true {
+  log "$::env(CSA_ID): Restarting..."
+
+  set datestr [clock format [clock seconds] -format {%Y%m%d_%H%M%S}]
+  set log_file [file join $curdir log $env(CSA_ID).$datestr.log]
+
+  if { [catch {exec $curdir/csa2usi.pl --csa_host $csa_host --csa_id $::env(CSA_ID) --csa_pw $csa_game,$::env(CSA_PASSWORD) \
+    --resign_value 2000 --sec_limit $sec_limit --sec_limit_up $sec_limit_up --startup_usi "setoption name Hash value $hash" \
+    --usi_engine $engine |& tee $log_file >&@stdout} results] } {
+    log "ERROR: The command exited abnormally."
+    log "Sleeping for a while..."
+    after 900
+  }
+}

@@ -1,0 +1,16 @@
+2015-05-04T10:47:12.630508 status=4 elapsed 3895 msec-max 6750
+root - -29999 -0058HI+4858OU-0057KI (3 2) 1747k solved 0.8s (0.8s)
+  -0058HI + -29999 +4858OU-0057KI (2 1) 0k solved 1.7s (1.7s)
+  -0057KA + -29996 +4858OU-0066KE (2 5) 1k [1] NC sub
+P1 *  *  *  *  *  *  *  *  * 
+P2 *  *  *  *  * -KI-KI *  * 
+P3-FU * -KE-FU * -FU * -FU * 
+P4 *  *  *  * -FU * -FU-OU * 
+P5 * -FU *  *  *  *  * +KE * 
+P6 *  *  *  * -GI+KY+FU+FU-RY
+P7+FU+FU *  *  * +FU * +KI * 
+P8 *  * +FU *  * +OU+KY *  * 
+P9 *  *  *  *  *  *  *  *  * 
+P+00GI00KE
+P-00HI00KA00KA00KI00GI00GI00KE00KY00KY00FU00FU00FU00FU00FU
+-

@@ -1,0 +1,4060 @@
+
+limit:	2200
+nodelimit:	2000000
+database:	true
+from csa:	/home/kaneko/gpsshogi/bin/../data/hirate.csa
+output:	.csa
+sentegote:	true
+my name:	GPSSHOGI
+opponent:	ROBOT
+PiecePairEvalTable loading  /home/kaneko/gpsshogi/bin/../data/sibling-attack.pair
+Move(+,KING,Position(59)->Position(58)),2/11
+Move(+,KING,Position(59)->Position(68)),6/10
+Move(+,GOLD,Position(49)->Position(38)),1/1
+Move(+,GOLD,Position(49)->Position(48)),2/0
+Move(+,GOLD,Position(49)->Position(58)),13/6
+Move(+,GOLD,Position(69)->Position(58)),2/0
+Move(+,GOLD,Position(69)->Position(68)),2/5
+Move(+,GOLD,Position(69)->Position(78)),285/405
+Move(+,PAWN,Position(17)->Position(16)),241/184
+Move(+,PAWN,Position(27)->Position(26)),13754/13684
+Move(+,PAWN,Position(37)->Position(36)),8/10
+Move(+,PAWN,Position(47)->Position(46)),30/8
+Move(+,PAWN,Position(57)->Position(56)),1377/1418
+Move(+,PAWN,Position(67)->Position(66)),88/74
+Move(+,PAWN,Position(77)->Position(76)),103727/102092
+Move(+,PAWN,Position(87)->Position(86)),4/4
+Move(+,PAWN,Position(97)->Position(96)),118/189
+Move(+,LANCE,Position(19)->Position(18)),1/4
+Move(+,LANCE,Position(99)->Position(98)),4/5
+Move(+,SILVER,Position(39)->Position(38)),10/8
+Move(+,SILVER,Position(39)->Position(48)),143/126
+Move(+,SILVER,Position(79)->Position(68)),81/66
+Move(+,SILVER,Position(79)->Position(78)),31/47
+Move(+,ROOK,Position(28)->Position(58)),746/668
+Move(+,ROOK,Position(28)->Position(68)),83/96
+Move(+,ROOK,Position(28)->Position(78)),55/72
+
+Chose:	+7776FU
+Used:	1
+Time Left:	1499
+P1-KY-KE-GI-KI-OU-KI-GI-KE-KY
+P2 * -HI *  *  *  *  * -KA * 
+P3-FU-FU-FU-FU-FU-FU-FU-FU-FU
+P4 *  *  *  *  *  *  *  *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6 *  * +FU *  *  *  *  *  * 
+P7+FU+FU * +FU+FU+FU+FU+FU+FU
+P8 * +KA *  *  *  *  * +HI * 
+P9+KY+KE+GI+KI+OU+KI+GI+KE+KY
+-
+
+evaluated value = 64
+-3334FU
+Op used:	1 (1499)
+Move(+,PBISHOP,Position(88)->Position(22),promote,capture=BISHOP),1768/1785
+Move(+,KING,Position(59)->Position(68)),19/28
+Move(+,GOLD,Position(49)->Position(48)),2/0
+Move(+,GOLD,Position(49)->Position(58)),164/121
+Move(+,GOLD,Position(69)->Position(58)),2/1
+Move(+,GOLD,Position(69)->Position(68)),9/11
+Move(+,GOLD,Position(69)->Position(78)),947/1132
+Move(+,PAWN,Position(17)->Position(16)),3048/2777
+Move(+,PAWN,Position(27)->Position(26)),39356/37654
+Move(+,PAWN,Position(37)->Position(36)),8/8
+Move(+,PAWN,Position(47)->Position(46)),9/1
+Move(+,PAWN,Position(57)->Position(56)),436/409
+Move(+,PAWN,Position(67)->Position(66)),33834/34217
+Move(+,PAWN,Position(76)->Position(75)),3458/3259
+Move(+,PAWN,Position(87)->Position(86)),43/32
+Move(+,PAWN,Position(97)->Position(96)),1214/1360
+Move(+,LANCE,Position(19)->Position(18)),1/3
+Move(+,LANCE,Position(99)->Position(98)),4/0
+Move(+,KNIGHT,Position(89)->Position(77)),28/36
+Move(+,SILVER,Position(39)->Position(38)),10/14
+Move(+,SILVER,Position(39)->Position(48)),2275/2311
+Move(+,SILVER,Position(79)->Position(68)),1/4
+Move(+,SILVER,Position(79)->Position(78)),1/2
+Move(+,BISHOP,Position(88)->Position(66)),2/2
+Move(+,BISHOP,Position(88)->Position(77)),125/107
+Move(+,BISHOP,Position(88)->Position(22),capture=BISHOP),163/133
+Move(+,ROOK,Position(28)->Position(58)),56/67
+Move(+,ROOK,Position(28)->Position(68)),141/189
+Move(+,ROOK,Position(28)->Position(78)),142/163
+
+Chose:	+2726FU
+Used:	1
+Time Left:	1498
+P1-KY-KE-GI-KI-OU-KI-GI-KE-KY
+P2 * -HI *  *  *  *  * -KA * 
+P3-FU-FU-FU-FU-FU-FU * -FU-FU
+P4 *  *  *  *  *  * -FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6 *  * +FU *  *  *  * +FU * 
+P7+FU+FU * +FU+FU+FU+FU * +FU
+P8 * +KA *  *  *  *  * +HI * 
+P9+KY+KE+GI+KI+OU+KI+GI+KE+KY
+-
+
+evaluated value = 0
+-4344FU
+Op used:	1 (1498)
+Move(+,KING,Position(59)->Position(58)),2/0
+Move(+,KING,Position(59)->Position(68)),81/86
+Move(+,GOLD,Position(49)->Position(48)),0/2
+Move(+,GOLD,Position(49)->Position(58)),192/191
+Move(+,GOLD,Position(69)->Position(58)),2/0
+Move(+,GOLD,Position(69)->Position(68)),1/1
+Move(+,GOLD,Position(69)->Position(78)),155/185
+Move(+,PAWN,Position(17)->Position(16)),446/347
+Move(+,PAWN,Position(26)->Position(25)),7129/6544
+Move(+,PAWN,Position(37)->Position(36)),6/10
+Move(+,PAWN,Position(47)->Position(46)),107/124
+Move(+,PAWN,Position(57)->Position(56)),211/177
+Move(+,PAWN,Position(67)->Position(66)),251/279
+Move(+,PAWN,Position(76)->Position(75)),18/19
+Move(+,PAWN,Position(97)->Position(96)),72/96
+Move(+,SILVER,Position(39)->Position(38)),150/162
+Move(+,SILVER,Position(39)->Position(48)),20911/19760
+Move(+,SILVER,Position(79)->Position(68)),102/110
+Move(+,SILVER,Position(79)->Position(78)),41/53
+Move(+,BISHOP,Position(88)->Position(77)),20/21
+Move(+,ROOK,Position(28)->Position(48)),2/1
+Move(+,ROOK,Position(28)->Position(68)),2/2
+Move(+,ROOK,Position(28)->Position(78)),7/3
+
+Chose:	+3948GI
+Used:	1
+Time Left:	1497
+P1-KY-KE-GI-KI-OU-KI-GI-KE-KY
+P2 * -HI *  *  *  *  * -KA * 
+P3-FU-FU-FU-FU-FU *  * -FU-FU
+P4 *  *  *  *  * -FU-FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6 *  * +FU *  *  *  * +FU * 
+P7+FU+FU * +FU+FU+FU+FU * +FU
+P8 * +KA *  *  * +GI * +HI * 
+P9+KY+KE+GI+KI+OU+KI * +KE+KY
+-
+
+evaluated value = 0
+-8242HI
+Op used:	1 (1497)
+Move(+,KING,Position(59)->Position(58)),4/2
+Move(+,KING,Position(59)->Position(68)),3472/3202
+Move(+,GOLD,Position(49)->Position(58)),721/771
+Move(+,GOLD,Position(69)->Position(78)),31/41
+Move(+,PAWN,Position(17)->Position(16)),158/134
+Move(+,PAWN,Position(26)->Position(25)),615/541
+Move(+,PAWN,Position(37)->Position(36)),24/33
+Move(+,PAWN,Position(47)->Position(46)),228/257
+Move(+,PAWN,Position(57)->Position(56)),4093/3981
+Move(+,PAWN,Position(67)->Position(66)),52/53
+Move(+,PAWN,Position(97)->Position(96)),38/37
+Move(+,SILVER,Position(79)->Position(68)),16/20
+Move(+,SILVER,Position(79)->Position(78)),7/8
+Move(+,BISHOP,Position(88)->Position(77)),6/1
+
+Chose:	+5756FU
+Used:	1
+Time Left:	1496
+P1-KY-KE-GI-KI-OU-KI-GI-KE-KY
+P2 *  *  *  *  * -HI * -KA * 
+P3-FU-FU-FU-FU-FU *  * -FU-FU
+P4 *  *  *  *  * -FU-FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6 *  * +FU * +FU *  * +FU * 
+P7+FU+FU * +FU * +FU+FU * +FU
+P8 * +KA *  *  * +GI * +HI * 
+P9+KY+KE+GI+KI+OU+KI * +KE+KY
+-
+
+evaluated value = 0
+-5162OU
+Op used:	1 (1496)
+Move(+,KING,Position(59)->Position(68)),1177/1148
+Move(+,GOLD,Position(49)->Position(58)),122/118
+Move(+,PAWN,Position(17)->Position(16)),25/18
+Move(+,PAWN,Position(26)->Position(25)),32/35
+Move(+,PAWN,Position(37)->Position(36)),9/8
+Move(+,PAWN,Position(47)->Position(46)),0/2
+Move(+,PAWN,Position(67)->Position(66)),4/6
+Move(+,PAWN,Position(97)->Position(96)),21/23
+Move(+,SILVER,Position(48)->Position(57)),58/54
+Move(+,SILVER,Position(79)->Position(68)),7/10
+Move(+,SILVER,Position(79)->Position(78)),2/3
+
+Chose:	+5968OU
+Used:	1
+Time Left:	1495
+P1-KY-KE-GI-KI * -KI-GI-KE-KY
+P2 *  *  * -OU * -HI * -KA * 
+P3-FU-FU-FU-FU-FU *  * -FU-FU
+P4 *  *  *  *  * -FU-FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6 *  * +FU * +FU *  * +FU * 
+P7+FU+FU * +FU * +FU+FU * +FU
+P8 * +KA * +OU * +GI * +HI * 
+P9+KY+KE+GI+KI * +KI * +KE+KY
+-
+
+evaluated value = 0
+-6272OU
+Op used:	1 (1495)
+Move(+,KING,Position(68)->Position(78)),1264/1194
+Move(+,GOLD,Position(49)->Position(58)),82/87
+Move(+,PAWN,Position(17)->Position(16)),12/6
+Move(+,PAWN,Position(26)->Position(25)),5/5
+Move(+,PAWN,Position(37)->Position(36)),4/5
+Move(+,PAWN,Position(97)->Position(96)),7/9
+Move(+,SILVER,Position(48)->Position(57)),23/22
+
+Chose:	+6878OU
+Used:	1
+Time Left:	1494
+P1-KY-KE-GI-KI * -KI-GI-KE-KY
+P2 *  * -OU *  * -HI * -KA * 
+P3-FU-FU-FU-FU-FU *  * -FU-FU
+P4 *  *  *  *  * -FU-FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6 *  * +FU * +FU *  * +FU * 
+P7+FU+FU * +FU * +FU+FU * +FU
+P8 * +KA+OU *  * +GI * +HI * 
+P9+KY+KE+GI+KI * +KI * +KE+KY
+-
+
+evaluated value = 0
+-7282OU
+Op used:	1 (1494)
+Move(+,GOLD,Position(49)->Position(58)),616/557
+Move(+,GOLD,Position(49)->Position(59)),1/1
+Move(+,PAWN,Position(17)->Position(16)),19/14
+Move(+,PAWN,Position(26)->Position(25)),103/102
+Move(+,PAWN,Position(37)->Position(36)),12/14
+Move(+,PAWN,Position(97)->Position(96)),122/107
+Move(+,SILVER,Position(48)->Position(57)),153/181
+Move(+,SILVER,Position(79)->Position(68)),18/20
+Move(+,BISHOP,Position(88)->Position(66)),1/1
+Move(+,BISHOP,Position(88)->Position(77)),60/55
+
+Chose:	+4958KI
+Used:	1
+Time Left:	1493
+P1-KY-KE-GI-KI * -KI-GI-KE-KY
+P2 * -OU *  *  * -HI * -KA * 
+P3-FU-FU-FU-FU-FU *  * -FU-FU
+P4 *  *  *  *  * -FU-FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6 *  * +FU * +FU *  * +FU * 
+P7+FU+FU * +FU * +FU+FU * +FU
+P8 * +KA+OU * +KI+GI * +HI * 
+P9+KY+KE+GI+KI *  *  * +KE+KY
+-
+
+evaluated value = 0
+-3132GI
+Op used:	1 (1493)
+Move(+,PAWN,Position(17)->Position(16)),16/20
+Move(+,PAWN,Position(26)->Position(25)),175/155
+Move(+,PAWN,Position(37)->Position(36)),81/86
+Move(+,PAWN,Position(47)->Position(46)),1/2
+Move(+,PAWN,Position(87)->Position(86)),0/4
+Move(+,PAWN,Position(97)->Position(96)),361/326
+Move(+,SILVER,Position(48)->Position(57)),239/217
+Move(+,SILVER,Position(79)->Position(68)),52/54
+Move(+,BISHOP,Position(88)->Position(66)),9/6
+Move(+,BISHOP,Position(88)->Position(77)),76/105
+
+Chose:	+9796FU
+Used:	1
+Time Left:	1492
+P1-KY-KE-GI-KI * -KI * -KE-KY
+P2 * -OU *  *  * -HI-GI-KA * 
+P3-FU-FU-FU-FU-FU *  * -FU-FU
+P4 *  *  *  *  * -FU-FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6+FU * +FU * +FU *  * +FU * 
+P7 * +FU * +FU * +FU+FU * +FU
+P8 * +KA+OU * +KI+GI * +HI * 
+P9+KY+KE+GI+KI *  *  * +KE+KY
+-
+
+evaluated value = 0
+-9192KY
+Op used:	1 (1492)
+Move(+,PAWN,Position(17)->Position(16)),4/5
+Move(+,PAWN,Position(26)->Position(25)),20/22
+Move(+,PAWN,Position(37)->Position(36)),8/9
+Move(+,PAWN,Position(47)->Position(46)),1/1
+Move(+,PAWN,Position(87)->Position(86)),17/14
+Move(+,PAWN,Position(96)->Position(95)),52/31
+Move(+,SILVER,Position(48)->Position(57)),80/79
+Move(+,SILVER,Position(79)->Position(68)),19/13
+Move(+,BISHOP,Position(88)->Position(66)),5/10
+Move(+,BISHOP,Position(88)->Position(77)),29/29
+
+Chose:	+4857GI
+Used:	1
+Time Left:	1491
+P1 * -KE-GI-KI * -KI * -KE-KY
+P2-KY-OU *  *  * -HI-GI-KA * 
+P3-FU-FU-FU-FU-FU *  * -FU-FU
+P4 *  *  *  *  * -FU-FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6+FU * +FU * +FU *  * +FU * 
+P7 * +FU * +FU+GI+FU+FU * +FU
+P8 * +KA+OU * +KI *  * +HI * 
+P9+KY+KE+GI+KI *  *  * +KE+KY
+-
+
+evaluated value = -64
+-8291OU
+Op used:	1 (1491)
+Move(+,PAWN,Position(26)->Position(25)),8/9
+Move(+,PAWN,Position(67)->Position(66)),1/4
+Move(+,PAWN,Position(87)->Position(86)),17/17
+Move(+,PAWN,Position(96)->Position(95)),11/14
+Move(+,SILVER,Position(79)->Position(68)),6/2
+Move(+,BISHOP,Position(88)->Position(77)),44/36
+
+Chose:	+8877KA
+Used:	1
+Time Left:	1490
+P1-OU-KE-GI-KI * -KI * -KE-KY
+P2-KY *  *  *  * -HI-GI-KA * 
+P3-FU-FU-FU-FU-FU *  * -FU-FU
+P4 *  *  *  *  * -FU-FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6+FU * +FU * +FU *  * +FU * 
+P7 * +FU+KA+FU+GI+FU+FU * +FU
+P8 *  * +OU * +KI *  * +HI * 
+P9+KY+KE+GI+KI *  *  * +KE+KY
+-
+
+evaluated value = -128
+-7182GI
+Op used:	1 (1490)
+Move(+,KING,Position(78)->Position(88)),19/21
+Move(+,PAWN,Position(87)->Position(86)),1/3
+Move(+,SILVER,Position(79)->Position(88)),2/5
+
+Chose:	+7888OU
+Used:	1
+Time Left:	1489
+P1-OU-KE * -KI * -KI * -KE-KY
+P2-KY-GI *  *  * -HI-GI-KA * 
+P3-FU-FU-FU-FU-FU *  * -FU-FU
+P4 *  *  *  *  * -FU-FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6+FU * +FU * +FU *  * +FU * 
+P7 * +FU+KA+FU+GI+FU+FU * +FU
+P8 * +OU *  * +KI *  * +HI * 
+P9+KY+KE+GI+KI *  *  * +KE+KY
+-
+
+evaluated value = -128
+-6171KI
+Op used:	1 (1489)
+Move(+,SILVER,Position(79)->Position(78)),8/9
+
+Chose:	+7978GI
+Used:	1
+Time Left:	1488
+P1-OU-KE-KI *  * -KI * -KE-KY
+P2-KY-GI *  *  * -HI-GI-KA * 
+P3-FU-FU-FU-FU-FU *  * -FU-FU
+P4 *  *  *  *  * -FU-FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6+FU * +FU * +FU *  * +FU * 
+P7 * +FU+KA+FU+GI+FU+FU * +FU
+P8 * +OU+GI * +KI *  * +HI * 
+P9+KY+KE * +KI *  *  * +KE+KY
+-
+
+evaluated value = -128
+-3243GI
+Op used:	1 (1488)
+Move(+,PAWN,Position(26)->Position(25)),4/1
+Move(+,PAWN,Position(67)->Position(66)),2/1
+Move(+,PAWN,Position(87)->Position(86)),25/34
+Move(+,PAWN,Position(96)->Position(95)),6/4
+
+Chose:	+8786FU
+Used:	1
+Time Left:	1487
+P1-OU-KE-KI *  * -KI * -KE-KY
+P2-KY-GI *  *  * -HI * -KA * 
+P3-FU-FU-FU-FU-FU-GI * -FU-FU
+P4 *  *  *  *  * -FU-FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6+FU+FU+FU * +FU *  * +FU * 
+P7 *  * +KA+FU+GI+FU+FU * +FU
+P8 * +OU+GI * +KI *  * +HI * 
+P9+KY+KE * +KI *  *  * +KE+KY
+-
+
+evaluated value = -192
+-4152KI
+Op used:	1 (1487)
+Move(+,PAWN,Position(26)->Position(25)),4/4
+Move(+,PAWN,Position(96)->Position(95)),6/6
+Move(+,SILVER,Position(78)->Position(87)),27/31
+
+Chose:	+7887GI
+Used:	1
+Time Left:	1486
+P1-OU-KE-KI *  *  *  * -KE-KY
+P2-KY-GI *  * -KI-HI * -KA * 
+P3-FU-FU-FU-FU-FU-GI * -FU-FU
+P4 *  *  *  *  * -FU-FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6+FU+FU+FU * +FU *  * +FU * 
+P7 * +GI+KA+FU+GI+FU+FU * +FU
+P8 * +OU *  * +KI *  * +HI * 
+P9+KY+KE * +KI *  *  * +KE+KY
+-
+
+evaluated value = -128
+-6364FU
+Op used:	1 (1486)
+Move(+,GOLD,Position(69)->Position(78)),32/30
+Move(+,PAWN,Position(26)->Position(25)),2/2
+Move(+,PAWN,Position(96)->Position(95)),4/7
+
+Chose:	+6978KI
+Used:	1
+Time Left:	1485
+P1-OU-KE-KI *  *  *  * -KE-KY
+P2-KY-GI *  * -KI-HI * -KA * 
+P3-FU-FU-FU * -FU-GI * -FU-FU
+P4 *  *  * -FU * -FU-FU *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6+FU+FU+FU * +FU *  * +FU * 
+P7 * +GI+KA+FU+GI+FU+FU * +FU
+P8 * +OU+KI * +KI *  * +HI * 
+P9+KY+KE *  *  *  *  * +KE+KY
+-
+
+evaluated value = -128
+-7374FU
+Op used:	1 (1485)
+Move(+,GOLD,Position(58)->Position(68)),1/1
+Move(+,PAWN,Position(26)->Position(25)),6/6
+Move(+,PAWN,Position(37)->Position(36)),1/1
+Move(+,PAWN,Position(86)->Position(85)),2/3
+Move(+,PAWN,Position(96)->Position(95)),3/5
+
+Chose:	+2625FU
+Used:	1
+Time Left:	1484
+P1-OU-KE-KI *  *  *  * -KE-KY
+P2-KY-GI *  * -KI-HI * -KA * 
+P3-FU-FU *  * -FU-GI * -FU-FU
+P4 *  * -FU-FU * -FU-FU *  * 
+P5 *  *  *  *  *  *  * +FU * 
+P6+FU+FU+FU * +FU *  *  *  * 
+P7 * +GI+KA+FU+GI+FU+FU * +FU
+P8 * +OU+KI * +KI *  * +HI * 
+P9+KY+KE *  *  *  *  * +KE+KY
+-
+
+evaluated value = -64
+-2233KA
+Op used:	1 (1484)
+Move(+,KING,Position(88)->Position(98)),3/0
+Move(+,GOLD,Position(58)->Position(68)),1/2
+Move(+,PAWN,Position(17)->Position(16)),1/1
+Move(+,PAWN,Position(37)->Position(36)),11/10
+Move(+,PAWN,Position(67)->Position(66)),5/2
+Move(+,PAWN,Position(86)->Position(85)),5/5
+Move(+,PAWN,Position(96)->Position(95)),25/13
+
+Chose:	+9695FU
+Used:	1
+Time Left:	1483
+P1-OU-KE-KI *  *  *  * -KE-KY
+P2-KY-GI *  * -KI-HI *  *  * 
+P3-FU-FU *  * -FU-GI-KA-FU-FU
+P4 *  * -FU-FU * -FU-FU *  * 
+P5+FU *  *  *  *  *  * +FU * 
+P6 * +FU+FU * +FU *  *  *  * 
+P7 * +GI+KA+FU+GI+FU+FU * +FU
+P8 * +OU+KI * +KI *  * +HI * 
+P9+KY+KE *  *  *  *  * +KE+KY
+-
+
+evaluated value = -128
+-5263KI
+Op used:	1 (1483)
+Move(+,PAWN,Position(17)->Position(16)),5/8
+Move(+,PAWN,Position(37)->Position(36)),40/34
+Move(+,PAWN,Position(67)->Position(66)),8/4
+Move(+,PAWN,Position(86)->Position(85)),5/9
+Move(+,LANCE,Position(99)->Position(98)),0/2
+
+Chose:	+3736FU
+Used:	1
+Time Left:	1482
+P1-OU-KE-KI *  *  *  * -KE-KY
+P2-KY-GI *  *  * -HI *  *  * 
+P3-FU-FU * -KI-FU-GI-KA-FU-FU
+P4 *  * -FU-FU * -FU-FU *  * 
+P5+FU *  *  *  *  *  * +FU * 
+P6 * +FU+FU * +FU * +FU *  * 
+P7 * +GI+KA+FU+GI+FU *  * +FU
+P8 * +OU+KI * +KI *  * +HI * 
+P9+KY+KE *  *  *  *  * +KE+KY
+-
+
+evaluated value = -192
+-1314FU
+Op used:	1 (1482)
+Move(+,PAWN,Position(17)->Position(16)),10/2
+Move(+,PAWN,Position(67)->Position(66)),2/0
+
+Chose:	+1716FU
+Used:	1
+Time Left:	1481
+P1-OU-KE-KI *  *  *  * -KE-KY
+P2-KY-GI *  *  * -HI *  *  * 
+P3-FU-FU * -KI-FU-GI-KA-FU * 
+P4 *  * -FU-FU * -FU-FU * -FU
+P5+FU *  *  *  *  *  * +FU * 
+P6 * +FU+FU * +FU * +FU * +FU
+P7 * +GI+KA+FU+GI+FU *  *  * 
+P8 * +OU+KI * +KI *  * +HI * 
+P9+KY+KE *  *  *  *  * +KE+KY
+-
+
+evaluated value = -192
+-1112KY
+Op used:	1 (1481)
+Move(+,PAWN,Position(67)->Position(66)),2/0
+
+Chose:	+6766FU
+Used:	1
+Time Left:	1480
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  * -KY
+P3-FU-FU * -KI-FU-GI-KA-FU * 
+P4 *  * -FU-FU * -FU-FU * -FU
+P5+FU *  *  *  *  *  * +FU * 
+P6 * +FU+FU+FU+FU * +FU * +FU
+P7 * +GI+KA * +GI+FU *  *  * 
+P8 * +OU+KI * +KI *  * +HI * 
+P9+KY+KE *  *  *  *  * +KE+KY
+-
+
+evaluated value = -128
+-4445FU
+Op used:	1 (1480)
+Move(+,PAWN,Position(66)->Position(65)),2/0
+
+Chose:	+6665FU
+Used:	1
+Time Left:	1479
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  * -KY
+P3-FU-FU * -KI-FU-GI-KA-FU * 
+P4 *  * -FU-FU *  * -FU * -FU
+P5+FU *  * +FU * -FU * +FU * 
+P6 * +FU+FU * +FU * +FU * +FU
+P7 * +GI+KA * +GI+FU *  *  * 
+P8 * +OU+KI * +KI *  * +HI * 
+P9+KY+KE *  *  *  *  * +KE+KY
+-
+
+evaluated value = -128
+-4344GI
+Op used:	17 (1463)
+Move(+,PAWN,Position(65)->Position(64),capture=PAWN),2/0
+
+Chose:	+6564FU
+Used:	1
+Time Left:	1478
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  * -KY
+P3-FU-FU * -KI-FU * -KA-FU * 
+P4 *  * -FU+FU * -GI-FU * -FU
+P5+FU *  *  *  * -FU * +FU * 
+P6 * +FU+FU * +FU * +FU * +FU
+P7 * +GI+KA * +GI+FU *  *  * 
+P8 * +OU+KI * +KI *  * +HI * 
+P9+KY+KE *  *  *  *  * +KE+KY
+P+00FU
+-
+
+evaluated value = 264
+-6364KI
+Op used:	14 (1449)
+Move(+,GOLD,Position(58)->Position(67)),2/0
+
+Chose:	+5867KI
+Used:	1
+Time Left:	1477
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  * -KY
+P3-FU-FU *  * -FU * -KA-FU * 
+P4 *  * -FU-KI * -GI-FU * -FU
+P5+FU *  *  *  * -FU * +FU * 
+P6 * +FU+FU * +FU * +FU * +FU
+P7 * +GI+KA+KI+GI+FU *  *  * 
+P8 * +OU+KI *  *  *  * +HI * 
+P9+KY+KE *  *  *  *  * +KE+KY
+P+00FU
+P-00FU
+-
+
+evaluated value = -128
+-6463KI
+Op used:	22 (1427)
+No more openbook database
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  * -KY
+P3-FU-FU * -KI-FU * -KA-FU * 
+P4 *  * -FU *  * -GI-FU * -FU
+P5+FU *  *  *  * -FU * +FU * 
+P6 * +FU+FU * +FU * +FU * +FU
+P7 * +GI+KA+KI+GI+FU *  *  * 
+P8 * +OU+KI *  *  *  * +HI * 
+P9+KY+KE *  *  *  *  * +KE+KY
+P+00FU
+P-00FU
++
+
+evaluated value = -128
+iteration 600 45 left
+0	-64	+4746FU 494
+1	-128	+2937KE 474
+0	-64	+4746FU 494
+total number of nodes: 108
+iteration 800 45 left
+-392 +2937KE
+-128 +4746FU
+0	-128	+4746FU 494
+1	-392	+2937KE 474
+0	-128	+4746FU 494
+total number of nodes: 819
+iteration 1000 45 left
+0	-128	+4746FU 100
+total number of nodes: 7575
+iteration 1200 45 left
+-64 +2937KE
+0	-64	+2937KE 474
+1	-128	+4746FU 100
+0	-64	+2937KE 474
+total number of nodes: 17120
+iteration 1400 44 left
+-128 +2937KE
+0	-128	+2937KE 474
+total number of nodes: 110346
+iteration 1600 42 left
+0	-128	+2937KE 100
+total number of nodes: 82285
+iteration 1800 41 left
+0	-128	+2937KE 100
+total number of nodes: 433731
+iteration stop
+analysis of root node
+[  -64(1100) <   -64( 439) ] 	+2826HI -5354FU +2937KE -0066FU +5766GI *
+[  -92(1300) <  -128(1700) ] 	+2937KE -8173KE +0066FU -0065FU +4746FU -6566FU +6766KI -0065FU +6667KI -6566FU +5766GI -4546FU +0048FU -0065FU +6657GI *
+[ -128(1306) <    -1(  -1) ] 	+9594FU *
+[ -128(1287) <  -128( 287) ] 	+8685FU -3435FU +3635FU -5354FU +7786KA *
+[ -128(1191) <    -1(  -1) ] 	+7675FU -7475FU *
+Chose:	+2937KE
+Used:	9
+Time Left:	1468
+analysis of a node after the best move
+[ -128(1242) <     0( 268) ] 	-5354FU +4746FU -4546FU +5746GI *
+[ -128(1249) <   -64( 849) ] 	-3435FU +2826HI -5354FU +4746FU -4546FU +5746GI -3536FU +2636HI -3322KA +0045FU *
+[ -128(1206) <    72( 232) ] 	-1415FU +1615FU -3435FU +3635FU -0036FU +3534FU -3322KA +3433TO -3637TO +3322TO *
+[ -128(1600) <   -92(1200) ] 	-8173KE +0066FU -0065FU +4746FU -6566FU +6766KI -0065FU +6667KI -6566FU +5766GI -4546FU +0048FU -0065FU +6657GI *
+[ -128(1141) <    -1(  -1) ] 	-6362KI *
+oracle p     0 u     0
+search p     0 u 92978 d 197159
+oracles 98 0 1152 0
+~CheckmateSearcher (-) 149967/146394/3000000
+~CheckmateSearcher (+) 67456/67786/3000000
+SimpleHashTable size: 613426, cache hit 653988, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  * -KY
+P3-FU-FU * -KI-FU * -KA-FU * 
+P4 *  * -FU *  * -GI-FU * -FU
+P5+FU *  *  *  * -FU * +FU * 
+P6 * +FU+FU * +FU * +FU * +FU
+P7 * +GI+KA+KI+GI+FU+KE *  * 
+P8 * +OU+KI *  *  *  * +HI * 
+P9+KY+KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
+-
+
+evaluated value = -64
+-5354FU
+Op used:	16 (1411)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  * -KY
+P3-FU-FU * -KI *  * -KA-FU * 
+P4 *  * -FU * -FU-GI-FU * -FU
+P5+FU *  *  *  * -FU * +FU * 
+P6 * +FU+FU * +FU * +FU * +FU
+P7 * +GI+KA+KI+GI+FU+KE *  * 
+P8 * +OU+KI *  *  *  * +HI * 
+P9+KY+KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
++
+
+evaluated value = -128
+iteration 600 45 left
+0	-128	+4746FU 494
+total number of nodes: 109
+iteration 800 45 left
+0	-64	+4746FU 100
+total number of nodes: 205
+iteration 1000 45 left
+0	-64	+4746FU 100
+total number of nodes: 7286
+iteration 1200 45 left
+-392 +9594FU
+-200 +4746FU
+-192 +5766GI
+-128 +7766KA
+-64 +0065FU
+0	-64	+0065FU 863
+1	-128	+7766KA 512
+2	-192	+5766GI 512
+3	-200	+4746FU 494
+4	-392	+9594FU 494
+0	-64	+0065FU 863
+total number of nodes: 32112
+iteration 1400 44 left
+-328 +9594FU
+-306 +4746FU
+-300 +7766KA
+-292 +6766KI
+-264 +5766GI
+-256 +6768KI
+-228 +7879KI
+-192 +7868KI
+-178 +5768GI
+-128 +9998KY
+0	-128	+9998KY 550
+1	-178	+5768GI 550
+2	-192	+7868KI 550
+3	-228	+7879KI 550
+4	-256	+6768KI 550
+0	-128	+9998KY 550
+total number of nodes: 317781
+iteration stop
+analysis of root node
+[  -64( 900) <   -64( 450) ] 	+8798GI -9394FU +9594FU -9294KY *
+[  -64( 900) <  -178(1300) ] 	+5768GI -3435FU +3635FU -0036FU +3534FU -3322KA +0064FU -6364KI +0063FU -6463KI *
+[  -64( 900) <   -64( 450) ] 	+2829HI -8173KE *
+[  -64( 900) <   -64( 450) ] 	+8897OU -9394FU +9594FU -9294KY +9788OU *
+[  -92(1300) <  -306(1300) ] 	+4746FU -4546FU +5746GI -0045FU +4657GI -4453GI *
+Chose:	+9998KY
+Used:	6
+Time Left:	1462
+analysis of a node after the best move
+[ -128( 691) <    -1(  -1) ] 	-7475FU +7675FU -6364KI +0065FU -6465KI +0066FU *
+[ -128( 691) <    -1(  -1) ] 	-5455FU +5655FU -4455GI *
+[ -128( 772) <    -1(  -1) ] 	-4546FU +4746FU *
+[ -128(1200) <   -64( 800) ] 	-3435FU +3635FU -0036FU +3745KE -4445GI +5746GI -3637TO +4637GI -0065KE +4746FU -4546GI +3746GI *
+[ -128( 430) <    -1(  -1) ] 	-1213KY *
+oracle p     0 u     0
+search p     0 u 38877 d 121427
+oracles 131 0 855 0
+~CheckmateSearcher (-) 72366/68161/3000000
+~CheckmateSearcher (+) 50587/51253/3000000
+SimpleHashTable size: 448269, cache hit 380743, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  * -KY
+P3-FU-FU * -KI *  * -KA-FU * 
+P4 *  * -FU * -FU-GI-FU * -FU
+P5+FU *  *  *  * -FU * +FU * 
+P6 * +FU+FU * +FU * +FU * +FU
+P7 * +GI+KA+KI+GI+FU+KE *  * 
+P8+KY+OU+KI *  *  *  * +HI * 
+P9 * +KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
+-
+
+evaluated value = -128
+-3435FU
+Op used:	29 (1382)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  * -KY
+P3-FU-FU * -KI *  * -KA-FU * 
+P4 *  * -FU * -FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6 * +FU+FU * +FU * +FU * +FU
+P7 * +GI+KA+KI+GI+FU+KE *  * 
+P8+KY+OU+KI *  *  *  * +HI * 
+P9 * +KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
++
+
+evaluated value = -128
+iteration 600 45 left
+0	-128	+3635FU 100
+total number of nodes: 63
+iteration 800 45 left
+0	-128	+3635FU 100
+total number of nodes: 794
+iteration 1000 45 left
+-328 +2826HI
+0	-328	+2826HI 512
+total number of nodes: 8055
+iteration 1200 45 left
+0	-328	+2826HI 100
+total number of nodes: 8783
+iteration 1400 45 left
+0	-328	+2826HI 100
+total number of nodes: 53151
+iteration 1600 44 left
+0	-328	+2826HI 100
+total number of nodes: 214450
+iteration 1800 41 left
+0	-328	+2826HI 100
+total number of nodes: 1192544
+iteration stop
+analysis of root node
+[ -192( 700) <  -328(1700) ] 	+2826HI -3536FU *
+[ -328(1287) <    -1(  -1) ] 	+8685FU -3536FU +0038FU -3637TO +3837FU -0065KE +7786KA -6557NK +6757KI *
+[ -328(1191) <    -1(  -1) ] 	+7675FU -7475FU +0072FU -7172KI +3635FU -4435GI +0034FU *
+[ -328(1191) <    -1(  -1) ] 	+5655FU -5455FU +6766KI -0065FU +0064FU -6364KI *
+[ -328(1306) <  -556( 506) ] 	+4746FU -4546FU +1615FU -1415FU *
+Chose:	+2826HI
+Used:	20
+Time Left:	1442
+analysis of a node after the best move
+[ -328(1199) <    -1(  -1) ] 	-8384FU +3635FU -4435GI +2629HI -4244HI +7744KA *
+[ -328(1091) <    -1(  -1) ] 	-7475FU +3635FU -4435GI +2628HI -7576FU +8776GI -3377UM *
+[ -328(1600) <    -1(  -1) ] 	-3536FU *
+[ -328(1228) <    -1(  -1) ] 	-8173KE +5766GI -0065FU +6657GI -3536FU +2636HI -0035FU +3626HI -3322KA *
+[ -328(1200) <    -1(  -1) ] 	-8273GI *
+oracle p     0 u     0
+search p     0 u 216861 d 336524
+oracles 156 0 1271 0
+~CheckmateSearcher (-) 255808/268593/3000000
+~CheckmateSearcher (+) 131915/132446/3000000
+SimpleHashTable size: 1426381, cache hit 1535935, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  * -KY
+P3-FU-FU * -KI *  * -KA-FU * 
+P4 *  * -FU * -FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6 * +FU+FU * +FU * +FU+HI+FU
+P7 * +GI+KA+KI+GI+FU+KE *  * 
+P8+KY+OU+KI *  *  *  *  *  * 
+P9 * +KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
+-
+
+evaluated value = -128
+-6373KI
+Op used:	8 (1374)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  * -KY
+P3-FU-FU-KI *  *  * -KA-FU * 
+P4 *  * -FU * -FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6 * +FU+FU * +FU * +FU+HI+FU
+P7 * +GI+KA+KI+GI+FU+KE *  * 
+P8+KY+OU+KI *  *  *  *  *  * 
+P9 * +KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
++
+
+evaluated value = -128
+iteration 600 45 left
+0	-64	+4746FU 494
+total number of nodes: 71
+iteration 800 45 left
+0	-64	+4746FU 100
+total number of nodes: 311
+iteration 1000 45 left
+0	-64	+4746FU 100
+total number of nodes: 1272
+iteration 1200 45 left
+0	-64	+4746FU 100
+total number of nodes: 5884
+iteration 1400 45 left
+-128 +8685FU
+-92 +8899OU
+0	-92	+8899OU 550
+1	-128	+8685FU 512
+0	-78	+8685FU 100
+1	-92	+8899OU 550
+0	-64	+8899OU 100
+1	-78	+8685FU 100
+0	-64	+8899OU 100
+total number of nodes: 289728
+iteration 1600 38 left
+-142 +8685FU
+-136 +0065FU
+-128 +7766KA
+0	-128	+7766KA 512
+1	-136	+0065FU 512
+2	-142	+8685FU 512
+0	-128	+7766KA 512
+total number of nodes: 702399
+iteration stop
+analysis of root node
+[ -128( 888) <  -128(1500) ] 	+7766KA -5455FU +5655FU -4455GI +6677KA -4546FU +4746FU -5546GI +5746GI -0066FU +6766KI -0065FU +6656KI -4246HI +5646KI *
+[ -128(1500) <  -142(1500) ] 	+8685FU -4232HI +3635FU -4435GI +2629HI -3377UM +8977KE -0038KA +0049KA -3849UM +2949HI -0058KA *
+[ -128( 991) <    -1(  -1) ] 	+7675FU -7475FU +0076FU -7576FU *
+[ -128( 980) <    -1(  -1) ] 	+5655FU -5455FU *
+[ -128(1329) <    -1(  -1) ] 	+3635FU -4435GI +2627HI *
+Chose:	+7766KA
+Used:	19
+Time Left:	1423
+analysis of a node after the best move
+[ -128(1052) <    -1(  -1) ] 	-8384FU +4746FU -4546FU *
+[ -128( 914) <    -1(  -1) ] 	-7475FU +7675FU -0074FU +7574FU *
+[ -128(1400) <    -1(  -1) ] 	-5455FU +5655FU -4455GI +6677KA -4546FU +4746FU -5546GI +5746GI -0066FU +6766KI -0065FU +6656KI -4246HI +5646KI *
+[ -128( 972) <    -1(  -1) ] 	-4546FU +4746FU -3536FU +2636HI -0035FU +3626HI -0065FU +6677KA *
+[ -128(1229) <  -100( 617) ] 	-3536FU +2636HI -4262HI +3633RY -4433GI +3745KE -0039HI +0017KA -3919RY +1762UM -7162KI *
+oracle p     0 u     0
+search p     0 u 122614 d 284301
+oracles 116 0 1211 0
+~CheckmateSearcher (-) 188749/179074/3000000
+~CheckmateSearcher (+) 114691/114602/3000000
+SimpleHashTable size: 1520252, cache hit 1167659, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  * -KY
+P3-FU-FU-KI *  *  * -KA-FU * 
+P4 *  * -FU * -FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6 * +FU+FU+KA+FU * +FU+HI+FU
+P7 * +GI * +KI+GI+FU+KE *  * 
+P8+KY+OU+KI *  *  *  *  *  * 
+P9 * +KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
+-
+
+evaluated value = -192
+-4262HI
+Op used:	29 (1345)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI * -HI *  *  *  * -KY
+P3-FU-FU-KI *  *  * -KA-FU * 
+P4 *  * -FU * -FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6 * +FU+FU+KA+FU * +FU+HI+FU
+P7 * +GI * +KI+GI+FU+KE *  * 
+P8+KY+OU+KI *  *  *  *  *  * 
+P9 * +KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
++
+
+evaluated value = -192
+iteration 600 45 left
+0	-128	+4746FU 494
+1	-192	+6677KA 484
+2	-664	+0063FU 349
+0	-128	+4746FU 494
+total number of nodes: 357
+iteration 800 45 left
+0	-128	+4746FU 100
+total number of nodes: 334
+iteration 1000 45 left
+-328 +6677KA
+-292 +4746FU
+-256 +8685FU
+-234 +9897KY
+-192 +8997KE
+-128 +5768GI
+0	-128	+5768GI 550
+1	-192	+8997KE 550
+2	-234	+9897KY 550
+3	-256	+8685FU 513
+4	-292	+4746FU 494
+0	-128	+5768GI 550
+total number of nodes: 24063
+iteration 1200 44 left
+-192 +3635FU
+-128 +6677KA
+0	-128	+6677KA 484
+1	-192	+3635FU 271
+0	-128	+6677KA 484
+total number of nodes: 39734
+iteration 1400 43 left
+-264 +6677KA
+-256 +4746FU
+-242 +8685FU
+-228 +9897KY
+-212 +8997KE
+-206 +8899OU
+-200 +1917KY
+-192 +9896KY
+0	-192	+9896KY 996
+1	-200	+1917KY 982
+2	-206	+8899OU 550
+3	-212	+8997KE 550
+4	-228	+9897KY 550
+0	-150	+6677KA 484
+1	-184	+4746FU 494
+2	-186	+8899OU 550
+3	-192	+9896KY 996
+0	-128	+8899OU 550
+1	-150	+6677KA 484
+0	-128	+8899OU 550
+total number of nodes: 1261689
+iteration stop
+analysis of root node
+[ -128( 900) <  -242(1300) ] 	+8685FU -3536FU +4746FU -4546FU +0034FU -3637TO +3433TO *
+[ -128(1300) <  -150(1300) ] 	+6677KA -8384FU +4746FU -4546FU +5746GI -0066FU *
+[ -128( 650) <  -128(1300) ] 	+8899OU -7364KI +6677KA -0065FU +3635FU -4435GI +2627HI -3536GI +2717HI *
+[ -178(1300) <  -184(1300) ] 	+4746FU -4546FU +5746GI -3536FU +2636HI -0035FU +3626HI -0045FU +4657GI *
+[ -192( 850) <  -228(1300) ] 	+9897KY -1415FU +1615FU -3536FU +0034FU *
+Chose:	+8899OU
+Used:	30
+Time Left:	1393
+analysis of a node after the best move
+[ -200(1200) <  -200( 632) ] 	-3536FU +2636HI -3322KA +6688KA -0035FU +3626HI -2233KA +0034FU -3322KA +0063FU 
+[ -128(1100) <    -1(  -1) ] 	-8384FU +6688KA -8283GI +4746FU -3536FU +2636HI -0035FU +3626HI -4546FU +5746GI *
+[ -128( 691) <    -1(  -1) ] 	-7475FU +7675FU -7364KI +6677KA -6475KI +0076FU *
+[ -128( 750) <  -128( 241) ] 	-5455FU +5655FU -4455GI +6677KA *
+[ -128( 806) <  -128( 356) ] 	-1415FU +1615FU -1215KY +0016FU *
+oracle p     0 u     0
+search p     0 u 171910 d 413796
+oracles 228 0 1671 0
+~CheckmateSearcher (-) 282896/253001/3000000
+~CheckmateSearcher (+) 179742/179795/3000000
+SimpleHashTable size: 2543903, cache hit 1632494, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI * -HI *  *  *  * -KY
+P3-FU-FU-KI *  *  * -KA-FU * 
+P4 *  * -FU * -FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6 * +FU+FU+KA+FU * +FU+HI+FU
+P7 * +GI * +KI+GI+FU+KE *  * 
+P8+KY * +KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
+-
+
+evaluated value = -128
+-1213KY
+Op used:	29 (1316)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI * -HI *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU * -FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6 * +FU+FU+KA+FU * +FU+HI+FU
+P7 * +GI * +KI+GI+FU+KE *  * 
+P8+KY * +KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
++
+
+evaluated value = -128
+iteration 600 45 left
+0	-128	+4746FU 494
+1	-728	+0063FU 395
+0	-128	+4746FU 494
+total number of nodes: 257
+iteration 800 45 left
+0	-128	+4746FU 100
+total number of nodes: 360
+iteration 1000 45 left
+0	-128	+4746FU 100
+total number of nodes: 3773
+iteration 1200 45 left
+0	-128	+4746FU 100
+total number of nodes: 7280
+iteration 1400 45 left
+-392 +4746FU
+-364 +8685FU
+-342 +0065FU
+-336 +7888KI
+-328 +7879KI
+-320 +6688KA
+-306 +6677KA
+-292 +0068FU
+-278 +0069FU
+-264 +9897KY
+-256 +7868KI
+-228 +5748GI
+-220 +9896KY
+-200 +1918KY
+0	-200	+1918KY 1000
+1	-220	+9896KY 996
+2	-228	+5748GI 958
+3	-256	+7868KI 952
+4	-264	+9897KY 890
+0	-192	+9896KY 996
+1	-200	+1918KY 1000
+0	-192	+9896KY 996
+total number of nodes: 1056589
+iteration stop
+analysis of root node
+[ -128( 900) <  -320(1300) ] 	+6688KA -6242HI +3635FU -1415FU +1615FU -1315KY +1915KY -3315KA +2636HI *
+[ -192( 204) <  -192(1300) ] 	+9896KY -3536FU +2636HI *
+[ -192( 887) <  -364(1300) ] 	+8685FU -3536FU +2636HI -0065FU +6677KA -5455FU *
+[ -192(1300) <  -392(1300) ] 	+4746FU -4546FU +0048FU -3536FU +2636HI -6263HI +3646HI -6366HI *
+[ -192(1300) <  -264(1300) ] 	+9897KY *
+Chose:	+9896KY
+Used:	23
+Time Left:	1370
+analysis of a node after the best move
+[ -192( 799) <    -1(  -1) ] 	-8384FU +6677KA *
+[ -192( 691) <    -1(  -1) ] 	-7475FU +6677KA *
+[ -192(1200) <    -1(  -1) ] 	-3536FU +2636HI *
+[ -192( 774) <    -1(  -1) ] 	-4453GI +6677KA -3377UM +8977KE -3536FU +2636HI -0035FU +3635HI *
+[ -192( 750) <    -1(  -1) ] 	-7172KI +6677KA *
+oracle p     0 u     0
+search p     0 u 116997 d 344951
+oracles 143 0 653 0
+~CheckmateSearcher (-) 203516/185005/3000000
+~CheckmateSearcher (+) 142553/142798/3000000
+SimpleHashTable size: 1939777, cache hit 1308961, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI * -HI *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU * -FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6+KY+FU+FU+KA+FU * +FU+HI+FU
+P7 * +GI * +KI+GI+FU+KE *  * 
+P8 *  * +KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
+-
+
+evaluated value = -192
+-7372KI
+Op used:	23 (1293)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI-KI-HI *  *  *  *  * 
+P3-FU-FU *  *  *  * -KA-FU-KY
+P4 *  * -FU * -FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6+KY+FU+FU+KA+FU * +FU+HI+FU
+P7 * +GI * +KI+GI+FU+KE *  * 
+P8 *  * +KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
++
+
+evaluated value = -192
+iteration 600 45 left
+0	-192	+4746FU 494
+1	-206	+7675FU 451
+2	-792	+0063FU 395
+0	-192	+4746FU 494
+total number of nodes: 350
+iteration 800 45 left
+0	-192	+6688KA 550
+1	-256	+9998OU 550
+2	-320	+7879KI 550
+3	-392	+8685FU 513
+4	-456	+9594FU 494
+0	-192	+6688KA 550
+total number of nodes: 2952
+iteration 1000 45 left
+0	-192	+4746FU 100
+total number of nodes: 2055
+iteration 1200 45 left
+-320 +4746FU
+-306 +8685FU
+-264 +6688KA
+-256 +6677KA
+0	-256	+6677KA 550
+1	-264	+6688KA 550
+2	-306	+8685FU 513
+3	-320	+4746FU 494
+0	-220	+6688KA 550
+1	-256	+6677KA 550
+0	-220	+6688KA 550
+total number of nodes: 127568
+iteration 1400 42 left
+0	-220	+6688KA 100
+total number of nodes: 155296
+iteration 1600 38 left
+0	-220	+6688KA 100
+total number of nodes: 420018
+iteration stop
+analysis of root node
+[ -192( 450) <  -220(1500) ] 	+6688KA -6222HI +4746FU -0066FU +5766GI -4546FU +0048FU -2324FU +2524FU -3324KA +0025FU -2433KA +3635FU *
+[ -220( 980) <    -1(  -1) ] 	+5655FU -5455FU *
+[ -220(1329) <    -1(  -1) ] 	+3635FU -4435GI +2627HI -0065FU +6633UM -2133KE +0034FU -0032FU *
+[ -220(1041) <    -1(  -1) ] 	+6768KI -5455FU +5655FU -4455GI +6677KA *
+[ -220(1058) <    -1(  -1) ] 	+0064FU -6264HI +4746FU *
+Chose:	+6688KA
+Used:	15
+Time Left:	1355
+analysis of a node after the best move
+[ -220(1400) <  -220( 294) ] 	-6252HI +4746FU -0066FU +5766GI *
+[ -220(1200) <  -220( 150) ] 	-6212HI +4746FU -0066FU +5766GI -4546FU +6757KI -1415FU +1615FU -3536FU +2636HI *
+[ -208(1400) <    -1(  -1) ] 	-8384FU +9998OU -0063FU +4746FU -3536FU +2636HI -0035FU +3626HI -4546FU +5746GI -0045FU +3745KE -4445GI +4645GI *
+[ -206(1229) <  -192( 429) ] 	-3536FU +2636HI -1415FU +1615FU -0014FU +1514FU -4546FU +4746FU -0066FU *
+[ -206(1006) <    -1(  -1) ] 	-1415FU +1615FU -1315KY +0016FU -3536FU +0034FU -3637TO +3433TO *
+oracle p     0 u     0
+search p     0 u 79856 d 222128
+oracles 142 0 604 0
+~CheckmateSearcher (-) 135322/129786/3000000
+~CheckmateSearcher (+) 86955/86854/3000000
+SimpleHashTable size: 1292920, cache hit 889036, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI-KI-HI *  *  *  *  * 
+P3-FU-FU *  *  *  * -KA-FU-KY
+P4 *  * -FU * -FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6+KY+FU+FU * +FU * +FU+HI+FU
+P7 * +GI * +KI+GI+FU+KE *  * 
+P8 * +KA+KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
+-
+
+evaluated value = -192
+-6242HI
+Op used:	29 (1264)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI-KI *  * -HI *  *  * 
+P3-FU-FU *  *  *  * -KA-FU-KY
+P4 *  * -FU * -FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6+KY+FU+FU * +FU * +FU+HI+FU
+P7 * +GI * +KI+GI+FU+KE *  * 
+P8 * +KA+KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
++
+
+evaluated value = -192
+iteration 600 45 left
+0	-192	+4746FU 494
+total number of nodes: 65
+iteration 800 45 left
+0	-156	+0064FU 683
+1	-192	+4746FU 100
+0	-128	+4746FU 100
+1	-156	+0064FU 683
+0	-128	+4746FU 100
+total number of nodes: 828
+iteration 1000 45 left
+0	-128	+4746FU 100
+total number of nodes: 1294
+iteration 1200 45 left
+0	-128	+4746FU 100
+total number of nodes: 5939
+iteration 1400 45 left
+-292 +8685FU
+-284 +8798GI
+-256 +7879KI
+-248 +8877KA
+-228 +6768KI
+-220 +0064FU
+-200 +5766GI
+0	-200	+5766GI 695
+1	-220	+0064FU 683
+2	-228	+6768KI 559
+3	-248	+8877KA 550
+4	-256	+7879KI 550
+0	-192	+0064FU 683
+1	-200	+5766GI 695
+0	-192	+0064FU 683
+total number of nodes: 735714
+iteration stop
+analysis of root node
+[ -156( 700) <  -192(1300) ] 	+0064FU -0063FU +4746FU -6364FU +4645FU -4445GI +3745KE -4245HI +0046FU -4565HI *
+[ -192(1300) <  -200(1300) ] 	+5766GI -3536FU +2636HI -4241HI +0034FU -0035FU +3433TO -3536FU *
+[ -192( 850) <  -256(1300) ] 	+7879KI -3536FU +2636HI -0035FU +3626HI *
+[ -192( 841) <  -228(1300) ] 	+6768KI -3536FU +2636HI -0035FU +3626HI *
+[ -192( 850) <  -248(1300) ] 	+8877KA -3536FU +2636HI -4232HI *
+Chose:	+0064FU
+Used:	15
+Time Left:	1340
+analysis of a node after the best move
+[ -200(1200) <    -1(  -1) ] 	-3536FU +2636HI -0035FU +3626HI -1415FU +1615FU -1315KY +1915KY -3315KA +2627HI *
+[ -192( 799) <    -1(  -1) ] 	-8384FU *
+[ -192( 806) <    -1(  -1) ] 	-1415FU +1615FU *
+[ -192( 273) <    -1(  -1) ] 	-4455GI +3635FU *
+[ -192( 801) <    -1(  -1) ] 	-7273KI *
+oracle p     0 u     0
+search p     0 u 76724 d 259197
+oracles 107 0 355 0
+~CheckmateSearcher (-) 144960/131717/3000000
+~CheckmateSearcher (+) 104995/105360/3000000
+SimpleHashTable size: 1293280, cache hit 900381, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI-KI *  * -HI *  *  * 
+P3-FU-FU *  *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6+KY+FU+FU * +FU * +FU+HI+FU
+P7 * +GI * +KI+GI+FU+KE *  * 
+P8 * +KA+KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P-00FU
+-
+
+evaluated value = -64
+-7273KI
+Op used:	29 (1235)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6+KY+FU+FU * +FU * +FU+HI+FU
+P7 * +GI * +KI+GI+FU+KE *  * 
+P8 * +KA+KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P-00FU
++
+
+evaluated value = -64
+iteration 600 45 left
+0	-328	+9594FU 494
+total number of nodes: 123
+iteration 800 45 left
+0	-328	+9594FU 100
+total number of nodes: 666
+iteration 1000 45 left
+-200 +3635FU
+0	-200	+3635FU 271
+1	-328	+9594FU 100
+0	-200	+3635FU 271
+total number of nodes: 5594
+iteration 1200 45 left
+0	-192	+3635FU 100
+total number of nodes: 13070
+iteration 1400 45 left
+-328 +4746FU
+0	-328	+4746FU 494
+total number of nodes: 89740
+iteration 1600 44 left
+0	-328	+4746FU 100
+total number of nodes: 157571
+iteration 1800 41 left
+-320 +9998OU
+0	-320	+9998OU 550
+1	-328	+4746FU 100
+0	-312	+4746FU 100
+1	-320	+9998OU 550
+0	-308	+9998OU 100
+1	-312	+4746FU 100
+0	-306	+4746FU 100
+1	-308	+9998OU 100
+0	-300	+9998OU 100
+1	-306	+4746FU 100
+0	-292	+4746FU 100
+1	-300	+9998OU 100
+0	-284	+9998OU 100
+1	-292	+4746FU 100
+0	-278	+4746FU 100
+1	-284	+9998OU 100
+std exception time limit over
+analysis of root node
+[ -228(1100) <  -228( 200) ] 	+8997KE -3536FU +2636HI -0035FU +3626HI -7364KI +9998OU -3322KA +3745KE -4445GI *
+[ -264(1100) <  -264( 200) ] 	+1918KY -3536FU +5768GI -3637TO *
+[ -192( 706) <  -278(1700) ] 	+4746FU -7364KI +4645FU -4453GI +8977KE -3536FU +2636HI -0035FU +3635HI -0044FU +4544FU -5344GI +3534HI *
+[ -284(1050) <  -284(1700) ] 	+9998OU -3536FU +2636HI -2324FU +2524FU -3324KA +0025FU -4435GI +2524FU -3536GI +8811UM -3637GI +1121UM -0084KE +2423TO *
+[ -320(1032) <    -1(  -1) ] 	+8977KE -7364KI +3635FU -4435GI +2627HI -0036FU +0034FU -3637TO +3433TO *
+Chose:	+4746FU
+Used:	46
+Time Left:	1294
+analysis of a node after the best move
+[ -300(1600) <    -1(  -1) ] 	-4453GI +4645FU -0044FU +4544FU -4244HI *
+[ -278(1206) <    -1(  -1) ] 	-2324FU +2524FU -4453GI +4645FU -3388UM +7888KI -0049KA +2423TO -4967UM +2313TO -2113KE *
+[ -278(1600) <    -1(  -1) ] 	-7364KI +4645FU -4453GI +8977KE -3536FU +2636HI -0035FU +3635HI -0044FU +4544FU -5344GI +3534HI *
+[ -278(1150) <    -1(  -1) ] 	-4262HI +4645FU -3536FU +2636HI -0043FU +3646HI *
+[ -272(1206) <    -1(  -1) ] 	-9394FU +9594FU -3536FU +2636HI -0066FU +5766GI -7364KI +4645FU -4445GI +3745KE *
+oracle p     0 u     0
+search p     0 u 238669 d 768410
+oracles 260 0 670 0
+~CheckmateSearcher (-) 326381/315537/3000000
+~CheckmateSearcher (+) 313160/318087/3000000
+SimpleHashTable size: 3441370, cache hit 3212761, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6+KY+FU+FU * +FU+FU+FU+HI+FU
+P7 * +GI * +KI+GI * +KE *  * 
+P8 * +KA+KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P-00FU
+-
+
+evaluated value = -64
+-0066FU
+Op used:	1 (1234)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6+KY+FU+FU-FU+FU+FU+FU+HI+FU
+P7 * +GI * +KI+GI * +KE *  * 
+P8 * +KA+KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
++
+
+evaluated value = -192
+iteration 600 45 left
+0	-64	+8866KA 116
+1	-128	+6766KI 116
+0	-64	+8866KA 116
+total number of nodes: 322
+iteration 800 45 left
+0	44	+6766KI 116
+1	-64	+8866KA 100
+0	44	+6766KI 116
+total number of nodes: 1657
+iteration 1000 45 left
+0 +8866KA
+0	0	+8866KA 116
+total number of nodes: 6625
+iteration 1200 45 left
+0	8	+8866KA 100
+total number of nodes: 28233
+iteration 1400 45 left
+0	8	+8866KA 100
+total number of nodes: 108911
+iteration 1600 43 left
+0	8	+8866KA 100
+total number of nodes: 417861
+iteration stop
+analysis of root node
+[    8( 700) <     8(1500) ] 	+8866KA -4546FU +5746GI -0045FU +4635GI -4435GI +3635FU -3366KA +6766KI -7364KI +0053KA -0031GI +5342UM -3142GI *
+[    8(1244) <    -1(  -1) ] 	+6463TO -6667TO +4645FU -7363KI +7867KI -4453GI +3635FU -3388UM *
+[    8(1484) <   -64( 700) ] 	+6766KI -3536FU +2636HI -0035FU +3626HI -4546FU +5746GI -0045FU +0034FU -3311KA +4657GI *
+[    8(1404) <    -1(  -1) ] 	+6768KI -4546FU +5766GI -4647TO +6677GI -4453GI +3635FU -0034FU +3534FU -3344KA +2636HI *
+[    0( 980) <    -1(  -1) ] 	+5655FU -5455FU *
+Chose:	+8866KA
+Used:	8
+Time Left:	1286
+analysis of a node after the best move
+[    8(1400) <     8( 684) ] 	-4546FU +5746GI -0045FU +4635GI -4435GI +3635FU -3366KA +6766KI -7364KI +0053KA -0031GI +5342UM -3142GI *
+[    8(1229) <    44( 613) ] 	-3536FU +3745KE -7364KI +0034FU -3322KA +2636HI -0035FU +3626HI -0065FU +6677KA *
+[    8(1244) <    -1(  -1) ] 	-7364KI +4645FU -3536FU +2636HI -0035FU +3646HI -4453GI +0034FU -0065FU +3433TO -6566FU +5766GI *
+[    8( 988) <    -1(  -1) ] 	-4243HI +4645FU -4445GI +3745KE *
+[    8( 909) <    -1(  -1) ] 	-4232HI +4645FU -4453GI *
+oracle p   416 u  9995
+search p     1 u 69051 d 98206
+oracles 54 0 378 0
+~CheckmateSearcher (-) 96390/89513/3000000
+~CheckmateSearcher (+) 35422/35157/3000000
+SimpleHashTable size: 658659, cache hit 645528, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU-GI *  * -FU
+P5+FU *  *  *  * -FU-FU+FU * 
+P6+KY+FU+FU+KA+FU+FU+FU+HI+FU
+P7 * +GI * +KI+GI * +KE *  * 
+P8 *  * +KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+-
+
+evaluated value = 200
+-4546FU
+Op used:	22 (1212)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU-GI *  * -FU
+P5+FU *  *  *  *  * -FU+FU * 
+P6+KY+FU+FU+KA+FU-FU+FU+HI+FU
+P7 * +GI * +KI+GI * +KE *  * 
+P8 *  * +KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P-00FU
++
+
+evaluated value = -64
+iteration 600 45 left
+0	-64	+5746GI 116
+total number of nodes: 233
+iteration 800 45 left
+0	8	+5746GI 100
+total number of nodes: 629
+iteration 1000 45 left
+0	8	+5746GI 100
+total number of nodes: 4543
+iteration 1200 45 left
+0	8	+5746GI 100
+total number of nodes: 12921
+iteration 1400 44 left
+0	8	+5746GI 100
+total number of nodes: 92001
+iteration 1600 42 left
+0	8	+5746GI 100
+total number of nodes: 352771
+iteration stop
+analysis of root node
+[ -184(  -1) <     8(1500) ] 	+5746GI -4453GI +6463TO -3366KA +6766KI -4246HI +6353TO -3536FU +9594FU -9394FU +0062GI -7162KI +5362TO *
+[    8(1244) <    -1(  -1) ] 	+6463TO -7363KI *
+[    8(1106) <    -1(  -1) ] 	+7675FU -7475FU +6675KA -0074FU +0072FU -7172KI *
+[    8(1329) <    -1(  -1) ] 	+3635FU -4647TO +0045FU -4445GI +3745KE -4245HI +0034GI -3366KA +5766GI -4535HI +3423GI *
+[    8( 980) <    -1(  -1) ] 	+2524FU -2324FU *
+Chose:	+5746GI
+Used:	9
+Time Left:	1277
+analysis of a node after the best move
+[    8( 891) <    -1(  -1) ] 	-7475FU +3635FU -7576FU +8776GI -7364KI +0065FU *
+[    8(1006) <    -1(  -1) ] 	-1415FU +1615FU *
+[    8(1400) <    -1(  -1) ] 	-4453GI +6463TO -3366KA +6766KI -4246HI +6353TO -3536FU +9594FU -9394FU +0062GI -7162KI +5362TO *
+[    8(1244) <   400( 228) ] 	-7364KI +3635FU -0034FU +3534FU -3322KA +3433TO -2233KA +0034FU -3322KA +0045FU -4453GI *
+[    8( 950) <    -1(  -1) ] 	-7372KI +3635FU -0065FU +6677KA -5455FU +3534FU -5556FU +6756KI *
+oracle p     0 u     0
+search p     0 u 65674 d 101781
+oracles 95 0 268 0
+~CheckmateSearcher (-) 83128/79467/3000000
+~CheckmateSearcher (+) 44256/43963/3000000
+SimpleHashTable size: 772102, cache hit 558084, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU-GI *  * -FU
+P5+FU *  *  *  *  * -FU+FU * 
+P6+KY+FU+FU+KA+FU+GI+FU+HI+FU
+P7 * +GI * +KI *  * +KE *  * 
+P8 *  * +KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P+00FU
+P-00FU
+-
+
+evaluated value = 264
+-4455GI
+Op used:	29 (1183)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU *  *  * -FU
+P5+FU *  *  * -GI * -FU+FU * 
+P6+KY+FU+FU+KA+FU+GI+FU+HI+FU
+P7 * +GI * +KI *  * +KE *  * 
+P8 *  * +KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P+00FU
+P-00FU
++
+
+evaluated value = 200
+iteration 600 45 left
+-14 +4655GI
+0	-14	+4655GI 116
+total number of nodes: 319
+iteration 800 45 left
+0	-14	+4655GI 100
+total number of nodes: 2191
+iteration 1000 45 left
+0	-14	+4655GI 100
+total number of nodes: 9366
+iteration 1200 45 left
+0	8	+4655GI 100
+total number of nodes: 33447
+iteration 1400 44 left
+0	8	+4655GI 100
+total number of nodes: 173683
+iteration 1600 39 left
+0	8	+4655GI 100
+total number of nodes: 674163
+iteration stop
+analysis of root node
+[ -592(  -1) <     8(1500) ] 	+4655GI -5455FU +0034GI -3311KA +0043FU -4252HI +6463TO -7363KI *
+[    8(1524) <    -1(  -1) ] 	+5655FU -4246HI +0056GI -5455FU +5655GI -4636HI +2636HI -3536FU +3745KE -3637TO +4533NK -2133KE +6677KA *
+[    8( 991) <    -1(  -1) ] 	+1615FU -1415FU +4655GI -5455FU +5655FU -3536FU +0034FU -3344KA +0088GI -4426KA *
+[    8(1088) <    -1(  -1) ] 	+4645GI -5566GI +9594FU -6667NG +7888KI -3388UM +9988OU -0099KI +9493TO *
+[    8(1219) <    -1(  -1) ] 	+4657GI -5566GI +5766GI -3366KA +6766KI -4247RY +3635FU -4737RY *
+Chose:	+4655GI
+Used:	21
+Time Left:	1256
+analysis of a node after the best move
+[    8(1426) <    -1(  -1) ] 	-5455FU +0034GI -3311KA +0043FU -4252HI +6463TO -7363KI *
+[    8(1214) <    -1(  -1) ] 	-3536FU +5554GI -3366KA +6766KI -3637TO *
+[    8(1006) <    -1(  -1) ] 	-1415FU +1615FU -5455FU *
+[    8(1159) <    -1(  -1) ] 	-3355KA +5655FU -5455FU +6655KA -7364KI +5564KA -4249RY +6431UM -0066FU +6766KI *
+[    8(1194) <    -1(  -1) ] 	-4249RY *
+oracle p  4269 u 110355
+search p     4 u 171331 d 134188
+oracles 102 0 825 0
+~CheckmateSearcher (-) 342856/211286/3000000
+~CheckmateSearcher (+) 69624/69683/3000000
+SimpleHashTable size: 1625885, cache hit 1061122, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  * -HI *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU *  *  * -FU
+P5+FU *  *  * +GI * -FU+FU * 
+P6+KY+FU+FU+KA+FU * +FU+HI+FU
+P7 * +GI * +KI *  * +KE *  * 
+P8 *  * +KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P+00FU
+P-00FU
+P+00GI
+-
+
+evaluated value = 1364
+-4247RY
+Op used:	13 (1170)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU *  *  * -FU
+P5+FU *  *  * +GI * -FU+FU * 
+P6+KY+FU+FU+KA+FU * +FU+HI+FU
+P7 * +GI * +KI * -RY+KE *  * 
+P8 *  * +KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P+00FU
+P-00FU
+P+00GI
++
+
+evaluated value = 886
+iteration 600 45 left
+736 +0048GI
+0	736	+0048GI 316
+total number of nodes: 312
+iteration 800 45 left
+-300 +6463TO
+-270 +0044GI
+-150 +5544GI
+-106 +3745KE
+0	-78	+0048GI 316
+1	-106	+3745KE 751
+2	-150	+5544GI 695
+3	-270	+0044GI 390
+4	-300	+6463TO 356
+0	122	+6463TO 356
+1	-64	+3745KE 751
+2	-78	+0048GI 316
+0	122	+6463TO 356
+total number of nodes: 11411
+iteration 1000 45 left
+-342 +0048GI
+-278 +6463TO
+-250 +0044GI
+-228 +5544GI
+-178 +3745KE
+0	-106	+5554GI 217
+1	-178	+3745KE 751
+2	-228	+5544GI 695
+3	-250	+0044GI 390
+4	-278	+6463TO 356
+0	-78	+0048GI 316
+1	-106	+5554GI 217
+0	-70	+5554GI 100
+1	-78	+0048GI 316
+0	-14	+0048GI 100
+1	-70	+5554GI 100
+0	-14	+0048GI 100
+total number of nodes: 59423
+iteration 1200 42 left
+0	0	+0048GI 100
+total number of nodes: 41359
+iteration 1400 41 left
+-50 +0048GI
+0	-50	+0048GI 316
+total number of nodes: 272871
+iteration stop
+analysis of root node
+[   -6(1300) <   -50(1300) ] 	+0048GI -4741RY +2524FU -0065FU +2423TO -6566FU +6766KI -4148RY +2333TO *
+[  -50( 888) <    -1(  -1) ] 	+0045FU -5455FU +5655FU -3536FU +0038FU -4738RY *
+[  -56(1138) <  -378( 700) ] 	+3635FU -4737RY +5554GI -3735RY +2628HI -7364KI +0055GI -0065FU +6677KA -3355KA +5655FU *
+[  -56( 632) <    -1(  -1) ] 	+8977KE -5455FU +6655KA -3355KA +5655FU -3536FU *
+[  -56(1183) <   -70( 900) ] 	+5554GI -3366KA +6766KI -0048KA +6463TO -4866UM +8977KE -4749RY +9988OU *
+Chose:	+0048GI
+Used:	14
+Time Left:	1242
+analysis of a node after the best move
+[  -50( 994) <    -1(  -1) ] 	-4738RY +6463TO -7363KI +0064FU -6364KI +3745KE *
+[  -50(1200) <    -1(  -1) ] 	-4742RY +6463TO -7363KI +0043FU -4243RY +0044FU -5455FU +4443TO -5556FU +6756KI *
+[  -42(1007) <    -1(  -1) ] 	-0065FU +4847GI -3536FU +4746GI -3637TO +4637GI -6566FU +5566GI *
+[  -34(1144) <    -1(  -1) ] 	-5455FU +4847GI -0054GI *
+[  -28(1200) <    -6(1200) ] 	-4741RY +2524FU -0065FU +2423TO -6566FU +6766KI -4148RY +2333TO *
+oracle p   466 u 312079
+search p     2 u 74994 d 69260
+oracles 206 0 311 0
+~CheckmateSearcher (-) 627925/92734/3000000
+~CheckmateSearcher (+) 42729/42572/3000000
+SimpleHashTable size: 1118184, cache hit 585384, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU *  *  * -FU
+P5+FU *  *  * +GI * -FU+FU * 
+P6+KY+FU+FU+KA+FU * +FU+HI+FU
+P7 * +GI * +KI * -RY+KE *  * 
+P8 *  * +KI *  * +GI *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P+00FU
+P-00FU
+-
+
+evaluated value = 950
+-4741RY
+Op used:	1 (1169)
+P1-OU-KE-KI *  * -RY * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU *  *  * -FU
+P5+FU *  *  * +GI * -FU+FU * 
+P6+KY+FU+FU+KA+FU * +FU+HI+FU
+P7 * +GI * +KI *  * +KE *  * 
+P8 *  * +KI *  * +GI *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P+00FU
+P-00FU
++
+
+evaluated value = 1014
+iteration 600 45 left
+0	422	+0042FU 379
+total number of nodes: 449
+iteration 800 45 left
+0	422	+0042FU 100
+total number of nodes: 2025
+iteration 1000 45 left
+0 +0042FU
+36 +2524FU
+0	36	+2524FU 620
+1	0	+0042FU 379
+0	64	+0042FU 100
+1	36	+2524FU 620
+0	94	+2524FU 100
+1	64	+0042FU 100
+0	122	+0042FU 100
+1	94	+2524FU 100
+0	122	+0042FU 100
+total number of nodes: 23034
+iteration 1200 44 left
+-314 +9594FU
+-306 +0049FU
+-278 +0044FU
+-214 +2524FU
+0	-186	+0042FU 379
+1	-214	+2524FU 620
+2	-278	+0044FU 512
+3	-306	+0049FU 512
+4	-314	+9594FU 494
+0	-178	+2524FU 620
+1	-186	+0042FU 379
+0	-170	+0042FU 100
+1	-178	+2524FU 620
+0	-170	+0042FU 100
+total number of nodes: 196484
+iteration 1400 36 left
+-250 +0042FU
+-242 +2524FU
+0	-242	+2524FU 620
+1	-250	+0042FU 379
+0	-228	+0042FU 100
+1	-242	+2524FU 620
+0	-222	+2524FU 100
+1	-228	+0042FU 100
+0	-222	+2524FU 100
+total number of nodes: 513178
+iteration stop
+analysis of root node
+[  -78( 900) <   -78( 391) ] 	+1615FU -5455FU +5655FU *
+[ -192(1100) <  -314(1100) ] 	+9594FU -0065FU +9493TO -8193KE +5544GI -6566FU +4433NG -2133KE +9998OU *
+[ -214(1100) <  -214( 844) ] 	+6463TO -7363KI +3635FU -5455FU +9594FU -9394FU +5655FU -9495FU +3534FU -3344KA *
+[ -170(1100) <  -222(1300) ] 	+2524FU -9394FU +9594FU -5455FU +5655FU *
+[ -228(1100) <  -228( 479) ] 	+3745KE -4145RY +4847GI -4547RY +5554GI -4736RY +2636HI *
+Chose:	+2524FU
+Used:	23
+Time Left:	1219
+analysis of a node after the best move
+[ -222(1200) <    -1(  -1) ] 	-9394FU +9594FU -5455FU +5655FU *
+[ -214(1184) <    -1(  -1) ] 	-3324KA +6463TO -5455FU +6373TO -8273GI +0064FU -7364GI +5655FU -4148RY +6648KA *
+[ -214(1200) <  -170(1000) ] 	-0065FU +0042FU -4142RY +6657KA -0047FU +2423TO -4748TO +2333TO -4233RY *
+[ -206( 799) <    -1(  -1) ] 	-8384FU +2423TO -5455FU +5655FU -0054FU +5554FU *
+[ -206(1144) <   522( 544) ] 	-5455FU +2423TO -3311KA +2313TO -8384FU *
+oracle p  1912 u 1041295
+search p    13 u 126663 d 131818
+oracles 247 0 382 0
+~CheckmateSearcher (-) 1059235/150467/3000000
+~CheckmateSearcher (+) 395676/72268/3000000
+SimpleHashTable size: 1730667, cache hit 1048627, table full 0
+P1-OU-KE-KI *  * -RY * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU *  * +FU-FU
+P5+FU *  *  * +GI * -FU *  * 
+P6+KY+FU+FU+KA+FU * +FU+HI+FU
+P7 * +GI * +KI *  * +KE *  * 
+P8 *  * +KI *  * +GI *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P+00FU
+P-00FU
+-
+
+evaluated value = 1014
+-0065FU
+Op used:	10 (1159)
+P1-OU-KE-KI *  * -RY * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU *  * +FU-FU
+P5+FU *  * -FU+GI * -FU *  * 
+P6+KY+FU+FU+KA+FU * +FU+HI+FU
+P7 * +GI * +KI *  * +KE *  * 
+P8 *  * +KI *  * +GI *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P+00FU
++
+
+evaluated value = 950
+iteration 600 45 left
+0	294	+0042FU 538
+1	200	+6657KA 190
+0	294	+0042FU 538
+total number of nodes: 788
+iteration 800 45 left
+-586 +3725KE
+-492 +0042FU
+-486 +6675KA
+0	-14	+6688KA 190
+1	-78	+6677KA 190
+2	-292	+2423TO 149
+3	-486	+6675KA 633
+4	-492	+0042FU 538
+0	-6	+6677KA 190
+1	-14	+6688KA 190
+0	14	+6688KA 100
+1	-6	+6677KA 190
+0	58	+6677KA 100
+1	14	+6688KA 100
+0	158	+6688KA 100
+1	58	+6677KA 100
+0	222	+6677KA 100
+1	158	+6688KA 100
+0	222	+6677KA 100
+total number of nodes: 12546
+iteration 1000 44 left
+-592 +6463TO
+-564 +0042FU
+-556 +6675KA
+-506 +6693UM
+-486 +3745KE
+0	-378	+6688KA 190
+1	-414	+6677KA 190
+2	-478	+2423TO 149
+3	-486	+3745KE 827
+4	-506	+6693UM 633
+0	-228	+0042FU 538
+1	-234	+6677KA 190
+2	-378	+6688KA 190
+0	-170	+6688KA 100
+1	-214	+6677KA 100
+2	-228	+0042FU 538
+0	-164	+0042FU 100
+1	-170	+6688KA 100
+0	-164	+0042FU 100
+total number of nodes: 65657
+iteration 1200 42 left
+-214 +6677KA
+-186 +6688KA
+0	-186	+6688KA 190
+1	-214	+6677KA 190
+0	-186	+6688KA 190
+total number of nodes: 86742
+iteration 1400 39 left
+-878 +0042FU
+-870 +6675KA
+-864 +6693UM
+-850 +0049FU
+-842 +4859GI
+std exception time limit over
+analysis of root node
+[ -192(1300) <  -192(1100) ] 	+6688KA -2324FU +3635FU -4148RY +2646HI -4846RY +5546GI -0066GI +3534FU -3344KA *
+[ -206(1251) <  -478( 900) ] 	+2423TO -6566FU +6757KI -4148RY +5546GI -7364KI +2333TO -2133KE *
+[ -206(1100) <  -878(1300) ] 	+0042FU -4142RY +6677KA -4248RY +3725KE -3536FU +2533NK -5455FU +2636HI -2324FU *
+[ -214(1210) <  -214(1100) ] 	+6677KA -4148RY +3725KE -5455FU +2533NK -2324FU +3334NK -0066GI *
+[ -226(1210) <  -406( 500) ] 	+6657KA -2324FU +0022FU -5455FU +2221TO -5556FU +0044FU -3344KA +0066KE -4466KA +6766KI *
+Chose:	+6688KA
+Used:	46
+Time Left:	1173
+analysis of a node after the best move
+[ -192(1000) <  -192(1200) ] 	-2324FU +3635FU -4148RY +2646HI -4846RY +5546GI -0066GI +3534FU -3344KA *
+[ -150( 814) <    -1(  -1) ] 	-3536FU +2636HI -0047FU +4857GI *
+[    0( 913) <   522( 400) ] 	-4148RY +2423TO -5455FU +2333TO *
+[   14( 673) <    -1(  -1) ] 	-6566FU +5566GI *
+[  122( 771) <    -1(  -1) ] 	-3324KA +0025FU -2433KA +6463TO -7384KI *
+oracle p 11522 u 718641
+search p     5 u 220633 d 204030
+oracles 302 0 483 0
+~CheckmateSearcher (-) 2044767/238115/3000000
+~CheckmateSearcher (+) 115945/118044/3000000
+SimpleHashTable size: 3459421, cache hit 1841967, table full 0
+P1-OU-KE-KI *  * -RY * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU *  * +FU-FU
+P5+FU *  * -FU+GI * -FU *  * 
+P6+KY+FU+FU * +FU * +FU+HI+FU
+P7 * +GI * +KI *  * +KE *  * 
+P8 * +KA+KI *  * +GI *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P+00FU
+-
+
+evaluated value = 1014
+-4148RY
+Op used:	4 (1155)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA-FU-KY
+P4 *  * -FU+FU-FU *  * +FU-FU
+P5+FU *  * -FU+GI * -FU *  * 
+P6+KY+FU+FU * +FU * +FU+HI+FU
+P7 * +GI * +KI *  * +KE *  * 
+P8 * +KA+KI *  * -RY *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P+00FU
+P-00GI
++
+
+evaluated value = -214
+iteration 600 45 left
+0	-550	+3725KE 247
+total number of nodes: 382
+iteration 800 45 left
+-356 +2423TO
+0	-356	+2423TO 149
+1	-550	+3725KE 100
+0	-356	+2423TO 149
+total number of nodes: 2735
+iteration 1000 45 left
+-1714 +0045FU
+-1700 +0044FU
+-1592 +2629HI
+-1570 +2627HI
+-1564 +8879KA
+-1550 +7877KI
+-1534 +2625HI
+-1522 +8977KE
+-1464 +5544GI
+-1456 +5546GI
+-1450 +3745KE
+0	-928	+6463TO 356
+1	-1114	+3725KE 247
+2	-1156	+5554GI 217
+3	-1264	+2423TO 149
+4	-1450	+3745KE 751
+0	-756	+5544GI 695
+1	-770	+3745KE 751
+2	-800	+2423TO 149
+3	-862	+3725KE 247
+4	-928	+6463TO 356
+0	-712	+3725KE 247
+1	-714	+2423TO 149
+2	-742	+3745KE 751
+3	-756	+5544GI 695
+0	-592	+3745KE 751
+1	-642	+2423TO 149
+2	-712	+3725KE 247
+0	-592	+3745KE 751
+total number of nodes: 147403
+iteration 1200 38 left
+0	-592	+3745KE 100
+total number of nodes: 27515
+iteration 1400 37 left
+-578 +2423TO
+-564 +3725KE
+0	-564	+3725KE 247
+1	-578	+2423TO 149
+2	-592	+3745KE 100
+0	-550	+3745KE 100
+1	-556	+2423TO 100
+2	-564	+3725KE 247
+0	-528	+3725KE 100
+1	-542	+2423TO 100
+2	-550	+3745KE 100
+0	-520	+3745KE 100
+1	-522	+2423TO 100
+2	-528	+3725KE 100
+0	-514	+2423TO 100
+1	-520	+3745KE 100
+0	-512	+3745KE 100
+1	-514	+2423TO 100
+0	-506	+2423TO 100
+1	-512	+3745KE 100
+0	-492	+3745KE 100
+1	-506	+2423TO 100
+0	-486	+2423TO 100
+1	-492	+3745KE 100
+0	-478	+3745KE 100
+1	-486	+2423TO 100
+0	-470	+2423TO 100
+1	-478	+3745KE 100
+0	-464	+3745KE 100
+1	-470	+2423TO 100
+0	-450	+2423TO 100
+1	-464	+3745KE 100
+0	-448	+3745KE 100
+1	-450	+2423TO 100
+0	-442	+2423TO 100
+1	-448	+3745KE 100
+0	-436	+3745KE 100
+1	-442	+2423TO 100
+0	-428	+2423TO 100
+1	-436	+3745KE 100
+0	-420	+3745KE 100
+1	-428	+2423TO 100
+0	-414	+2423TO 100
+1	-420	+3745KE 100
+0	-406	+3745KE 100
+1	-414	+2423TO 100
+0	-400	+2423TO 100
+1	-406	+3745KE 100
+0	-392	+3745KE 100
+1	-400	+2423TO 100
+0	-386	+2423TO 100
+1	-392	+3745KE 100
+0	-384	+3745KE 100
+1	-386	+2423TO 100
+0	-378	+2423TO 100
+1	-384	+3745KE 100
+0	-364	+3745KE 100
+1	-378	+2423TO 100
+0	-356	+2423TO 100
+1	-364	+3745KE 100
+0	-356	+2423TO 100
+total number of nodes: 1415713
+iteration stop
+analysis of root node
+[ -356(1051) <  -356(1300) ] 	+2423TO -5455FU +2333TO -0098GI +8798GI -4837RY +8855KA -3726RY +3635FU -0066GI +5544KA -6667NG *
+[ -356(1300) <  -364(1300) ] 	+3745KE -0037GI +4533KE -2133KE +2423TO -5455FU +8855KA -0084KE +5533UM -3726NG +3635FU *
+[ -528(1300) <  -528(1300) ] 	+3725KE -3324KA +2513NK -2113KE +5554GI -7364KI +5453GI -6463KI +0064FU -6353KI +3635FU *
+[ -578(1044) <  -928( 900) ] 	+6463TO -7363KI +3725KE -3324KA +2513NK -2113KE +0064FU -6353KI +6463TO -5363KI *
+[ -584( 888) < -1564( 900) ] 	+8879KA -4837RY +7935KA *
+Chose:	+2423TO
+Used:	39
+Time Left:	1134
+analysis of a node after the best move
+[ -378(1200) <    -1(  -1) ] 	-3536FU +2636HI -0022GI +3633RY -5455FU +3322RY -6566FU +3725KE *
+[ -364(1100) <    -1(  -1) ] 	-3311KA +2313TO -5455FU +5655FU -6566FU +6766KI *
+[ -356(1200) <    -1(  -1) ] 	-5455FU +2333TO -0098GI +8798GI -4837RY +8855KA -3726RY +3635FU -0066GI +5544KA -6667NG *
+[ -356(1094) <    -1(  -1) ] 	-3342KA +2313TO -5455FU +5655FU -2113KE +2622RY -4264KA *
+[ -356(1200) <  -356(1200) ] 	-4837RY +2629HI -3342KA +5554GI -7364KI +8822UM -0028GI +2969HI -6454KI +2232UM 
+oracle p   442 u 68722
+search p     6 u 139506 d 264044
+oracles 104 0 411 0
+~CheckmateSearcher (-) 295257/208212/3000000
+~CheckmateSearcher (+) 125078/126010/3000000
+SimpleHashTable size: 3302044, cache hit 2161985, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA+TO-KY
+P4 *  * -FU+FU-FU *  *  * -FU
+P5+FU *  * -FU+GI * -FU *  * 
+P6+KY+FU+FU * +FU * +FU+HI+FU
+P7 * +GI * +KI *  * +KE *  * 
+P8 * +KA+KI *  * -RY *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P+00FU
+P+00FU
+P-00GI
+-
+
+evaluated value = 614
+-4837RY
+Op used:	12 (1143)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA+TO-KY
+P4 *  * -FU+FU-FU *  *  * -FU
+P5+FU *  * -FU+GI * -FU *  * 
+P6+KY+FU+FU * +FU * +FU+HI+FU
+P7 * +GI * +KI *  * -RY *  * 
+P8 * +KA+KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P+00FU
+P+00FU
+P+00FU
+P-00KE
+P-00GI
++
+
+evaluated value = -250
+iteration 600 45 left
+-1070 +2333TO
+-736 +0027FU
+0	-736	+0027FU 336
+1	-1070	+2333TO 207
+0	-736	+0027FU 336
+total number of nodes: 365
+iteration 800 45 left
+0	-678	+0027FU 100
+total number of nodes: 2739
+iteration 1000 45 left
+0	-664	+0027FU 100
+total number of nodes: 6993
+iteration 1200 44 left
+-642 +2629HI
+0	-642	+2629HI 312
+1	-656	+0027FU 100
+0	-620	+0027FU 100
+1	-642	+2629HI 312
+0	-606	+2629HI 100
+1	-620	+0027FU 100
+0	-592	+0027FU 100
+1	-606	+2629HI 100
+0	-584	+2629HI 100
+1	-592	+0027FU 100
+0	-564	+0027FU 100
+1	-584	+2629HI 100
+0	-528	+2629HI 100
+1	-564	+0027FU 100
+0	-528	+2629HI 100
+total number of nodes: 116004
+iteration 1400 41 left
+0	-528	+2629HI 100
+total number of nodes: 247347
+iteration stop
+analysis of root node
+[ -528( 700) <  -528(1300) ] 	+2629HI -0028GI +2969HI -0066KE +2333TO -6658NK +6979HI -5455FU *
+[ -528(1088) <    -1(  -1) ] 	+2625HI -3736RY +7675FU -7475FU +0026FU -3311KA +5544GI *
+[ -528(1100) <  -564(1100) ] 	+0027FU -0034KE +2333TO -3426KE +5554GI -7364KI +0043KA -0058GI *
+[ -534(1044) <    -1(  -1) ] 	+6463TO -3726RY *
+[ -534(1193) < -1070( 500) ] 	+2333TO -3726RY +6463TO -7363KI +5546GI -3536FU *
+Chose:	+2629HI
+Used:	10
+Time Left:	1124
+analysis of a node after the best move
+[ -584(1000) <    -1(  -1) ] 	-3311KA +2313TO -2113KE +5554GI -0066KE +5465GI -6678NK +8778GI *
+[ -578(1000) <    -1(  -1) ] 	-3738RY *
+[ -564(1000) <    -1(  -1) ] 	-7384KI +6463TO -5455FU +2333TO -2133KE +8855KA *
+[ -528( 788) <    -1(  -1) ] 	-3748RY +2333TO -2133KE +5544GI *
+[ -528(1200) <    -1(  -1) ] 	-3747RY +2333TO -2133KE +5544GI *
+oracle p     0 u     0
+search p     0 u 62868 d 78246
+oracles 65 0 191 0
+~CheckmateSearcher (-) 83785/92532/3000000
+~CheckmateSearcher (+) 43237/43438/3000000
+SimpleHashTable size: 882680, cache hit 483394, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA+TO-KY
+P4 *  * -FU+FU-FU *  *  * -FU
+P5+FU *  * -FU+GI * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 * +GI * +KI *  * -RY *  * 
+P8 * +KA+KI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  * +HI+KY
+P+00FU
+P+00FU
+P+00FU
+P-00KE
+P-00GI
+-
+
+evaluated value = -250
+-3738RY
+Op used:	29 (1114)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA+TO-KY
+P4 *  * -FU+FU-FU *  *  * -FU
+P5+FU *  * -FU+GI * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 * +GI * +KI *  *  *  *  * 
+P8 * +KA+KI *  *  * -RY *  * 
+P9+OU+KE *  *  *  *  * +HI+KY
+P+00FU
+P+00FU
+P+00FU
+P-00KE
+P-00GI
++
+
+evaluated value = -378
+iteration 600 45 left
+-1022 +2926HI
+0	-1022	+2926HI 312
+total number of nodes: 457
+iteration 800 45 left
+-1456 +5544GI
+-1328 +2333TO
+-1300 +2926HI
+-1222 +2925HI
+-1150 +2959HI
+-1022 +2969HI
+-742 +2979HI
+0	-742	+2979HI 312
+1	-1022	+2969HI 312
+2	-1150	+2959HI 312
+3	-1222	+2925HI 312
+4	-1300	+2926HI 312
+0	-742	+2979HI 312
+total number of nodes: 6379
+iteration 1000 44 left
+-650 +2333TO
+-592 +2969HI
+0	-592	+2969HI 312
+1	-650	+2333TO 207
+2	-706	+2979HI 100
+0	-486	+2979HI 100
+1	-592	+2969HI 312
+0	-486	+2979HI 100
+total number of nodes: 22000
+iteration 1200 44 left
+-456 +2926HI
+0	-456	+2926HI 312
+1	-462	+2979HI 100
+0	-442	+2979HI 100
+1	-456	+2926HI 312
+0	-436	+2926HI 100
+1	-442	+2979HI 100
+0	-378	+2979HI 100
+1	-436	+2926HI 100
+0	-378	+2979HI 100
+total number of nodes: 85337
+iteration 1400 41 left
+0	-378	+2979HI 100
+total number of nodes: 174005
+iteration 1600 37 left
+0	-378	+2979HI 100
+total number of nodes: 797385
+iteration stop
+analysis of root node
+[ -378( 288) <  -378(1500) ] 	+2979HI -5455FU +2333TO -6566FU +6766KI -5556FU +6656KI -7364KI +0065FU -6454KI *
+[ -378(1244) < -1070( 244) ] 	+6463TO -7363KI +5544GI -3829RY +4433NG -3536FU *
+[ -378(1314) <    -1(  -1) ] 	+3635FU -5455FU +2925HI -3344KA +2313TO -2113KE +2523RY *
+[ -378(1393) <  -650( 900) ] 	+2333TO -0066KE +5566GI -3829RY +6665GI -2919RY +0085KE -3536FU *
+[ -378(1288) < -1222( 700) ] 	+2925HI -3836RY +2528HI -5455FU +2333TO -0027FU +2818HI -7364KI +0053KA -0026KE +5364UM -2618NK *
+Chose:	+2979HI
+Used:	25
+Time Left:	1099
+analysis of a node after the best move
+[ -378( 891) <    -1(  -1) ] 	-7475FU +2333TO -5455FU +8855KA -7576FU +8776GI *
+[ -378(1400) <  -314( 188) ] 	-5455FU +2333TO -6566FU +6766KI -5556FU +6656KI -7364KI +0065FU -6454KI *
+[ -378(1169) <    -1(  -1) ] 	-0066GI +5566GI -3366KA +8866KA -6566FU +6766KI -0057KA *
+[ -378(1026) <    -1(  -1) ] 	-0058GI +2333TO -5455FU +6757KI -7364KI +0053KA -3836RY +5655FU *
+[ -378( 978) <    -1(  -1) ] 	-0053GI +2333TO -5455FU +8855KA -5364GI *
+oracle p    84 u 28472
+search p     5 u 228173 d 162145
+oracles 114 0 696 0
+~CheckmateSearcher (-) 302325/310330/3000000
+~CheckmateSearcher (+) 90264/89939/3000000
+SimpleHashTable size: 1993819, cache hit 1309939, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA+TO-KY
+P4 *  * -FU+FU-FU *  *  * -FU
+P5+FU *  * -FU+GI * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 * +GI * +KI *  *  *  *  * 
+P8 * +KA+KI *  *  * -RY *  * 
+P9+OU+KE+HI *  *  *  *  * +KY
+P+00FU
+P+00FU
+P+00FU
+P-00KE
+P-00GI
+-
+
+evaluated value = -314
+-5455FU
+Op used:	11 (1103)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * -KA+TO-KY
+P4 *  * -FU+FU *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 * +GI * +KI *  *  *  *  * 
+P8 * +KA+KI *  *  * -RY *  * 
+P9+OU+KE+HI *  *  *  *  * +KY
+P+00FU
+P+00FU
+P+00FU
+P-00KE
+P-00GI
+P-00GI
++
+
+evaluated value = -1414
+iteration 600 45 left
+0	-578	+2333TO 207
+1	-1198	+2332TO 205
+2	-1370	+5655FU 116
+0	-578	+2333TO 207
+total number of nodes: 433
+iteration 800 45 left
+0	-570	+2333TO 100
+total number of nodes: 3085
+iteration 1000 45 left
+0	-570	+2333TO 100
+total number of nodes: 10915
+iteration 1200 45 left
+0	-570	+2333TO 100
+total number of nodes: 78480
+iteration 1400 42 left
+0	-556	+2333TO 100
+total number of nodes: 145401
+iteration 1600 38 left
+-550 +6463TO
+-542 +0022FU
+0	-542	+0022FU 424
+1	-550	+6463TO 356
+2	-556	+2333TO 100
+std exception time limit over
+analysis of root node
+[ -534(1044) <  -534(1500) ] 	+6463TO -7363KI +2333TO -2133KE +0042KA -5556FU +4233UM -0066KE +6756KI *
+[ -542(1050) <  -770( 250) ] 	+8877KA -0066KE +2333TO -2133KE +5655FU -6678NK +7978HI -3878RY +8778GI *
+[ -542( 976) <  -542(1500) ] 	+0022FU -5556FU +2221TO -3388UM +9988OU -0046KA +7959HI *
+[ -756(  -1) <  -556(1500) ] 	+2333TO -0066KE +6766KI -6566FU +8866KA -5556FU *
+[ -556(1484) < -1370( 500) ] 	+5655FU -3344KA +0045FU -4411KA +0022FU -6566FU +2221TO -1155KA +8866KA -5566KA +6766KI -3836RY +0037FU -3666RY *
+Chose:	+2333TO
+Used:	47
+Time Left:	1052
+analysis of a node after the best move
+[ -556(1308) <    -1(  -1) ] 	-5556FU +6756KI -0047GI *
+[ -556(1400) <    -1(  -1) ] 	-0066KE +6766KI -6566FU +8866KA -5556FU *
+[ -556( 840) <    -1(  -1) ] 	-0052KE +3334TO *
+[ -556( 988) <    -1(  -1) ] 	-0045GI +5655FU -7364KI *
+[ -550(1385) <    -1(  -1) ] 	-2133KE +8855KA -0054GI +5533UM -0047GI *
+oracle p   672 u 727170
+search p     8 u 402310 d 369250
+oracles 347 0 1219 0
+~CheckmateSearcher (-) 810266/303943/3000000
+~CheckmateSearcher (+) 308426/323666/3000000
+SimpleHashTable size: 3528144, cache hit 2245737, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * +TO * -KY
+P4 *  * -FU+FU *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 * +GI * +KI *  *  *  *  * 
+P8 * +KA+KI *  *  * -RY *  * 
+P9+OU+KE+HI *  *  *  *  * +KY
+P+00FU
+P+00FU
+P+00FU
+P-00KE
+P-00GI
+P-00GI
+P+00KA
+-
+
+evaluated value = 186
+-0066KE
+Op used:	2 (1101)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * +TO * -KY
+P4 *  * -FU+FU *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU-KE+FU * +FU * +FU
+P7 * +GI * +KI *  *  *  *  * 
+P8 * +KA+KI *  *  * -RY *  * 
+P9+OU+KE+HI *  *  *  *  * +KY
+P+00FU
+P+00FU
+P+00FU
+P-00GI
+P-00GI
+P+00KA
++
+
+evaluated value = -70
+iteration 600 45 left
+-898 +7877KI
+-726 +6463TO
+-542 +0054KA
+-470 +3334TO
+-426 +3323TO
+-342 +3332TO
+-278 +3322TO
+0	-278	+3322TO 470
+1	-342	+3332TO 470
+2	-426	+3323TO 470
+3	-470	+3334TO 470
+4	-542	+0054KA 469
+0	-128	+0054KA 469
+1	-198	+3332TO 470
+2	-278	+3322TO 470
+0	-98	+3332TO 100
+1	-128	+0054KA 469
+0	-98	+3332TO 100
+total number of nodes: 1327
+iteration 800 45 left
+-414 +6766KI
+-392 +6463TO
+-342 +0054KA
+-278 +3322TO
+-198 +3332TO
+0	-198	+3332TO 470
+1	-278	+3322TO 470
+2	-342	+0054KA 469
+3	-392	+6463TO 356
+4	-414	+6766KI 267
+0	-198	+3332TO 470
+total number of nodes: 4126
+iteration 1000 45 left
+-192 +0031KA
+0	-192	+0031KA 595
+1	-198	+3332TO 100
+0	-192	+0031KA 595
+total number of nodes: 26053
+iteration 1200 43 left
+-450 +7877KI
+-442 +6463TO
+-420 +0054KA
+-406 +3332TO
+-398 +0032KA
+-392 +0053KA
+-384 +0031KA
+0	-384	+0031KA 595
+1	-392	+0053KA 554
+2	-398	+0032KA 550
+3	-406	+3332TO 470
+4	-420	+0054KA 469
+0	-342	+6463TO 356
+1	-356	+0054KA 469
+2	-370	+3332TO 470
+3	-378	+0053KA 554
+4	-384	+0031KA 595
+0	-320	+0031KA 595
+1	-326	+3332TO 470
+2	-334	+0054KA 469
+3	-342	+6463TO 356
+0	-292	+6463TO 356
+1	-298	+0054KA 469
+2	-320	+0031KA 595
+0	-292	+6463TO 356
+total number of nodes: 591821
+iteration stop
+analysis of root node
+[ -220( 900) <  -292(1100) ] 	+6463TO -7363KI +0041KA -6362KI +0063FU -6273KI +4132UM -2133KE *
+[ -292(1100) <  -320(1100) ] 	+0031KA -6678NK +7978HI -3827RY +7877HI -2728RY +3153UM -2819RY +6463TO -2133KE +6373TO *
+[ -292( 900) <  -398(1100) ] 	+0032KA -6678NK +8778GI -6566FU +6766KI -2133KE *
+[ -298(1100) <  -298(1100) ] 	+0054KA -2133KE +6463TO -0045GI +6373TO -4554GI *
+[ -326(1100) <  -326(1100) ] 	+3332TO -6678NK +8778GI -5556FU +6463TO -7363KI +8822UM -0068KI +6768KI -3868RY *
+Chose:	+6463TO
+Used:	31
+Time Left:	1021
+analysis of a node after the best move
+[ -442(1000) <    -1(  -1) ] 	-7384KI +5655FU -3536FU +0037FU -2133KE +3736FU -3836RY *
+[ -292(1000) <  -220( 800) ] 	-7363KI +0041KA -6362KI +0063FU -6273KI +4132UM -2133KE *
+[ -234( 950) <  -128( 144) ] 	-6678NK +7978HI -5556FU +6756KI -3878RY +8778GI -3536FU *
+[ -234( 544) <    -1(  -1) ] 	-7372KI +6372TO *
+[ -170( 814) <    -1(  -1) ] 	-5556FU +6373TO -6678NK +8778GI -8273GI *
+oracle p 16298 u 984800
+search p    12 u 124097 d 117553
+oracles 194 0 638 0
+~CheckmateSearcher (-) 1421570/162991/3000000
+~CheckmateSearcher (+) 83528/82223/3000000
+SimpleHashTable size: 2570375, cache hit 1149200, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI+TO *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU-KE+FU * +FU * +FU
+P7 * +GI * +KI *  *  *  *  * 
+P8 * +KA+KI *  *  * -RY *  * 
+P9+OU+KE+HI *  *  *  *  * +KY
+P+00FU
+P+00FU
+P+00FU
+P-00GI
+P-00GI
+P+00KA
+-
+
+evaluated value = 558
+-7363KI
+Op used:	6 (1095)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU * -KI *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU-KE+FU * +FU * +FU
+P7 * +GI * +KI *  *  *  *  * 
+P8 * +KA+KI *  *  * -RY *  * 
+P9+OU+KE+HI *  *  *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P-00GI
+P-00GI
+P+00KA
++
+
+evaluated value = -398
+iteration 600 45 left
+-778 +6766KI
+-670 +0045KA
+-478 +0052KA
+0	-478	+0052KA 434
+1	-670	+0045KA 434
+2	-778	+6766KI 392
+0	-456	+0045KA 100
+1	-478	+0052KA 434
+0	-420	+0052KA 100
+1	-456	+0045KA 100
+0	-406	+0045KA 100
+1	-420	+0052KA 100
+0	-256	+0052KA 100
+1	-406	+0045KA 100
+0	-256	+0052KA 100
+total number of nodes: 1056
+iteration 800 45 left
+0	-256	+0052KA 100
+total number of nodes: 2753
+iteration 1000 45 left
+-670 +0064FU
+-628 +6766KI
+-606 +0045KA
+-584 +0052KA
+-520 +0041KA
+-498 +3332TO
+-492 +3322TO
+0	-492	+3322TO 470
+1	-498	+3332TO 470
+2	-520	+0041KA 434
+3	-584	+0052KA 434
+4	-606	+0045KA 434
+0	-404	+0045KA 434
+1	-406	+0052KA 434
+2	-428	+0041KA 434
+3	-434	+3332TO 470
+4	-492	+3322TO 470
+0	-370	+3332TO 470
+1	-378	+0041KA 434
+2	-392	+0052KA 434
+3	-404	+0045KA 434
+0	-334	+0052KA 434
+1	-342	+0041KA 434
+2	-370	+3332TO 470
+0	-292	+0041KA 100
+1	-334	+0052KA 434
+0	-256	+0052KA 100
+1	-292	+0041KA 100
+0	-256	+0052KA 100
+total number of nodes: 68184
+iteration 1200 42 left
+-420 +0045KA
+-392 +0052KA
+-384 +0041KA
+0	-384	+0041KA 434
+1	-392	+0052KA 434
+2	-420	+0045KA 434
+0	-328	+0052KA 100
+1	-384	+0041KA 434
+0	-320	+0041KA 100
+1	-328	+0052KA 100
+0	-320	+0041KA 100
+total number of nodes: 155497
+iteration 1400 36 left
+-406 +0064FU
+-398 +0045KA
+-392 +0041KA
+0	-392	+0041KA 434
+1	-398	+0045KA 434
+2	-406	+0064FU 330
+0	-384	+0045KA 100
+1	-392	+0041KA 434
+0	-376	+0041KA 100
+1	-384	+0045KA 100
+0	-376	+0041KA 100
+total number of nodes: 938719
+iteration stop
+analysis of root node
+[ -328(1300) <  -376(1300) ] 	+0041KA -6373KI +4123UM -3536FU +3322TO -3637TO +2221TO -3828RY +2313UM -2821RY +1314UM *
+[ -384(1300) <  -406(1300) ] 	+0064FU -1415FU +1615FU -6364KI +0053KA -0063GI +1514FU -0018FU +1918KY -3818RY +1413TO -6678NK *
+[ -384(1300) <  -384(1300) ] 	+0045KA -6362KI +4512UM -6678NK +7978HI -3827RY +7868HI *
+[ -384(1100) <  -384( 223) ] 	+0029FU -3878RY +7978HI -6678NK +8778GI -0058HI +7869GI -5888RY +9988OU -2133KE +5655FU *
+[ -392( 906) <    -1(  -1) ] 	+9594FU -9394FU +5655FU -2133KE +0093FU -8193KE +9694KY *
+Chose:	+0041KA
+Used:	43
+Time Left:	978
+analysis of a node after the best move
+[ -392(1200) <    -1(  -1) ] 	-6362KI +4174UM -2133KE +0063FU -6272KI +6757KI -3345KE +5655FU -4557NK *
+[ -376(1200) <  -328(1200) ] 	-6373KI +4123UM -3536FU +3322TO -3637TO +2221TO -3828RY +2313UM -2821RY +1314UM *
+[ -320(1034) <  -214( 266) ] 	-6678NK +7978HI -3827RY +4163UM -2767RY +0079KE -6787RY +7987KE *
+[ -320( 887) <    -1(  -1) ] 	-6364KI +4132UM -6678NK +8778GI -2133KE +3233UM -5556FU +6756KI *
+[ -320( 887) <    -1(  -1) ] 	-6353KI +4132UM -5556FU +3221UM -0098GI +9998OU -3878RY +8778GI -6678NK 
+oracle p 26361 u 1332321
+search p     5 u 243895 d 217836
+oracles 191 0 711 0
+~CheckmateSearcher (-) 1725247/249303/3000000
+~CheckmateSearcher (+) 158766/157906/3000000
+SimpleHashTable size: 3325262, cache hit 1757265, table full 0
+P1-OU-KE-KI *  * +KA * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU * -KI *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU-KE+FU * +FU * +FU
+P7 * +GI * +KI *  *  *  *  * 
+P8 * +KA+KI *  *  * -RY *  * 
+P9+OU+KE+HI *  *  *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P-00GI
+P-00GI
+-
+
+evaluated value = -398
+-6678NK
+Op used:	18 (1077)
+P1-OU-KE-KI *  * +KA * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU * -KI *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 * +GI * +KI *  *  *  *  * 
+P8 * +KA-NK *  *  * -RY *  * 
+P9+OU+KE+HI *  *  *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P-00GI
+P-00GI
+P-00KI
++
+
+evaluated value = -1926
+iteration 600 45 left
+-1070 +8778GI
+-628 +7978HI
+0	-628	+7978HI 99
+1	-1070	+8778GI 99
+0	-420	+8778GI 99
+1	-628	+7978HI 99
+0	-192	+7978HI 99
+1	-420	+8778GI 99
+0	-192	+7978HI 99
+total number of nodes: 1054
+iteration 800 44 left
+-242 +7978HI
+0	-242	+7978HI 99
+total number of nodes: 2324
+iteration 1000 44 left
+-3862 +0068FU
+0	-1492	+7978HI 99
+1	-2234	+8778GI 99
+2	-3862	+0068FU 826
+0	-1456	+8778GI 99
+1	-1492	+7978HI 99
+0	-1242	+7978HI 99
+1	-1456	+8778GI 99
+0	-1220	+8778GI 99
+1	-1242	+7978HI 99
+0	-1164	+7978HI 99
+1	-1220	+8778GI 99
+0	-1084	+8778GI 99
+1	-1164	+7978HI 99
+0	-1056	+7978HI 99
+1	-1084	+8778GI 99
+0	-1006	+8778GI 99
+1	-1056	+7978HI 99
+0	-992	+7978HI 99
+1	-1006	+8778GI 99
+0	-956	+8778GI 99
+1	-992	+7978HI 99
+0	-942	+7978HI 99
+1	-956	+8778GI 99
+0	-920	+8778GI 99
+1	-942	+7978HI 99
+0	-884	+7978HI 99
+1	-920	+8778GI 99
+0	-878	+8778GI 99
+1	-884	+7978HI 99
+0	-870	+7978HI 99
+1	-878	+8778GI 99
+0	-842	+8778GI 99
+1	-870	+7978HI 99
+0	-756	+7978HI 99
+1	-842	+8778GI 99
+0	-684	+8778GI 99
+1	-756	+7978HI 99
+0	-620	+7978HI 99
+1	-684	+8778GI 99
+0	-570	+8778GI 99
+1	-620	+7978HI 99
+0	-556	+7978HI 99
+1	-570	+8778GI 99
+0	-548	+8778GI 99
+1	-556	+7978HI 99
+0	-542	+7978HI 99
+1	-548	+8778GI 99
+0	-542	+7978HI 99
+total number of nodes: 71636
+iteration 1200 42 left
+0	-542	+7978HI 100
+total number of nodes: 59905
+iteration 1400 39 left
+0	-542	+7978HI 100
+total number of nodes: 217791
+iteration stop
+analysis of root node
+[ -406( 901) <  -542(1300) ] 	+7978HI -3847RY +4163UM -4767RY +0077KI -6778RY +8778GI -2133KE +3635FU -0049HI *
+[ -548(1114) <    -1(  -1) ] 	+3635FU -7879NK +8855KA -3835RY +4163UM -3533RY +0064FU -3363RY +6463TO -7989NK *
+[ -548(1301) <  -564( 901) ] 	+8778GI -3878RY +7978HI -0087GI +8855KA -8778GI *
+[ -548(1263) <    -1(  -1) ] 	+4163UM -7879NK +8879KA -2133KE +6768KI -3868RY +7968KA -0066HI +6835KA -6667RY +0078KI -6756RY *
+[ -592(1138) <    -1(  -1) ] 	+5655FU -7879NK +4163UM -0073KI +0064KI -7364KI +6364UM *
+Chose:	+7978HI
+Used:	11
+Time Left:	967
+analysis of a node after the best move
+[ -542( 932) <    -1(  -1) ] 	-3827RY +4163UM -2767RY +0077KI -6778RY +8778GI -2133KE +3635FU -0049HI *
+[ -542(1200) <    -1(  -1) ] 	-3847RY +4163UM -4767RY +0077KI -6778RY +8778GI -2133KE +3635FU -0049HI *
+[ -528( 953) <    -1(  -1) ] 	-0037KI +4163UM -3878RY +8778GI -2133KE +8855KA *
+[ -514( 953) <    -1(  -1) ] 	-0027KI +4163UM -2133KE +7838HI *
+[ -506( 881) <    -1(  -1) ] 	-0064KI +7838HI -2133KE +8855KA -6455KI +5655FU *
+oracle p  6182 u 290381
+search p    22 u 89017 d 47290
+oracles 147 0 536 0
+~CheckmateSearcher (-) 641154/146687/3000000
+~CheckmateSearcher (+) 60359/61400/3000000
+SimpleHashTable size: 840817, cache hit 425211, table full 0
+P1-OU-KE-KI *  * +KA * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU * -KI *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 * +GI * +KI *  *  *  *  * 
+P8 * +KA+HI *  *  * -RY *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P+00KE
+P-00GI
+P-00GI
+P-00KI
+-
+
+evaluated value = -606
+-3878RY
+Op used:	13 (1064)
+P1-OU-KE-KI *  * +KA * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU * -KI *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 * +GI * +KI *  *  *  *  * 
+P8 * +KA-RY *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P+00KE
+P-00GI
+P-00GI
+P-00KI
+P-00HI
++
+
+evaluated value = -2698
+iteration 600 45 left
+-656 +8778GI
+0	-656	+8778GI 53
+total number of nodes: 366
+iteration 800 45 left
+0	-564	+8778GI 100
+total number of nodes: 1902
+iteration 1000 44 left
+0	-528	+8778GI 100
+total number of nodes: 11789
+iteration 1200 43 left
+0	-528	+8778GI 100
+total number of nodes: 34475
+iteration 1400 41 left
+0	-528	+8778GI 100
+total number of nodes: 210807
+iteration 1600 26 left
+std exception time limit over
+analysis of root node
+[ -678(  -1) <  -528(1500) ] 	+8778GI -0054GI +5655FU -0047HI +5554FU -4741HI +0042FU -4161HI *
+[ -564( 982) <    -1(  -1) ] 	+9998OU -7867RY +4163UM -6756RY *
+[ -592( 976) <    -1(  -1) ] 	+0022FU -7867RY +2221TO -5556FU +0058FU -0098GI +9998OU *
+[ -606( 949) <    -1(  -1) ] 	+0066FU -6566FU +8866KA *
+[ -678( 982) <    -1(  -1) ] 	+8798GI -7867RY +4163UM -6756RY +0072KI -5676RY +8855KA -0073KI +6373UM -8273GI *
+Chose:	+8778GI
+Used:	59
+Time Left:	908
+analysis of a node after the best move
+[ -528(1006) <    -1(  -1) ] 	-9394FU +5655FU -6364KI +0056KE -0049HI *
+[ -528(1081) <    -1(  -1) ] 	-7162KI +8855KA -0079HI +7887GI -7969RY +0022HI -0078GI +8778GI *
+[ -528(1081) <    -1(  -1) ] 	-6373KI +8855KA -0048HI +3342TO -0098GI +9998OU -4878RY +0088KE -7867RY *
+[ -528( 987) <    -1(  -1) ] 	-0098KI +9998OU -5556FU +6756KI -0058HI +5665KI -5878RY +4163UM *
+[ -528(1081) <    -1(  -1) ] 	-0073KI +8855KA -0048HI +7675FU -7475FU +0064FU -6364KI +0085KE -6455KI +5655FU 
+oracle p 38080 u 1270094
+search p    19 u 336711 d 220391
+oracles 540 0 579 0
+~CheckmateSearcher (-) 3553245/685805/3000000
+~CheckmateSearcher (+) 252566/263372/3000000
+SimpleHashTable size: 3933705, cache hit 1616126, table full 0
+P1-OU-KE-KI *  * +KA * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU * -KI *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P+00KE
+P-00GI
+P-00GI
+P-00KI
+P+00HI
+P-00HI
+-
+
+evaluated value = -256
+-6373KI
+Op used:	4 (1060)
+P1-OU-KE-KI *  * +KA * -KE * 
+P2-KY-GI *  *  *  *  *  *  * 
+P3-FU-FU-KI *  *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P+00KE
+P-00GI
+P-00GI
+P-00KI
+P+00HI
+P-00HI
++
+
+evaluated value = -320
+iteration 600 45 left
+-192 +8855KA
+-70 +4123UM
+-56 +4132UM
+0	-56	+4132UM 400
+1	-70	+4123UM 329
+2	-192	+8855KA 256
+0	-56	+4132UM 400
+total number of nodes: 855
+iteration 800 44 left
+-398 +4123UM
+-306 +4152UM
+-92 +4132UM
+0	-92	+4132UM 400
+1	-306	+4152UM 373
+2	-398	+4123UM 329
+0	-92	+4132UM 400
+total number of nodes: 8976
+iteration 1000 43 left
+-492 +4152UM
+-478 +0043HI
+-384 +4132UM
+-334 +0023HI
+0	-284	+4123UM 329
+1	-334	+0023HI 446
+2	-384	+4132UM 400
+3	-478	+0043HI 394
+4	-492	+4152UM 373
+0	-270	+4132UM 400
+1	-284	+4123UM 329
+0	-256	+4123UM 100
+1	-270	+4132UM 400
+0	-234	+4132UM 100
+1	-256	+4123UM 100
+0	-234	+4132UM 100
+total number of nodes: 107826
+iteration 1200 31 left
+0	-220	+4132UM 100
+total number of nodes: 83844
+iteration 1400 24 left
+std exception time limit over
+analysis of root node
+[ -120( 900) <  -220(1300) ] 	+4132UM -0028HI +0018HI -2818RY +1918KY -0028HI +7675FU -7475FU +9594FU -9394FU +0022FU -2878RY *
+[ -220( 930) <  -342( 530) ] 	+3343TO -6566FU +6757KI -0037HI +8866KA -5556FU +5756KI *
+[ -220(1027) <  -492( 900) ] 	+4152UM -2133KE +8855KA *
+[ -220( 540) <    -1(  -1) ] 	+0057KE -2133KE +8855KA -0045HI +5745KE -3345KE 
+[ -220( 903) <    -1(  -1) ] 	+0042HI -0051KI +0085KE -5142KI +3342TO -5556FU +8573NK -8173KE +8822UM *
+Chose:	+4132UM
+Used:	45
+Time Left:	863
+analysis of a node after the best move
+[ -220(1014) <    -1(  -1) ] 	-5556FU +3221UM -0028HI +6756KI -2821HI *
+[ -220( 873) <   -20( 473) ] 	-6566FU +6766KI -0068HI +0079HI -2133KE *
+[ -220( 845) <   -92( 600) ] 	-2133KE +3233UM -0039HI +8855KA *
+[ -220( 750) <    -1(  -1) ] 	-0072KI +3221UM -3536FU +0038FU -3637TO +3837FU *
+[ -220( 845) <    -1(  -1) ] 	-0059HI *
+oracle p 71410 u 715963
+search p    35 u 138440 d 107654
+oracles 236 0 487 0
+~CheckmateSearcher (-) 3035423/621574/3000000
+~CheckmateSearcher (+) 85490/82174/3000000
+SimpleHashTable size: 3166576, cache hit 1133600, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  * +UM *  * 
+P3-FU-FU-KI *  *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI *  *  *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P+00KE
+P-00GI
+P-00GI
+P-00KI
+P+00HI
+P-00HI
+-
+
+evaluated value = 158
+-0058HI
+Op used:	29 (1031)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  * +UM *  * 
+P3-FU-FU-KI *  *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI * -HI *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P+00KE
+P-00GI
+P-00GI
+P-00KI
+P+00HI
++
+
+evaluated value = 94
+iteration 600 45 left
+352 +3221UM
+0	352	+3221UM 291
+total number of nodes: 269
+iteration 800 45 left
+-940 +3221UM
+-584 +7869GI
+-548 +0068HI
+-512 +0068KE
+-476 +0068FU
+-220 +7887GI
+0	-220	+7887GI 391
+1	-476	+0068FU 391
+2	-512	+0068KE 391
+3	-548	+0068HI 391
+4	-584	+7869GI 324
+0	-106	+0068HI 391
+1	-220	+7887GI 391
+0	-106	+0068HI 391
+total number of nodes: 8390
+iteration 1000 44 left
+-756 +7869GI
+-684 +0068HI
+-634 +0068KE
+-434 +0068FU
+-420 +7887GI
+-348 +6777KI
+0	-348	+6777KI 404
+1	-420	+7887GI 391
+2	-434	+0068FU 391
+3	-634	+0068KE 391
+4	-684	+0068HI 391
+0	-256	+0068HI 391
+1	-270	+0068KE 391
+2	-292	+0068FU 391
+3	-306	+7887GI 391
+4	-348	+6777KI 404
+0	-234	+0068FU 391
+1	-256	+0068HI 391
+0	-192	+0068HI 100
+1	-234	+0068FU 391
+0	-192	+0068HI 100
+total number of nodes: 57078
+iteration 1200 40 left
+0	-192	+0068HI 100
+total number of nodes: 35348
+iteration 1400 38 left
+0	-192	+0068HI 100
+total number of nodes: 179915
+iteration 1600 29 left
+std exception time limit over
+analysis of root node
+[ -192( 988) <    -1(  -1) ] 	+3342TO -5878RY *
+[ -192( 988) <    -1(  -1) ] 	+3343TO -5878RY *
+[ -192( 996) <  -348( 900) ] 	+6777KI -2133KE +3233UM -5859RY +3355UM -0079GI *
+[ -192( 667) <    -1(  -1) ] 	+3214UM -5878RY *
+[ -198(1500) <  -198(1300) ] 	+0068HI -5859RY +3221UM -5968RY +6768KI -0028HI +0038KE -2838RY *
+Chose:	+0068HI
+Used:	45
+Time Left:	818
+analysis of a node after the best move
+[ -220( 943) <  -198(1400) ] 	-5859RY +3221UM -5968RY +6768KI -0028HI +0038KE -2838RY *
+[ -192(1400) <  -120( 800) ] 	-5868RY +6768KI -0028HI +0069FU -0066KI +3322TO -2829RY +1917KY -5556FU +3221UM *
+[ -192(1188) <    -1(  -1) ] 	-0057GI +6858HI -5758NG +3635FU -5556FU +6756KI -0039HI +0079HI -0069KI +7869GI -5869NG *
+[ -184(1220) <    -1(  -1) ] 	-5856RY +6756KI -5556FU +0058FU -0066KI +8866KA -6566FU +6866HI -0055KA +0065KI -5533KA +3233UM -2133KE *
+[ -184(1220) <    -1(  -1) ] 	-5856HI +6756KI -5556FU +0058FU -0066KI +8866KA -6566FU +6866HI -0055KA +0065KI -5533KA +3233UM -2133KE *
+oracle p 75488 u 961917
+search p    45 u 234165 d 167873
+oracles 200 0 1062 0
+~CheckmateSearcher (-) 3359672/411015/3000000
+~CheckmateSearcher (+) 120036/116951/3000000
+SimpleHashTable size: 2848757, cache hit 1392636, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  * +UM *  * 
+P3-FU-FU-KI *  *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI+HI-HI *  *  *  * 
+P9+OU+KE *  *  *  *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P+00KE
+P-00GI
+P-00GI
+P-00KI
+-
+
+evaluated value = 94
+-5859RY
+Op used:	6 (1025)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  * +UM *  * 
+P3-FU-FU-KI *  *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P+00KE
+P-00GI
+P-00GI
+P-00KI
++
+
+evaluated value = -320
+iteration 600 45 left
+-506 +8855KA
+-348 +3221UM
+-292 +0085KE
+0	-292	+0085KE 315
+1	-348	+3221UM 291
+2	-506	+8855KA 256
+0	-156	+3221UM 100
+1	-292	+0085KE 315
+0	-156	+3221UM 100
+total number of nodes: 855
+iteration 800 45 left
+0	-156	+3221UM 100
+total number of nodes: 2340
+iteration 1000 45 left
+-556 +0085KE
+-520 +6869HI
+0	-520	+6869HI 486
+1	-556	+0085KE 315
+0	-492	+0085KE 100
+1	-520	+6869HI 486
+0	-420	+6869HI 100
+1	-492	+0085KE 100
+0	-420	+6869HI 100
+total number of nodes: 65468
+iteration 1200 42 left
+-628 +0085KE
+-620 +3635FU
+0	-620	+3635FU 326
+1	-628	+0085KE 315
+0	-592	+0085KE 100
+1	-620	+3635FU 326
+0	-592	+0085KE 100
+total number of nodes: 367177
+iteration stop
+analysis of root node
+[ -520( 900) <  -520( 341) ] 	+0044FU -5556FU +0058FU -5919RY +4443TO -3536FU *
+[ -528( 900) <  -528( 340) ] 	+0077KE -5919RY *
+[ -542( 900) <  -542( 387) ] 	+0029FU -0079GI +9594FU -9394FU *
+[ -556( 900) <  -556( 450) ] 	+7887GI -0079GI +8879KA -5979RY +3221UM -7919RY *
+[ -492( 900) <  -592(1100) ] 	+0085KE -0079GI +8879KA -0046FU +3635FU -5979RY +0088GI -7968RY +6768KI *
+Chose:	+0085KE
+Used:	18
+Time Left:	800
+analysis of a node after the best move
+[ -628(1000) <    -1(  -1) ] 	-7372KI +3221UM -0058KI +0069FU -5868KI +6768KI *
+[ -592( 517) <    -1(  -1) ] 	-5929RY +8573NK -8173KE +8855KA *
+[ -592( 796) <    -1(  -1) ] 	-5919RY +8573NK -8173KE +3221UM *
+[ -592(1000) <  -492( 800) ] 	-0079GI +8879KA -0046FU +3635FU -5979RY +0088GI -7968RY +6768KI *
+[ -556(1000) <    -1(  -1) ] 	-5556FU +8573NK -5919RY +6756KI -1959RY +6818HI -8173KE +0057FU -3536FU *
+oracle p 13901 u 380499
+search p    31 u 100291 d 83931
+oracles 184 0 596 0
+~CheckmateSearcher (-) 988188/390248/3000000
+~CheckmateSearcher (+) 63290/62799/3000000
+SimpleHashTable size: 1395496, cache hit 650697, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI *  *  *  * +UM *  * 
+P3-FU-FU-KI *  *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU+KE * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P-00GI
+P-00GI
+P-00KI
+-
+
+evaluated value = -192
+-7372KI
+Op used:	23 (1002)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI-KI *  *  * +UM *  * 
+P3-FU-FU *  *  *  * +TO * -KY
+P4 *  * -FU *  *  *  *  * -FU
+P5+FU+KE * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P-00GI
+P-00GI
+P-00KI
++
+
+evaluated value = -256
+iteration 600 45 left
+-142 +8855KA
+-92 +3221UM
+0	-92	+3221UM 291
+1	-142	+8855KA 256
+0	-92	+3221UM 291
+total number of nodes: 375
+iteration 800 45 left
+-120 +8855KA
+0	-120	+8855KA 256
+total number of nodes: 4117
+iteration 1000 45 left
+-628 +3221UM
+-620 +3265UM
+-592 +9594FU
+-570 +6828HI
+-520 +6869HI
+-500 +6818HI
+0	-500	+6818HI 590
+1	-520	+6869HI 548
+2	-570	+6828HI 532
+3	-592	+9594FU 494
+4	-620	+3265UM 329
+0	-400	+9594FU 494
+1	-414	+6828HI 532
+2	-456	+6869HI 548
+3	-500	+6818HI 590
+0	-378	+6828HI 532
+1	-400	+9594FU 494
+0	-364	+9594FU 100
+1	-378	+6828HI 532
+0	-356	+6828HI 100
+1	-364	+9594FU 100
+0	-320	+9594FU 100
+1	-356	+6828HI 100
+0	-320	+9594FU 100
+total number of nodes: 95816
+iteration 1200 37 left
+-742 +3322TO
+-720 +3343TO
+-714 +9594FU
+-678 +6828HI
+std exception time limit over
+analysis of root node
+[ -342(1100) <  -342( 944) ] 	+8855KA -0066GI +5546KA -0057GI +4657KA -6657GI +6818HI -0044KA +9998OU -4433KA +3233UM *
+[ -364( 938) <    -1(  -1) ] 	+5655FU -2133KE +5554FU -0079GI +3233UM -5968RY +6768KI -7968NG +5453TO *
+[ -364( 900) <  -678(1100) ] 	+6828HI -0079KI +3265UM -5919RY +8855KA -0054FU +6554UM *
+[ -534( 900) <  -534( 450) ] 	+8897KA -5556FU +6869HI -5969RY +7869GI -0059HI +6968GI *
+[ -556( 900) <  -556( 450) ] 	+7877GI -0079GI +8879KA -5979RY +3221UM -7919RY *
+Chose:	+9594FU
+Used:	48
+Time Left:	752
+analysis of a node after the best move
+[ -714(1000) <  -328(1000) ] 	-9394FU +6818HI -0027KI +1868HI -0079GI +0093FU -8193KE +8593NK -9293KY *
+[ -692( 641) <    -1(  -1) ] 	-0058KI +9493TO -8193KE +8593NK -8293GI +9693NY -9293KY *
+[ -692( 703) <    -1(  -1) ] 	-0057KI +6757KI -5968RY +9493TO -8193KE +8593NK -9293KY *
+[ -664( 631) <    -1(  -1) ] 	-0057GI +9493TO -8193KE +8593NK -5768NG +6768KI *
+[ -634( 900) <  -128( 206) ] 	-2133KE +9493TO -8193KE +8593NK -8293GI +8855KA *
+oracle p 17080 u 1961414
+search p    41 u 171947 d 132218
+oracles 494 0 923 0
+~CheckmateSearcher (-) 2290208/520491/3000000
+~CheckmateSearcher (+) 767652/120170/3000000
+SimpleHashTable size: 3476407, cache hit 1365808, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI-KI *  *  * +UM *  * 
+P3-FU-FU *  *  *  * +TO * -KY
+P4+FU * -FU *  *  *  *  * -FU
+P5 * +KE * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P+00FU
+P-00GI
+P-00GI
+P-00KI
+-
+
+evaluated value = -192
+-9394FU
+Op used:	29 (973)
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI-KI *  *  * +UM *  * 
+P3 * -FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 * +KE * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P+00FU
+P+00FU
+P-00FU
+P+00FU
+P-00GI
+P-00GI
+P-00KI
++
+
+evaluated value = -392
+iteration 600 45 left
+-392 +0093FU
+-320 +8855KA
+-228 +3221UM
+0	-228	+3221UM 291
+1	-320	+8855KA 264
+2	-392	+0093FU 247
+0	-228	+3221UM 291
+total number of nodes: 635
+iteration 800 44 left
+-892 +8855KA
+-592 +3221UM
+-556 +6869HI
+0	-420	+0093FU 247
+1	-556	+6869HI 548
+2	-592	+3221UM 291
+3	-892	+8855KA 264
+0	-220	+3221UM 291
+1	-420	+0093FU 247
+0	-220	+3221UM 291
+total number of nodes: 10361
+iteration 1000 43 left
+-592 +8855KA
+-564 +3221UM
+-500 +6869HI
+0	-500	+6869HI 548
+1	-564	+3221UM 291
+2	-592	+8855KA 264
+0	-500	+6869HI 548
+total number of nodes: 39562
+iteration 1200 40 left
+-578 +3221UM
+0	-564	+0093FU 247
+1	-578	+3221UM 291
+0	-556	+3221UM 100
+1	-564	+0093FU 247
+0	-548	+0093FU 100
+1	-556	+3221UM 100
+0	-548	+0093FU 100
+total number of nodes: 189904
+iteration 1400 29 left
+0	-548	+0093FU 100
+total number of nodes: 199032
+iteration stop
+analysis of root node
+[ -506( 900) <  -506( 450) ] 	+8877KA -9495FU +6818HI -5929RY +0093FU -8193KE +9695KY -9385KE +8685FU *
+[ -520( 900) <  -520( 410) ] 	+6818HI -0027GI +0093FU -8193KE +1817HI -9385KE +1727HI *
+[ -528( 900) <  -528( 391) ] 	+0069FU -5919RY *
+[ -512( 953) <  -548(1300) ] 	+0093FU -8293GI +8593NK -9293KY +8855KA -0082GI +0092FU -9192OU +0098FU -0079GI *
+[ -548(1138) <    -1(  -1) ] 	+5655FU -5919RY +3221UM -0079GI +8879KA -1979RY +0088GI -7959RY +0064KE -7262KI *
+Chose:	+0093FU
+Used:	26
+Time Left:	726
+analysis of a node after the best move
+[ -548(1184) <  -512( 853) ] 	-8193KE +8593NK -9293KY +3221UM -0057GI +6828HI -6566FU +8866KA *
+[ -548(1200) <    -1(  -1) ] 	-8293GI +8593NK -9293KY +8855KA -0082GI +0092FU -9192OU +0098FU -0079GI *
+[ -528(1070) <    -1(  -1) ] 	-0079GI +9392TO -9192OU +8879KA -5979RY *
+[ -520( 691) <    -1(  -1) ] 	-7475FU +7675FU -9293KY +8593NK *
+[ -492(1184) <    -1(  -1) ] 	-9293KY +3221UM -0058KI +8593NK -8193KE +6858HI -5958RY +0069KI -0087KE +9998OU -5869RY +7869GI *
+oracle p 17816 u 511957
+search p    58 u 116791 d 54102
+oracles 735 0 840 0
+~CheckmateSearcher (-) 1454467/427554/3000000
+~CheckmateSearcher (+) 99561/76849/3000000
+SimpleHashTable size: 1802168, cache hit 732792, table full 0
+P1-OU-KE-KI *  *  *  * -KE * 
+P2-KY-GI-KI *  *  * +UM *  * 
+P3+FU-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 * +KE * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P+00FU
+P-00FU
+P+00FU
+P-00GI
+P-00GI
+P-00KI
+-
+
+evaluated value = -200
+-8193KE
+Op used:	22 (951)
+P1-OU * -KI *  *  *  * -KE * 
+P2-KY-GI-KI *  *  * +UM *  * 
+P3-KE-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 * +KE * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P-00FU
+P+00FU
+P-00FU
+P+00FU
+P-00GI
+P-00GI
+P-00KI
++
+
+evaluated value = -592
+iteration 600 45 left
+-528 +8593NK
+0	-528	+8593NK 100
+total number of nodes: 631
+iteration 800 45 left
+0	-492	+8593NK 100
+total number of nodes: 3352
+iteration 1000 45 left
+0	-484	+8593NK 100
+total number of nodes: 17837
+iteration 1200 44 left
+0	-470	+8593NK 100
+total number of nodes: 64142
+iteration 1400 39 left
+std exception time limit over
+analysis of root node
+[ -484(1345) <    -1(  -1) ] 	+9694KY -0079GI +8879KA -5979RY +6828HI -0088KI 
+[ -492(1300) <  -492(1100) ] 	+8593NK -9293KY +3221UM -0058KI +0092FU -9192OU +0084KE -8384FU +8855KA -5868KI +6768KI -5968RY *
+[ -506(1300) <    -1(  -1) ] 	+8593KE -9293KY +3221UM -0058KI +0092FU -9192OU +0084KE -8384FU +8855KA -5868KI +6768KI -5968RY *
+[ -520( 610) <    -1(  -1) ] 	+6818HI -9385KE *
+[ -528(1138) <    -1(  -1) ] 	+5655FU -0079GI +6869HI -5969RY *
+Chose:	+8593NK
+Used:	50
+Time Left:	676
+analysis of a node after the best move
+[ -472(1001) <  -472(1201) ] 	-9293KY +3221UM -0058KI +0092FU -9192OU +0084KE -8384FU +8855KA -5868KI +6768KI -5968RY *
+[ -470(1201) <    -1(  -1) ] 	-8293GI +8855KA -7282KI +6818HI -0027GI +1817HI -0066GI +1727HI -6655GI +5655FU -5955RY *
+[ -448( 727) <    -1(  -1) ] 	-0079KI *
+[ -406( 774) <    -1(  -1) ] 	-5556FU +9382NK -7182KI +3221UM -5657TO *
+[ -392( 658) <    -1(  -1) ] 	-0066KI +6766KI -5968RY *
+oracle p 36640 u 964608
+search p    33 u 242293 d 53040
+oracles 733 0 1560 0
+~CheckmateSearcher (-) 1960961/318975/3000000
+~CheckmateSearcher (+) 137407/131797/3000000
+SimpleHashTable size: 3362444, cache hit 1293147, table full 0
+P1-OU * -KI *  *  *  * -KE * 
+P2-KY-GI-KI *  *  * +UM *  * 
+P3+NK-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 *  *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P-00FU
+P+00FU
+P-00FU
+P+00FU
+P+00KE
+P-00GI
+P-00GI
+P-00KI
+-
+
+evaluated value = 472
+-9293KY
+Op used:	27 (924)
+P1-OU * -KI *  *  *  * -KE * 
+P2 * -GI-KI *  *  * +UM *  * 
+P3-KY-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 *  *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P-00FU
+P+00FU
+P-00FU
+P+00FU
+P+00KE
+P-00KE
+P-00GI
+P-00GI
+P-00KI
++
+
+evaluated value = -656
+iteration 600 30 left
+-584 +8855KA
+-492 +3221UM
+0	-492	+3221UM 291
+1	-584	+8855KA 264
+0	-492	+3221UM 291
+total number of nodes: 506
+iteration 800 30 left
+0	-484	+3221UM 100
+total number of nodes: 5371
+iteration 1000 29 left
+0	-456	+3221UM 100
+total number of nodes: 7740
+iteration 1200 29 left
+-1292 +3323TO
+-1284 +1615FU
+-1248 +0095FU
+-1228 +8685FU
+-1198 +6828HI
+-1192 +9998OU
+-1170 +8877KA
+-1156 +3231UM
+-1148 +6818HI
+-1142 +0069FU
+-1120 +0044FU
+std exception time limit over
+analysis of root node
+[ -484( 938) <  -756( 338) ] 	+5655FU -0079GI +6828HI -7988NG +9988OU -6566FU *
+[ -506( 936) <  -506( 700) ] 	+8855KA -0066GI +0064KE -7273KI +0092FU -9192OU *
+[ -542( 441) < -1156(1100) ] 	+3231UM -0079GI +6869HI -7988NG +9988OU -5969RY +7869GI *
+[ -592( 163) <    -1(  -1) ] 	+0062FU -7162KI *
+[ -592( 151) <    -1(  -1) ] 	+0049FU -5949RY *
+Chose:	+3221UM
+Used:	30
+Time Left:	646
+analysis of a node after the best move
+[ -670( 450) <  -670(1000) ] 	-0058KI +8877KA -5556FU +0057FU -5657TO +0092FU -9181OU *
+[ -456(1000) <  -456( 713) ] 	-5919RY +8855KA -0097KI +0098FU -1929RY +2112UM -9796KI +1213UM -0054FU +5564KA *
+[ -456(1000) <  -456( 258) ] 	-0066KI +0092FU -9192OU +5655FU -0079GI +8879KA *
+[ -456( 687) <  -292( 287) ] 	-0066KE +2165UM -6678NK +6878HI -5556FU +6556UM *
+[ -456( 397) <    -1(  -1) ] 	-0063GI *
+oracle p 15160 u 658643
+search p    44 u 220415 d 24820
+oracles 419 0 1340 0
+~CheckmateSearcher (-) 1455906/603991/3000000
+~CheckmateSearcher (+) 178515/162572/3000000
+SimpleHashTable size: 2175890, cache hit 843307, table full 0
+P1-OU * -KI *  *  *  * +UM * 
+P2 * -GI-KI *  *  *  *  *  * 
+P3-KY-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 *  *  * -FU-FU * -FU *  * 
+P6+KY+FU+FU * +FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P-00FU
+P+00FU
+P-00FU
+P+00FU
+P+00KE
+P+00KE
+P-00KE
+P-00GI
+P-00GI
+P-00KI
+-
+
+evaluated value = 144
+-6566FU
+Op used:	20 (904)
+P1-OU * -KI *  *  *  * +UM * 
+P2 * -GI-KI *  *  *  *  *  * 
+P3-KY-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 *  *  *  * -FU * -FU *  * 
+P6+KY+FU+FU-FU+FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 * +KA+GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P-00FU
+P+00FU
+P-00FU
+P+00FU
+P+00KE
+P+00KE
+P-00KE
+P-00GI
+P-00GI
+P-00KI
++
+
+evaluated value = -48
+iteration 600 30 left
+-328 +8866KA
+-312 +0092FU
+0	-312	+0092FU 330
+1	-328	+8866KA 116
+0	-128	+8866KA 100
+1	-312	+0092FU 330
+0	-128	+8866KA 100
+total number of nodes: 386
+iteration 800 30 left
+-200 +8866KA
+0	-200	+8866KA 116
+total number of nodes: 1376
+iteration 1000 30 left
+0	-200	+8866KA 100
+total number of nodes: 6006
+iteration 1200 30 left
+-470 +8866KA
+0	-470	+8866KA 116
+total number of nodes: 55916
+iteration 1400 27 left
+-606 +8866KA
+0	-606	+8866KA 116
+total number of nodes: 241772
+iteration 1600 18 left
+std exception time limit over
+analysis of root node
+[ -606(1074) <    -1(  -1) ] 	+3635FU -6667TO +0064KE -5556FU +6472NK -7172KI *
+[ -606(1284) <    -1(  -1) ] 	+6766KI -5968RY +0064KE -6878RY +7675FU -7475FU +9998OU -7879RY +8879KA -0069HI +7935KA *
+[ -606(1029) <    -1(  -1) ] 	+0064KE -6667TO +3635FU -5556FU +6472NK -7172KI *
+[ -612(1500) <  -612(1500) ] 	+8866KA -0097KI +7675FU -0079GI +2131UM -5968RY *
+[ -614( 887) <    -1(  -1) ] 	+8685FU -6667TO +6867HI -5556FU +0064KE -7273KI +0092FU -9192OU *
+Chose:	+8866KA
+Used:	38
+Time Left:	608
+analysis of a node after the best move
+[ -612(1200) <  -612(1400) ] 	-0097KI +7675FU -0079GI +2131UM -5968RY *
+[ -606(1031) <    -1(  -1) ] 	-0079GI *
+[ -606(1246) <    -1(  -1) ] 	-0065FU +2165UM -0064FU +6564UM -5919RY +6474UM -0061KY +3635FU -9495FU +0092FU -9192OU *
+[ -606( 988) <    -1(  -1) ] 	-0047KI +2131UM -0057GI +6757KI -0098GI +9988OU *
+[ -600(1113) <  -136( 600) ] 	-5919RY +6655KA -1916RY +0085KE -0084GI +8593NK -8493GI +5544KA -1636RY *
+oracle p 23499 u 457858
+search p    33 u 381046 d 46152
+oracles 850 0 2038 0
+~CheckmateSearcher (-) 1123681/387037/3000000
+~CheckmateSearcher (+) 253657/245001/3000000
+SimpleHashTable size: 2956803, cache hit 1206979, table full 0
+P1-OU * -KI *  *  *  * +UM * 
+P2 * -GI-KI *  *  *  *  *  * 
+P3-KY-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 *  *  *  * -FU * -FU *  * 
+P6+KY+FU+FU+KA+FU * +FU * +FU
+P7 *  *  * +KI *  *  *  *  * 
+P8 *  * +GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P-00FU
+P+00FU
+P-00FU
+P+00FU
+P+00FU
+P+00KE
+P+00KE
+P-00KE
+P-00GI
+P-00GI
+P-00KI
+-
+
+evaluated value = 408
+-0097KI
+Op used:	2 (902)
+P1-OU * -KI *  *  *  * +UM * 
+P2 * -GI-KI *  *  *  *  *  * 
+P3-KY-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 *  *  *  * -FU * -FU *  * 
+P6+KY+FU+FU+KA+FU * +FU * +FU
+P7-KI *  * +KI *  *  *  *  * 
+P8 *  * +GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P-00FU
+P+00FU
+P-00FU
+P+00FU
+P+00FU
+P+00KE
+P+00KE
+P-00KE
+P-00GI
+P-00GI
++
+
+evaluated value = 280
+iteration 600 30 left
+16 +0092FU
+0	16	+0092FU 330
+total number of nodes: 97
+iteration 800 30 left
+low fail -1029
+0	-592	+0098FU 227
+total number of nodes: 1869
+iteration 1000 29 left
+-584 +7675FU
+0	-584	+7675FU 451
+1	-592	+0098FU 100
+0	-584	+7675FU 451
+total number of nodes: 8702
+iteration 1200 29 left
+low fail -1049
+0	-1048	+0098FU 227
+total number of nodes: 102192
+iteration 1400 23 left
+0	-1042	+0098FU 100
+total number of nodes: 113796
+iteration 1600 18 left
+std exception time limit over
+analysis of root node
+[ -648(1100) < -1042(1500) ] 	+0098FU -9796KI +6828HI -0087KE +7887GI -9687KI +2818HI -5556FU +0058FU -5657TO +5857FU -3536FU +0038FU *
+[-1048(1100) < -1048( 485) ] 	+7887GI -9787KI +0049FU -5949RY +6818HI -0041KE +0092FU -9181OU +6655KA -3536FU 
+[-1048(1100) < -1048( 870) ] 	+0092FU -9192OU +0098FU -9796KI +9897FU -9697KI +7675FU -7475FU +6655KA -3536FU *
+[-1048(1100) < -1048( 200) ] 	+0075KE -7475FU +7675FU -9796KI +0092FU -9181OU *
+[-1056(1100) < -1056(1100) ] 	+7675FU -0079GI +8997KE -7968NG +9988OU -6867NG +7867GI -0079GI +8878OU *
+Chose:	+0098FU
+Used:	40
+Time Left:	568
+analysis of a node after the best move
+[-1042(1400) <  -648(1000) ] 	-9796KI +6828HI -0087KE +7887GI -9687KI +2818HI -5556FU +0058FU -5657TO +5857FU -3536FU +0038FU *
+[-1042(1144) <   -42( 273) ] 	-5968RY +6768KI *
+[-1020(1115) <    -1(  -1) ] 	-9495FU +9897FU -0079GI +5655FU -7968GI *
+[-1020(1174) <    -1(  -1) ] 	-5556FU +9897FU -3536FU +0038FU -0057GI +6757KI -5968RY +9988OU -5657TO *
+[-1020(1174) <    -1(  -1) ] 	-3536FU +9897FU -5556FU +0038FU -0057GI +6757KI -5968RY +9988OU -5657TO *
+oracle p 57776 u 857603
+search p    48 u 296211 d 102395
+oracles 828 0 1893 0
+~CheckmateSearcher (-) 2037068/304573/3000000
+~CheckmateSearcher (+) 213172/207047/3000000
+SimpleHashTable size: 3052605, cache hit 1154465, table full 0
+P1-OU * -KI *  *  *  * +UM * 
+P2 * -GI-KI *  *  *  *  *  * 
+P3-KY-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 *  *  *  * -FU * -FU *  * 
+P6+KY+FU+FU+KA+FU * +FU * +FU
+P7-KI *  * +KI *  *  *  *  * 
+P8+FU * +GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P-00FU
+P-00FU
+P+00FU
+P+00FU
+P+00KE
+P+00KE
+P-00KE
+P-00GI
+P-00GI
+-
+
+evaluated value = 216
+-0087KE
+Op used:	14 (888)
+P1-OU * -KI *  *  *  * +UM * 
+P2 * -GI-KI *  *  *  *  *  * 
+P3-KY-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 *  *  *  * -FU * -FU *  * 
+P6+KY+FU+FU+KA+FU * +FU * +FU
+P7-KI-KE * +KI *  *  *  *  * 
+P8+FU * +GI+HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P-00FU
+P-00FU
+P+00FU
+P+00FU
+P+00KE
+P+00KE
+P-00GI
+P-00GI
++
+
+evaluated value = 88
+iteration 600 25 left
+total number of nodes: 3
+iteration 800 25 left
+0	-20	+7887GI 100
+total number of nodes: 384
+iteration 1000 25 left
+total number of nodes: 3404
+iteration 1200 25 left
+total number of nodes: 6690
+iteration 1400 24 left
+total number of nodes: 26805
+iteration 1600 23 left
+total number of nodes: 180783
+iteration 1800 12 left
+std exception time limit over
+analysis of root node
+[ -114(1700) <  -114( 700) ] 	+7887GI -9787KI +0028KE -0047FU +0065FU -5968RY +0048FU -0038HI +6768KI -4748TO +6655KA *
+Chose:	+7887GI
+Used:	44
+Time Left:	524
+analysis of a node after the best move
+[ -114( 624) <  -114(1600) ] 	-9787KI +0028KE -0047FU +0065FU -5968RY +0048FU -0038HI +6768KI -4748TO +6655KA *
+[  116( 206) <    -1(  -1) ] 	-1415FU +1615FU *
+[  308( 199) <    -1(  -1) ] 	-8384FU +6684KA *
+[  394( 344) <    -1(  -1) ] 	-5968RY +6768KI -9787KI *
+[  444( 231) <    -1(  -1) ] 	-0079GI +9897FU -5968RY 
+oracle p 96319 u 736025
+search p    10 u 291964 d 72921
+oracles 486 0 1101 1
+~CheckmateSearcher (-) 1980224/254613/3000000
+~CheckmateSearcher (+) 123697/111184/3000000
+SimpleHashTable size: 3363798, cache hit 1317381, table full 0
+P1-OU * -KI *  *  *  * +UM * 
+P2 * -GI-KI *  *  *  *  *  * 
+P3-KY-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 *  *  *  * -FU * -FU *  * 
+P6+KY+FU+FU+KA+FU * +FU * +FU
+P7-KI+GI * +KI *  *  *  *  * 
+P8+FU *  * +HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P-00FU
+P-00FU
+P+00FU
+P+00FU
+P+00KE
+P+00KE
+P+00KE
+P-00GI
+P-00GI
+-
+
+evaluated value = 1080
+-9787KI
+Op used:	3 (885)
+P1-OU * -KI *  *  *  * +UM * 
+P2 * -GI-KI *  *  *  *  *  * 
+P3-KY-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 *  *  *  * -FU * -FU *  * 
+P6+KY+FU+FU+KA+FU * +FU * +FU
+P7 * -KI * +KI *  *  *  *  * 
+P8+FU *  * +HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P-00FU
+P-00FU
+P+00FU
+P+00FU
+P+00KE
+P+00KE
+P+00KE
+P-00GI
+P-00GI
+P-00GI
++
+
+evaluated value = -84
+iteration 600 25 left
+-492 +5655FU
+-164 +6655KA
+-84 +0085KE
+0	-84	+0085KE 568
+1	-164	+6655KA 264
+2	-492	+5655FU 262
+0	-84	+0085KE 568
+total number of nodes: 455
+iteration 800 24 left
+-492 +6655KA
+-428 +0064FU
+0	-428	+0064FU 683
+1	-492	+6655KA 264
+0	-428	+0064FU 683
+total number of nodes: 12853
+iteration 1000 17 left
+-940 +3635FU
+-876 +0064KE
+-828 +0069FU
+-820 +0063FU
+0	-814	+5655FU 262
+1	-820	+0063FU 709
+2	-828	+0069FU 609
+3	-876	+0064KE 371
+4	-940	+3635FU 326
+0	-734	+0064KE 371
+1	-814	+5655FU 262
+0	-734	+0064KE 371
+total number of nodes: 142248
+iteration 1200 4 left
+std exception time limit over
+analysis of root node
+[ -756(1100) <  -756( 900) ] 	+0064KE -0078GI +6869HI -7889NG +6989HI *
+[ -820( 958) <  -820( 900) ] 	+7675FU -0078GI +0069FU -5919RY +7574FU -3536FU *
+[ -820( 242) <    -1(  -1) ] 	+0084KE -8384FU *
+[ -820( 131) <    -1(  -1) ] 	+0063KE -7263KI *
+[ -820( 900) <  -820( 137) ] 	+0065FU -0078GI +6878HI -8778KI +0088GI *
+Chose:	+0064KE
+Used:	26
+Time Left:	498
+analysis of a node after the best move
+[-1178( 512) <  -756(1000) ] 	-0078GI +6869HI -7889NG +6989HI *
+[ -876( 800) <  -534( 600) ] 	-0079GI +6838HI -0063FU *
+[ -720( 715) <    -1(  -1) ] 	-9495FU +6472NK -7172KI +6655KA -5968RY +6768KI *
+[ -720(1000) <    -1(  -1) ] 	-7262KI +5655FU -5919RY +0085KE *
+[ -714( 774) <    -1(  -1) ] 	-5556FU +6472NK -5919RY +6756KI *
+oracle p 38018 u 233244
+search p   108 u 73083 d 43968
+oracles 300 0 668 0
+~CheckmateSearcher (-) 1792025/2850539/3000000
+~CheckmateSearcher (+) 59751/55192/3000000
+SimpleHashTable size: 1301649, cache hit 440093, table full 0
+P1-OU * -KI *  *  *  * +UM * 
+P2 * -GI-KI *  *  *  *  *  * 
+P3-KY-FU *  *  *  * +TO * -KY
+P4-FU * -FU+KE *  *  *  * -FU
+P5 *  *  *  * -FU * -FU *  * 
+P6+KY+FU+FU+KA+FU * +FU * +FU
+P7 * -KI * +KI *  *  *  *  * 
+P8+FU *  * +HI *  *  *  *  * 
+P9+OU+KE *  * -RY *  *  * +KY
+P-00FU
+P-00FU
+P-00FU
+P+00FU
+P+00FU
+P+00KE
+P+00KE
+P-00GI
+P-00GI
+P-00GI
+-
+
+evaluated value = 44
+-0079GI
+Op used:	4 (881)
+P1-OU * -KI *  *  *  * +UM * 
+P2 * -GI-KI *  *  *  *  *  * 
+P3-KY-FU *  *  *  * +TO * -KY
+P4-FU * -FU+KE *  *  *  * -FU
+P5 *  *  *  * -FU * -FU *  * 
+P6+KY+FU+FU+KA+FU * +FU * +FU
+P7 * -KI * +KI *  *  *  *  * 
+P8+FU *  * +HI *  *  *  *  * 
+P9+OU+KE-GI * -RY *  *  * +KY
+P-00FU
+P-00FU
+P-00FU
+P+00FU
+P+00FU
+P+00KE
+P+00KE
+P-00GI
+P-00GI
++
+
+evaluated value = -84
+iteration 600 25 left
+-1920 +0069FU
+0	-1520	+6472NK 266
+1	-1920	+0069FU 512
+0	-1520	+6472NK 266
+total number of nodes: 632
+iteration 800 24 left
+0	-1456	+6472NK 100
+total number of nodes: 2307
+iteration 1000 24 left
+-1584 +6472NK
+0	-1584	+6472NK 266
+total number of nodes: 12800
+iteration 1200 23 left
+low fail -5313
+0	-2770	+7675FU 451
+1	-2820	+6472NK 266
+0	-2498	+6472NK 100
+1	-2770	+7675FU 451
+0	-2484	+7675FU 100
+1	-2498	+6472NK 100
+0	-2420	+6472NK 100
+1	-2484	+7675FU 100
+0	-2398	+7675FU 100
+1	-2420	+6472NK 100
+0	-2320	+6472NK 100
+1	-2398	+7675FU 100
+0	-2270	+7675FU 100
+1	-2320	+6472NK 100
+0	-2256	+6472NK 100
+1	-2270	+7675FU 100
+0	-2228	+7675FU 100
+1	-2256	+6472NK 100
+0	-1720	+6472NK 100
+1	-2228	+7675FU 100
+0	-1720	+6472NK 100
+total number of nodes: 198621
+iteration 1400 11 left
+std exception time limit over
+analysis of root node
+[-1726(1300) < -1726(1100) ] 	+6472NK -7968NG +0069KI -5969RY +6777KI -0088GI 
+[-1918(1070) <    -1(  -1) ] 	+6452NK -7968NG +6655KA -6867NG *
+[-1934(1300) < -2228(1100) ] 	+7675FU -7968NG +2187UM -6867NG +0049FU -5949RY +0039KI -4979RY +6472NK -7172KI +0064KE *
+[-2884(1100) < -2884( 688) ] 	+0069FU -5968RY +0085KE -6867RY +6693UM -8293GI +8593KE -0078GI *
+[-2920(1100) < -2920( 689) ] 	+2154UM -7968GI +0079KE -5979RY +6768KI -7968RY +6472NK -6866RY +7282NK *
+Chose:	+6472NK
+Used:	25
+Time Left:	473
+analysis of a node after the best move
+[-1726(1000) < -1726(1200) ] 	-7968NG +0069KI -5969RY +6777KI -0088GI 
+[-1670( 774) <    -1(  -1) ] 	-5556FU +6756KI -7968NG +7282NK *
+[-1584(1001) < -1028( 401) ] 	-7172KI +6838HI -3536FU +0037FU -3637TO +3818HI -3727TO +6655KA -2718TO *
+[-1584( 999) < -1584( 800) ] 	-5968RY +7282NK -7182KI +0092GI -9192OU *
+[-1520( 771) <    -1(  -1) ] 	-8786KI *
+oracle p 59702 u 279974
+search p   542 u 122129 d 42518
+oracles 558 0 1182 0
+~CheckmateSearcher (-) 1841365/2164833/3000000
+~CheckmateSearcher (+) 115010/126928/3000000
+SimpleHashTable size: 1296244, cache hit 570734, table full 0
+P1-OU * -KI *  *  *  * +UM * 
+P2 * -GI+NK *  *  *  *  *  * 
+P3-KY-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 *  *  *  * -FU * -FU *  * 
+P6+KY+FU+FU+KA+FU * +FU * +FU
+P7 * -KI * +KI *  *  *  *  * 
+P8+FU *  * +HI *  *  *  *  * 
+P9+OU+KE-GI * -RY *  *  * +KY
+P-00FU
+P-00FU
+P-00FU
+P+00FU
+P+00FU
+P+00KE
+P+00KE
+P-00GI
+P-00GI
+P+00KI
+-
+
+evaluated value = 1444
+-0088GI
+Op used:	2 (879)
+P1-OU * -KI *  *  *  * +UM * 
+P2 * -GI+NK *  *  *  *  *  * 
+P3-KY-FU *  *  *  * +TO * -KY
+P4-FU * -FU *  *  *  *  * -FU
+P5 *  *  *  * -FU * -FU *  * 
+P6+KY+FU+FU+KA+FU * +FU * +FU
+P7 * -KI * +KI *  *  *  *  * 
+P8+FU-GI * +HI *  *  *  *  * 
+P9+OU+KE-GI * -RY *  *  * +KY
+P-00FU
+P-00FU
+P-00FU
+P+00FU
+P+00FU
+P+00KE
+P+00KE
+P-00GI
+P+00KI
++
+
+evaluated value = 1316
+iteration 600 20 left
+iteration 800 20 left
+iteration 1000 20 left
+iteration 1200 20 left
+iteration 1400 20 left
+iteration 1600 20 left
+iteration 1800 20 left
+iteration 2000 20 left
+final iteration 2200 20 left
+負けました
+~CheckmateSearcher (-) 34023/53976/3000000
+SimpleHashTable size: 1, cache hit 8, table full 0

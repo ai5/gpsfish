@@ -1,0 +1,14 @@
+2015-05-05T15:25:43.508370 status=4 elapsed 11398 msec-max 8000
+root - -29975 -1617TO+2737OU-3928UM+3748OU-2839UM+4858OU-0057GI+6957KE-7377RY+0012KI-1112KY+0011KI-2111OU+0068GI-0059KI (15 21) 154k [1] solved (21.6s)
+P1-KY-KE *  *  *  * -GI-OU-KY
+P2 *  *  * +RY+TO * -KI *  * 
+P3-FU * -HI *  *  * -GI-FU * 
+P4 *  *  *  * -FU-FU *  *  * 
+P5+FU+FU *  * -KE *  *  *  * 
+P6 *  *  *  * +FU * +FU+FU-FU
+P7 *  * +FU *  * -KE * +OU+KY
+P8 *  *  *  *  *  * +GI+GI * 
+P9+KY *  * +KE *  * -KA *  * 
+P+00KA00KI00KI00FU00FU
+P-00KI00FU00FU00FU00FU
+-

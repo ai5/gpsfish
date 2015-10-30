@@ -1,0 +1,14 @@
+2015-05-05T15:26:44.948537 status=4 elapsed 10263 msec-max 8000
+root - -29999 -0068HI (1 0) 0k NC solved
+P1-KY-KE *  *  *  * -GI-OU-KY
+P2 *  *  *  * +TO * -KI *  * 
+P3-FU * -HI *  *  * -GI-FU * 
+P4 *  *  *  * -FU-FU *  *  * 
+P5+FU+FU *  *  *  *  *  *  * 
+P6 *  *  *  * +FU * +FU+FU * 
+P7 *  * +FU+OU+KE-KE *  * -TO
+P8 *  *  *  *  *  * +GI-UM * 
+P9+KY *  *  * -GI *  *  *  * 
+P+00KA00KI00KI00KI00KE00KY00FU00FU
+P-00HI00FU00FU00FU00FU
+-

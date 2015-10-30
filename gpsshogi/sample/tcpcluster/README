@@ -1,0 +1,10 @@
+./csagame -u gpsshogi_expt -p gps-1500-0,password --limit-total-seconds 900 --send-pv 1 --games 1 --slaves 24 --ponder 1 --slave-tlp 1 -N8 
+
+output:
+main log: ./cluster-log
+game log: ./Year/MonthDay/hh-mm-ss/
+slave log: ./io/... (better to use /dev/shm?)
+
+bin/
+usiserver:
+stdio-bridge: shell (sdtio) <-> one tcp client (for debug)

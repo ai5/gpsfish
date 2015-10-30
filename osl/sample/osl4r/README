@@ -1,0 +1,15 @@
+OSL4R
+=====
+
+This is a Ruby extention library for OSL
+
+How To Build
+============
+
+% cd ext
+% ruby extconf.rb
+% make
+% make check
+% make check-all
+% make install 
+

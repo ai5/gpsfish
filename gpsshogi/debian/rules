@@ -1,0 +1,45 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+DEB_MAKE_CLEAN_TARGET   = clean
+DEB_MAKE_BUILD_TARGET   = all
+DEB_MAKE_INSTALL_TARGET = 
+DEB_MAKE_CHECK_TARGET   =
+
+so_ver=1
+
+DEB_DBG_PACKAGE_gpsshogi = gpsshogi-dbg
+DEB_INSTALL_DIRS_gpsshogi += usr/games
+DEB_INSTALL_MANPAGES_gpsshogi += debian/gpsusi.1 debian/gpsshogi.1 
+
+DEB_INSTALL_DIRS_gpsshogi_data += usr/share/gpsshogi-data/data
+
+build/gpsshogi::
+	$(MAKE) -C bin OSL_HOME=/usr/share/libosl-dev OSL_HOME_FLAGS=-DOSL_HOME=\\\"/usr/share/gpsshogi-data\\\" FILE_TCMALLOC=-ltcmalloc_minimal FILE_OSL_ALL='' LDLIBS='-losl -lboost_system-mt -lboost_filesystem-mt' RELEASE=t gpsshogi gpsusi
+	help2man -n "GPSShogi for XShogi and the CSA protocol" --no-info \
+	  $(CURDIR)/bin/gpsshogi > $(CURDIR)/debian/gpsshogi.1
+	help2man -n "GPSShogi for the USI protocol" --no-info \
+	  $(CURDIR)/bin/gpsusi > $(CURDIR)/debian/gpsusi.1
+
+binary-install/gpsshogi::
+	for file in gpsusi gpsshogi ; do \
+	  chrpath --delete $(CURDIR)/bin/$$file ; \
+	done
+	dh_install -p$(cdbs_curpkg) --sourcedir=bin gpsshogi gpsusi usr/games
+
+binary-install/gpsshogi-data::
+	dh_install -p$(cdbs_curpkg) --sourcedir=data joseki.dat usr/share/$(cdbs_curpkg)/data
+	dh_install -p$(cdbs_curpkg) --sourcedir=data -X.pl -X.svn rating usr/share/$(cdbs_curpkg)/data
+	for file in \
+	  sibling-attack.pair test-eval.txt test-eval-info.txt \
+	  test-progress.txt test-progress-info.txt \
+	  ; \
+	do \
+	  dh_install -p$(cdbs_curpkg) --sourcedir=data $$file usr/share/$(cdbs_curpkg)/data ; \
+	done
+
+clean::
+	$(MAKE) -C bin OSL_HOME=/usr/share/libosl-dev clean
+	-rm -f $(CURDIR)/debian/*.1
+

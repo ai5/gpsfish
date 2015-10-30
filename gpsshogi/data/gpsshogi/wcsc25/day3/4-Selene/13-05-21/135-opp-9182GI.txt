@@ -1,0 +1,16 @@
+2015-05-05T13:31:31.816043 status=4 elapsed 3998 msec-max 7352
+root + -29994 +9182GI-7182KI+2726FU-1415FU+1627OU-4637UM+2937KE (7 2) 83k solved 3.7s (3.7s)
+  +9182GI - -29994 -7182KI+2726FU-1415FU+1627OU-4637UM+2937KE (6 1) 49k solved 3.8s (3.8s)
+  others  + -29994 +2726FU-1415FU+1627OU-4637UM+2937KE (5 5) 24k [6] solved (3.7s)
+  +1625OU - -29995 -0024GI+2516OU (2 5) 9k [10] solved (3.7s)
+P1+GI * -KI-FU *  * -KY * -KY
+P2-FU *  *  *  *  *  * -KI * 
+P3-OU+KE-FU-KI-FU *  * -FU * 
+P4 * -FU *  *  * -KE *  * -FU
+P5-KY * +FU *  *  * +KE *  * 
+P6 * +HI+KI *  * -KA+GI * +OU
+P7 *  *  *  *  * -UM+FU+FU+FU
+P8 *  *  * -HI *  *  *  *  * 
+P9 *  *  *  *  *  * +GI+KE+KY
+P-00GI00FU00FU00FU00FU00FU00FU00FU
++

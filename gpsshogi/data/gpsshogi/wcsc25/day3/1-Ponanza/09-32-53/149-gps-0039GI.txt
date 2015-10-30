@@ -1,0 +1,15 @@
+2015-05-05T09:58:14.555178 status=3 elapsed 92 msec-max 6751
+root + -29999 +0039GI-4939RY (2 1) 0k solved 0.1s
+  +0039GI - -29999 -4939RY (1 0) 0k NC solved
+P1-KY *  *  *  *  *  *  * -KY
+P2 *  *  *  * -KI *  *  *  * 
+P3 *  *  *  * -FU-FU *  *  * 
+P4-FU * -FU-OU *  *  * -FU-FU
+P5 *  *  * -KE *  * +GI *  * 
+P6 *  *  * -KA *  *  *  *  * 
+P7+FU *  *  *  *  * -UM+HI+FU
+P8 *  *  *  * +FU *  *  *  * 
+P9+KY *  *  *  * -RY * +OU+KY
+P+00GI00GI00KE00KE00KE
+P-00KI00KI00KI00GI00FU00FU00FU00FU00FU00FU00FU00FU00FU
++

@@ -1,0 +1,283 @@
+' ------ CSA Œ`Ž®Šû•ˆƒtƒ@ƒCƒ‹
+' ----------- created by ŒƒŽw
+N+ROBOT
+N-GPSSHOGI
+' ---------------------- ”Õ–Ê
+' -9--8--7--6--5--4--3--2--1-
+P1-KY-KE-GI-KI-OU-KI-GI-KE-KY
+P2 * -HI *  *  *  *  * -KA * 
+P3-FU-FU-FU-FU-FU-FU-FU-FU-FU
+P4 *  *  *  *  *  *  *  *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6 *  *  *  *  *  *  *  *  * 
+P7+FU+FU+FU+FU+FU+FU+FU+FU+FU
+P8 * +KA *  *  *  *  * +HI * 
+P9+KY+KE+GI+KI+OU+KI+GI+KE+KY
+' -------------------- Ž‚¿‹î
+' ---------------------- Žè”Ô
++
+' ---------- Žw‚µŽè‚Æl—¶ŽžŠÔ
++2726FU
+T28
+'<analyze>0 £‚Q˜Z•à ’èÕŽè</analyze>
+-3334FU
+T1
+'<analyze>0 ¢‚RŽl•à ’èÕŽè</analyze>
++2625FU
+T1
+'<analyze>0 £‚V˜Z•à ’èÕŽè</analyze>
+-2233KA
+T1
+'<analyze>0 ¢‚RŽOŠp ’èÕŽè</analyze>
++3948GI
+T1
+'<analyze>0 £‚V˜Z•à ’èÕŽè</analyze>
+-4344FU
+T1
+'<analyze>0 ¢‚R“ñ‹à ’èÕŽè</analyze>
++7776FU
+T1
+'<analyze>0 £‚T˜Z•à ’èÕŽè</analyze>
+-8242HI
+T1
+'<analyze>0 ¢‚R“ñ‹â ’èÕŽè</analyze>
++5968OU
+T1
+'<analyze>0 £‚U”ª‹Ê ’èÕŽè</analyze>
+-3132GI
+T1
+'<analyze>0 ¢‚XŽl•à ’èÕŽè</analyze>
++6878OU
+T1
+'<analyze>0 £‚V”ª‹Ê ’èÕŽè</analyze>
+-5162OU
+T1
+'<analyze>0 ¢‚V“ñ‹â ’èÕŽè</analyze>
++5756FU
+T1
+'<analyze>0 £‚T˜Z•à ’èÕŽè</analyze>
+-6272OU
+T1
+'<analyze>0 ¢‚V“ñ‹Ê ’èÕŽè</analyze>
++3736FU
+T1
+'<analyze>0 £‚X˜Z•à ’èÕŽè</analyze>
+-7282OU
+T1
+'<analyze>0 ¢‚W“ñ‹Ê ’èÕŽè</analyze>
++4958KI
+T1
+'<analyze>0 £‚U”ª‹â ’èÕŽè</analyze>
+-7172GI
+T1
+'<analyze>0 ¢‚V“ñ‹â ’èÕŽè</analyze>
++7968GI
+T1
+'<analyze>0 £‚U”ª‹â ’èÕŽè</analyze>
+-4152KI
+T1
+'<analyze>0 ¢‚T“ñ‹à¶ ’èÕŽè</analyze>
++6857GI
+T1
+'<analyze>0 £‚X˜Z•à ’èÕŽè</analyze>
+-9394FU
+T1
+'<analyze>0 ¢‚XŽl•à ’èÕŽè</analyze>
++9796FU
+T1
+'<analyze>0 £‚X˜Z•à ’èÕŽè</analyze>
+-3243GI
+T1
+'<analyze>0 ¢‚SŽO‹â ’èÕŽè</analyze>
++4837GI
+T1
+'<analyze>0 £‚S˜Z‹â ’èÕŽè</analyze>
+-5354FU
+T1
+'<analyze>0 ¢‚TŽl•à ’èÕŽè</analyze>
++6968KI
+T1
+'<analyze>0 £‚U”ª‹àã ’èÕŽè</analyze>
+-1112KY
+T1
+'<analyze>0 ¢‚P“ñ ’èÕŽè</analyze>
++4746FU
+T1
+'<analyze>-52 £‚Q˜Z‹â ’èÕŽè</analyze>
+-6364FU
+T1
+'<analyze>-62 ¢‚VŽl•à £‚U˜ZŠp ¢‚UŽl•à £‚W”ª‹Ê ¢‚UŒÜ•à £‚VŽµŠp ¢ƒpƒX £ƒpƒX</analyze>
++1716FU
+T1
+'<analyze>-83 £‚U˜Z•à ¢‚VŽl•à £‚UŽµ‹à’¼ ¢‚UŽO‹à £‚V‹ãŠp ¢‚PŽl•à £‚W”ª‹Ê ¢ƒpƒX £ƒpƒX</analyze>
+-1314FU
+T1
+'<analyze>-83 ¢‚PŽl•à £‚VŽµ‹à</analyze>
++3726GI
+T1
+'<analyze>-88 £‚VŽµ‹à ¢‚UŽO‹à £‚V‹ãŠp ¢‚VŽl•à £‚W”ª‹Ê ¢‚T“ñ‹â £ƒpƒX ¢ƒpƒX</analyze>
+-4232HI
+T1
+'<analyze>-55 ¢‚UŽO‹à £‚U˜ZŠp ¢‚T“ñ‹â £‚RŽµŒj ¢‚VŽl•à £‚W”ª‹Ê ¢ƒpƒX £ƒpƒX</analyze>
++3635FU
+T1
+'<analyze>-152 £‚U˜ZŠp ¢ƒpƒX £‚W”ª‹Ê ¢‚UŒÜ•à £‚VŽµŠp ¢‚UŽO‹à £ƒpƒX ¢ƒpƒX</analyze>
+-3351KA
+T1
+'<analyze>-101 ¢“¯@•à £“¯@‹â ¢‚SŒÜ•à £‚U˜Z•à ¢‚Q“ñŠp £‚R”ª”ò ¢‚S˜Z•à £“¯‹âã ¢ƒpƒX £ƒpƒX</analyze>
++3534FU
+T1
+'<analyze>-117 £‚RŽl•à ¢“¯@”ò £‚RŒÜ•à ¢‚R“ñ”ò £‚U˜ZŠp</analyze>
+-3234HI
+T11
+'<analyze>-108 ¢“¯@”ò £‚RŒÜ•à ¢‚R“ñ”ò £‚U˜ZŠp</analyze>
++0035FU
+T1
+'<analyze>-121 £‚RŒÜ•à ¢‚R“ñ”ò £‚U˜ZŠp</analyze>
+-3432HI
+T8
+'<analyze>-121 ¢‚R“ñ”ò £‚U˜ZŠp</analyze>
++4645FU
+T1
+'<analyze>-350 £‚U˜ZŠp ¢‚UŒÜ•à £‚VŽµŠp ¢‚S“ñŠp £‚W”ª‹Ê ¢‚RŽOŒj £ƒpƒX ¢ƒpƒX</analyze>
+-4445FU
+T7
+'<analyze>-220 ¢“¯@•à £‚U˜ZŠp ¢‚RŽOŠp £‚W”ª‹Ê ¢‚U˜ZŠp £“¯@•à ¢ƒpƒX £ƒpƒX</analyze>
++8811UM
+T1
+'<analyze>-369 £‚S”ª”ò ¢‚RŽl•à £“¯@•à ¢‚U“ñŠp £‚PŽµ‹â ¢‚RŽl”ò £‚PˆêŠp¬ ¢‚R‹ã”ò¬ £‚Qˆê”n ¢‚Q‹ã—´ £‚P“ñ”n</analyze>
+-5133KA
+T9
+'<analyze>-303 ¢‚RŽOŠp £“¯@”n ¢“¯@Œj £‚W”ª‹Ê ¢‚UŽO‹à £‚V”ª‹à ¢ƒpƒX £ƒpƒX</analyze>
++1121UM
+T1
+'<analyze>-762 £“¯@”n ¢“¯@Œj £‚RŽµ‹â ¢‚SŽlŠp £‚VŽµ‹à ¢‚RŒÜŠp £‚W”ª‹Ê ¢ƒpƒX £ƒpƒX</analyze>
+-3399UM
+T6
+'<analyze>-786 ¢‚X‹ãŠp¬ £‚W”ªŒj ¢‚S“ñ”ò £‚RŽµŒj ¢‚S˜Z•à £‚VŽµŒj ¢ƒpƒX</analyze>
++8977KE
+T9
+'<analyze>-744 £‚W”ªŒj ¢‚UŽO‹à £‚RŽµŒj ¢‚S˜Z•à £‚RŽl•à ¢‚SŽµ•à¬ £“¯@‹à ¢ƒpƒX £ƒpƒX</analyze>
+-0031FU
+T8
+'<analyze>-706 ¢‚U“ñ‹àŠñ £‚R“ñ”n ¢“¯@‹â £‚S“ñ”ò ¢‚Qˆê‹â £‚SŒÜ”ò¬ ¢‚X”ª”n £‚TŽl—´ ¢ƒpƒX £ƒpƒX</analyze>
++1615FU
+T13
+'<analyze>-842 £‚S”ª”ò ¢‚XŒÜ•à £“¯@•à ¢‚XŽµ•à £‚U‹ã‹Ê ¢‚SŽl‹â £‚XŽlŒj ¢“¯@ £“¯@•à ¢‚X”ª•à¬</analyze>
+-1415FU
+T16
+'<analyze>-868 ¢‚XŒÜ•à £“¯@•à ¢‚X˜Z•à £‚U‹ã‹Ê ¢‚XŽµ•à¬ £‚XŽlŒj ¢“¯@ £“¯@•à ¢‚PŒÜ•à £‚V”ª‹à</analyze>
++6766FU
+T42
+'<analyze>-1020 £‚Pˆê”n ¢‚TŽO‹à £‚RŽµŒj ¢‚SŽl‹â £‚U‹ã‹Ê ¢‚W”ª”n £‚V‹ãŒj ¢‚P˜Z•à £‚Qˆê”n ¢ƒpƒX</analyze>
+-0088KY
+T50
+'<analyze>-1040 ¢‚XŒÜ•à £“¯@•à ¢‚XŽµ•à £‚UŽµ‹Ê ¢‚XŒÜ £‚XŽl•à ¢‚X”ª•à¬ £ƒpƒX ¢‚XŽµ¬ £‚V”ª‹à</analyze>
++2132UM
+T9
+'<analyze>-1006 £‚UŽµ‹Ê ¢‚W‹ã¬ £‚R“ñ”n ¢“¯@•à £‚Qˆê”ò ¢‚W”ª¬ £‚QŽO”ò¬ ¢‚WŽµ¬ £‚P“ñ—´ ¢ƒpƒX £‚PŒÜ</analyze>
+-4332GI
+T48
+'<analyze>-865 ¢“¯@•à £‚Pˆê”ò ¢‚XŒÜ•à £“¯@•à ¢‚X˜Z•à £‚UŽµ‹Ê ¢‚XŽµ•à¬ £‚P“ñ”ò¬ ¢‚WŽµ‚Æ £‚PŒÜ—´ ¢‚XŒÜ</analyze>
++0011HI
+T11
+'<analyze>-813 £‚Pˆê”ò ¢‚W‹ã¬ £‚UŽµ‹Ê ¢‚W”ª¬ £‚P“ñ”ò¬ ¢‚WŽµ¬ £‚PŒÜ—´ ¢ƒpƒX £ƒpƒX</analyze>
+-5455FU
+T12
+'<analyze>-676 ¢‚SŽO‹â £‚UŽµ‹Ê ¢‚W‹ã¬ £‚W˜Z•à ¢‚W”ª¬ £‚WŒÜ•à ¢‚WŽµ¬ £‚P“ñ”ò¬ ¢ƒpƒX £‚PŒÜ—´</analyze>
++1112RY
+T8
+'<analyze>-1021 £‚UŽµ‹Ê ¢‚W‹ã¬ £‚TŒÜ•à ¢‚W”ª¬ £‚P“ñ”ò¬ ¢‚WŽµ¬ £‚PŒÜ—´ ¢ƒpƒX £ƒpƒX</analyze>
+-5556FU
+T10
+'<analyze>-946 ¢‚T˜Z•à £‚S”ª‹â ¢‚X”ª”n £‚U‹ã‹Ê ¢‚W‹ã¬ £‚T‹ã‹Ê ¢‚V‹ã¬ £‚W˜Z•à ¢‚V˜Z”n £‚PŒÜ—´ ¢‚U˜Z”n</analyze>
++5748GI
+T21
+'<analyze>-889 £‚S”ª‹â ¢‚XŒÜ•à £“¯@•à ¢‚XŽµ•à £‚UŽµ‹Ê ¢‚X”ª•à¬ £‚PŒÜ—´ ¢‚XŒÜ £ƒpƒX ¢ƒpƒX</analyze>
+-0098KA
+T47
+'<analyze>-989 ¢‚W‹ã¬ £‚U‹ã‹Ê ¢‚W”ª”n £‚T‹ã‹Ê ¢‚V‹ã¬ £‚SŽlŒj ¢‚WŽµ”n £‚T“ñŒj¬ ¢“¯@‹à £‚PŒÜ—´</analyze>
++1915KY
+T17
+'<analyze>-1156 £‚SŽµ‹â ¢‚XŒÜ•à £‚U‹ã‹Ê ¢‚W‹ã¬ £‚T‹ã‹Ê ¢‚V‹ã¬ £‚XŒÜ•à ¢‚WŽµŠp¬ £‚T˜Z‹â ¢‚VŽµ”nˆø £“¯@‹à</analyze>
+-9989UM
+T13
+'<analyze>-1024 ¢‚W‹ã¬ £‚UŽµ‹Ê ¢‚W”ª¬ £‚T˜Z‹Ê ¢‚WŽµ¬ £‚WŒÜŒj ¢‚W‹ãŠp¬ £‚SŽµ‹Ê ¢‚WŽl•à £‚PŽO¬ ¢‚WŒÜ•à</analyze>
++7869OU
+T1
+'<analyze>-730 £‚U‹ã‹Ê ¢‚WŽµŠp¬ £‚T‹ã‹Ê ¢‚V‹ã”n £ƒpƒX ¢‚W‹ã¬ £‚PŽO¬ ¢‚X˜Z”n £‚QŽO¬</analyze>
+-9887UM
+T49
+'<analyze>-805 ¢‚WŽµŠp¬ £‚T‹ã‹Ê ¢‚V˜Z”n £‚S‹ã‹Ê ¢‚UŽO‹à £‚UŽµ ¢ƒpƒX £‚PŽO¬ ¢‚QŽl•à £“¯@•à</analyze>
++6959OU
+T12
+'<analyze>-729 £‚T‹ã‹Ê ¢‚U“ñ‹àŠñ £‚UŒÜ•à ¢‚V‹ã”n £‚UŽl•à ¢‚UŽO•à £“¯•à¬ ¢“¯@‹à £‚PŽO¬ ¢‚W‹ã¬ £‚QŽO¬</analyze>
+-8776UM
+T45
+'<analyze>-739 ¢‚V˜Z”n £‚S‹ã‹Ê ¢‚S˜Z•à £‚UŽµ ¢‚TŽl”n £‚UŒÜ•à ¢‚P”ª•à £‚UŽl•à ¢‚P‹ã•à¬ £‚UŽO•à¬ ¢“¯@‹â</analyze>
++0044KE
+T10
+'<analyze>-968 £‚RŽµ‹âˆø ¢‚V‹ã”n £‚QŽl•à ¢‚W‹ã¬ £‚QŽO•à¬ ¢‚SŽO‹â £‚UŽµ ¢ƒpƒX £‚PŽO¬ ¢ƒpƒX</analyze>
+-7666UM
+T24
+'<analyze>-721 ¢‚UŽO‹à £‚R“ñŒj¬ ¢“¯@•à £‚RŽµ‹âˆø ¢‚S˜ZŒj £“¯@‹â ¢“¯@•à £‚UŽµ ¢‚V‹ã‹â £‚QŽO—´ ¢‚U”ª‹â¬</analyze>
++4452NK
+T6
+'<analyze>-782 £‚T“ñŒj¬ ¢“¯@‹à £‚UŽµ‹à‘Å ¢‚TŒÜ”n £‚RŽµ‹âˆø ¢‚U˜ZŒj £‚SŽµ‹à ¢‚V”ªŒj¬ £‚T˜Z‹à‰E ¢‚U”ª¬Œj £‚TŒÜ‹à</analyze>
+-6152KI
+T14
+'<analyze>-856 ¢“¯@‹à £‚UŽµ‹à‘Å ¢‚XŽO”n £‚RŽµ‹âˆø ¢‚U˜ZŒj £‚WŒÜŒj ¢‚T”ªŒj¬ £“¯@‹à ¢‚VŒÜ”n £‚WŽµ</analyze>
++2637GI
+T18
+'<analyze>-1154 £‚WŽl•à ¢‚V˜ZŒj £‚WŽO•à¬ ¢“¯@‹â £‚S‹ã‹Ê ¢‚UŽO‹à £‚UŽµ‹à‘Å ¢‚U”ªŒj¬ £“¯‹àˆø ¢ƒpƒX</analyze>
+-0076KE
+T16
+'<analyze>-1147 ¢‚V˜ZŒj £‚U‹ã‹à ¢‚VŽµ”n £‚S‹ã‹Ê ¢‚TŽµŒj £“¯@‹â ¢“¯•à•s¬ £“¯@‹à ¢ƒpƒX £ƒpƒX</analyze>
++0054KY
+T10
+'<analyze>-1589 £‚UŽµ‹à‘Å ¢‚U”ªŒj¬ £“¯‹àˆø ¢‚V”ª‹à £‚TŽO•à ¢“¯@‹à £‚UŽµ‹à‰E ¢‚U”ª‹à £“¯@‹à</analyze>
+-7668NK
+T8
+'<analyze>-1607 ¢‚UŽO‹à £‚S‹ã‹Ê ¢‚U”ªŒj¬ £“¯@‹à ¢‚V˜Z”n £‚UŽµ•à ¢‚TŽl”n £‚R”ªŒj ¢ƒpƒX £ƒpƒX</analyze>
++5868KI
+T1
+'<analyze>-1523 £“¯@‹à ¢‚UŽO‹à £‚S‹ã‹Ê ¢‚V˜Z”n £‚UŽµ•à ¢‚TŽl”n £‚R”ªŒj ¢‚S˜Z £“¯@Œj ¢“¯@•à £“¯@‹â</analyze>
+-0067KI
+T12
+'<analyze>-1885 ¢‚UŽO‹à £‚S‹ã‹Ê ¢‚UŽµ‹à £‚T”ª‹à‘Å ¢“¯@‹à £“¯@‹à ¢‚VŽµ”n £‚T“ñ¬ ¢ƒpƒX £ƒpƒX</analyze>
++6867KI
+T9
+'<analyze>-2599 £‚U‹ã‹à‘Å ¢‚U“ñ‹à £‚WŽl•à ¢“¯@•à £‚T”ª‹àã ¢“¯@‹à £“¯@‹à ¢‚V”ª”n £‚U‹ãŒj ¢‚W‹ã¬</analyze>
+-8967UM
+T35
+'<analyze>-2426 ¢“¯”nˆø £‚T”ª‹à ¢‚VŽµ”nã £‚S‹ã‹Ê ¢‚T”ª”n £“¯@‹Ê ¢‚U“ñ‹à £‚Tˆê¬ ¢‚W‹ã¬ £‚PŽO¬</analyze>
++0058KI
+T16
+'<analyze>-2819 £‚T”ª‹à ¢‚TŽµ‹à £‚U‹ã‹à ¢‚Pˆê•à £“¯@—´ ¢‚VŽµ”nŠñ £‚S‹ã‹Ê ¢‚Pˆê”n £“¯¬ ¢‚T”ª‹à £“¯@‹à</analyze>
+-6677UM
+T18
+'<analyze>-2264 ¢‚VŽµ”nã £‚S‹ã‹Ê ¢‚TŽµŒj £“¯@‹â ¢“¯•à¬ £‚UŽµ‹à ¢“¯@”n £‚R‹ã‹Ê ¢‚S‹ã‹à £‚R”ª‹Ê ¢‚TŽO•à £‚PŽl—´ ¢‚TŽl•à</analyze>
++0068KI
+T1
+'<analyze>-99983 £‚S‹ã‹Ê ¢‚S˜ZŒj £“¯@‹â ¢“¯@•à £‚UŽµ‹à ¢“¯@”n £‚R”ª‹Ê ¢‚TŽµ•à¬ £“¯@‹â ¢“¯@”n £‚T“ñ¬</analyze>
+-7768UM
+T1
+'<analyze>-99985 ¢“¯”n‰E £‚S‹ã‹Ê ¢‚T”ª”nŠñ £‚R”ª‹Ê ¢‚S‹ã”n £‚SŽµ‹Ê ¢‚S˜Z‹à £“¯@‹â ¢‚T”ª”nã £‚T˜Z‹Ê ¢‚UŒÜ‹à £‚SŒÜ‹Ê ¢‚SŽl‹à £“¯@‹Ê ¢‚SŽO‹à £‚SŒÜ‹Ê ¢‚RŽOŒj</analyze>
++5868KI
+T1
+'<analyze>-99991 £‚S‹ã‹Ê ¢‚T”ª”nŠñ £‚R”ª‹Ê ¢‚S‹ã”n £‚SŽµ‹Ê ¢‚S˜Z‹à £“¯@‹â ¢‚T”ª”nã £‚T˜Z‹Ê ¢‚UŒÜ‹à £‚SŒÜ‹Ê ¢‚SŽl‹à £“¯@‹Ê ¢‚SŽO‹à £‚SŒÜ‹Ê ¢‚RŽOŒj</analyze>
+-0049KI
+T1
+'<analyze>-99993 ¢‚S‹ã‹à £‚U‹ã‹Ê ¢‚VŽµŒj £‚V‹ã‹Ê ¢‚W‹ã¬</analyze>
++5969OU
+T1
+'<analyze>-99995 £‚U‹ã‹Ê ¢‚VŽµŒj £‚V‹ã‹Ê ¢‚W‹ã¬</analyze>
+-0077KE
+T1
+'<analyze>-99997 ¢‚VŽµŒj £‚V‹ã‹Ê ¢‚W‹ã¬</analyze>
++6877KI
+T1
+'<analyze>-99998 £‚V‹ã‹Ê ¢‚W‹ã¬</analyze>
+-0068KI
+T1
+'<analyze>-99999 ¢‚U”ª‹à £ƒpƒX</analyze>

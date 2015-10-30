@@ -1,0 +1,59 @@
+# twitter-clj
+
+Twitter bot using gpsusi, which tweets messages as soon as it finds new
+moves (PVs). 
+
+## Install
+
+    $ sudo apt-get install openjdk-7-jdk
+
+    $ cd ~/bin
+    $ wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein 
+    $ chmod u+w lein
+
+## Usage
+
+This package consists of two commands: the USI converter and Twitter bot.
+
+### USI converter
+
+This converts moves in a *.kif file to ones in the USI format.
+
+   % lein trampoline run :usi_converter --help
+   % lein trampoline run :usi_converter -f target.kif
+
+### Twitter bot
+
+It reads keys required to post messages by Twitter from the fllowing
+environment variables:
+
+    GPSUSI_CONSUMER_KEY
+    GPSUSI_CONSUMER_SECRET
+    GPSUSI_ACCESS_TOKEN
+    GPSUSI_TOKEN_SECRET
+
+Chain of the USI converter and Twitter bot
+   
+   % lein trampoline run --help
+   % lein trampoline run :usi_converter --start 31 -f ./target.kif | \
+     lein trampoline run --gpsusi ../../gpsshogi/bin/gpsusi
+   % lein trampoline run :usi_converter --start 13 -f ./target.kif | \
+     lein trampoline run --force-think 45 --gpsfish ../../../gpsfish_dev/src/gpsfish --gpsusi ../../../gpsshogi/bin/gpsusi
+
+## License
+
+Copyright (C) 2011 Team GPS.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA

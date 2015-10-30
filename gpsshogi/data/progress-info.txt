@@ -1,0 +1,10 @@
+#* all
+Effect5x3Features 5000
+ProgressPieceStand 40
+Effect5x5Features 16950
+ProgressPieceKingRelative 4284
+ProgressNonPawnAttackedPtypePair 262144
+ProgressPawnFacing 10
+ProgressPromotion37 16
+ProgressPieceStand7 56
+MaxProgress 1

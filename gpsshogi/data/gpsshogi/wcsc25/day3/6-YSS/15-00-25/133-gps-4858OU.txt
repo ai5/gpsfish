@@ -1,0 +1,16 @@
+2015-05-05T15:26:04.193272 status=3 elapsed 103 msec-max 8000
+root + -29987 +4858OU-0067KI+6267RY-5567NK+5867OU-0068HI+6757OU-6848RY+5766OU-0065FU+6665OU (11 1) 12k solved 19.6s (19.6s)
+  +4858OU - -29987 -0067KI+6267RY-5567NK+5867OU-0068HI+6757OU (10 6) 9k [1] solved (19.6s)
+  others  + -29994 +4857OU-2839UM+5746OU (3 5) 3k [6] solved (19.6s)
+P1-KY-KE *  *  *  * -GI-OU-KY
+P2 *  *  * +RY+TO * -KI *  * 
+P3-FU * -HI *  *  * -GI-FU * 
+P4 *  *  *  * -FU-FU *  *  * 
+P5+FU+FU *  * -KE *  *  *  * 
+P6 *  *  *  * +FU * +FU+FU * 
+P7 *  * +FU *  * -KE *  * -TO
+P8 *  *  *  *  * +OU+GI-UM * 
+P9+KY *  * +KE-GI *  *  *  * 
+P+00KA00KI00KI00FU00FU
+P-00KI00KY00FU00FU00FU00FU
++

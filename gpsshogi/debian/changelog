@@ -1,0 +1,5 @@
+gpsshogi (0.2.0-1) unstable; urgency=low
+
+  * Initial release. (Closes: #567621)
+
+ -- Daigo Moriwaki <daigo@debian.org>  Sat, 30 Jan 2010 18:48:02 +0900

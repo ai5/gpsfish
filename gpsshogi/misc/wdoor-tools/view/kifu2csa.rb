@@ -1,0 +1,98 @@
+# -*- coding: euc-jp -*-
+# $Id$
+#
+# Author:: Team GPS
+#
+#--
+# Copyright (C) 2009 Team GPS
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#++
+#
+#
+require 'nkf'
+
+class Kifu2Csa
+  @@table = {
+    '¡»'=>0, '£°'=>0,
+    '°ì'=>1, '£±'=>1,
+    'Æó'=>2, '£²'=>2,
+    '»°'=>3, '£³'=>3,
+    '»Í'=>4, '£´'=>4,
+    '¸Þ'=>5, '£µ'=>5,
+    'Ï»'=>6, '£¶'=>6,
+    '¼·'=>7, '£·'=>7,
+    'È¬'=>8, '£¸'=>8,
+    '¶å'=>9, '£¹'=>9,
+  }
+  @@piece = { 
+    'Êâ'=>"FU"   , '¹á'=>"KY"   , '·Ë'=>'KE'   , '¶ä'=>"GI" , '¶â'=>"KI" , 
+    '³Ñ'=>"KA"   , 'Èô'=>"HI"   , '²¦'=>'OU'   , '¶Ì'=>"OU" , '¤È'=>"TO" , 
+    "À®¹á"=>"NY" , "À®·Ë"=>"NK" , "À®¶ä"=>"NG" , 
+    "ÇÏ"=>"UM"   , "Î¶"=>"RY"   , "Îµ"=>"RY"   , 
+    'ÊâÀ®'=>"TO" , "¹áÀ®"=>"NY" , "·ËÀ®"=>"NK" , 
+    "¶äÀ®"=>"NG" , "³ÑÀ®"=>"UM" , "ÈôÀ®"=>"RY" , 
+  }
+
+  def kifu_to_csa(kifu, enable_comment=false)
+    kifu = NKF.nkf("-Se", kifu)
+    prev = ""
+    csa = Array.new
+    comment = Array.new
+    kifu.each_line do |line|
+      case line
+      when /^ *(\d+) *([^ ]+)/
+        number = $1
+        move   = $2
+        break if /ÅêÎ»/ =~ move
+        move.sub!(/Æ±/,"#{prev}")
+        move.sub!(/¡¡/,"")
+        move.sub!(/ÂÇ/,"(00)")
+        if /^(.)(.)(.+)\((\d+)\)/ =~ move
+          csa << "'* %s" % [comment.join("¡¡")] if enable_comment
+          comment.clear
+          prev = $1 + $2
+          black_or_white = number.to_i.odd? ? '+' : '-'
+          from           = $4
+          to             = "%s%s" % [@@table[$1], @@table[$2]]
+          csa_piece      = @@piece[$3]
+          csa << black_or_white + from + to + csa_piece
+        else
+          csa << move
+        end
+      when /^\*(.+)/
+        comment << $1.strip
+      when /Àè¼ê¡§(.+)/
+        csa << "N+#$1"
+      when /¸å¼ê¡§(.+)/
+        csa << "N-#$1"
+      end
+    end
+    header = <<EOM
+P1-KY-KE-GI-KI-OU-KI-GI-KE-KY
+P2 * -HI *  *  *  *  * -KA * 
+P3-FU-FU-FU-FU-FU-FU-FU-FU-FU
+P4 *  *  *  *  *  *  *  *  * 
+P5 *  *  *  *  *  *  *  *  * 
+P6 *  *  *  *  *  *  *  *  * 
+P7+FU+FU+FU+FU+FU+FU+FU+FU+FU
+P8 * +KA *  *  *  *  * +HI * 
+P9+KY+KE+GI+KI+OU+KI+GI+KE+KY
++
+EOM
+    return header + csa.join("\n")
+  end
+
+end

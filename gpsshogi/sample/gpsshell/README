@@ -1,0 +1,29 @@
+PREREQUIRES
+===========
+
+Unless $ make MINIMAL_GPSSHELL=t
+
+- readline: ftp.gnu.org:/pub/gnu/readline/readline-5.0.tar.gz
+- Poco: http://poco.sourceforge.net/
+- The GNU Scientific Library (GSL): http://www.gnu.org/software/gsl
+  (For Debian, install by $ sudo aptitude install libgsl0-dev)
+
+For $ make ENABLE_REDIS=t,
+
+- Redis C++ Client (hiredis): https://github.com/antirez/hiredis
+  (For Debian, $ sudo aptitude install libhiredis-dev)
+- Google Logging (glog): http://code.google.com/p/google-glog/
+  (For Debian, $ sudo aptitude install libgoogle-glog-dev)   
+
+
+RECOMMEDATIONS
+==============
+
+Gekisashi's font: http://www.logos.t.u-tokyo.ac.jp/~gekisashi/download.html
+
+How to install on Debian
+
+  % sudo cp jiskan16-shogi2.pcf.gz /usr/share/fonts/X11/misc
+  % cd /usr/share/fonts/X11/misc
+  % sudo mkfontdir
+  % xset fp rehash

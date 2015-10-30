@@ -1,0 +1,25 @@
+message RecordInfo {
+  optional string category = 1;
+  required string path = 2; // relative to nodist/data
+  optional int32 sub_index = 3; // kisen etc.
+}
+message PositionInfo {
+  optional int32 win = 1;
+  optional int32 loss = 2;
+  optional int32 draw = 3;
+  repeated RecordInfo reference = 4;
+  optional double average_moves = 5;
+  optional int32 count_for_average = 6;
+  optional int32 win_by_gps = 7;
+  optional int32 loss_by_gps = 8;
+}
+
+message EvalInfo {
+  message Info {
+    required int32 depth = 1; // -1: raw, 0-8: quiesce, 300-: alphabeta
+    required int32 eval = 2;
+    optional int32 best_move = 3;
+    optional int32 node_count = 4;
+  }
+  repeated Info info = 1;
+}

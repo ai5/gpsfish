@@ -1,0 +1,261 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang=ja>
+<head>
+<title>floodgate</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-2022-JP">
+
+<LINK REV=MADE HREF="mailto:kaneko@graco.c.u-tokyo.ac.jp">
+<LINK rel="INDEX" href="./index.html">
+<link rel="shortcut icon" href="/shogi/favicon.ico" type="image/jpeg" />
+<link rel="StyleSheet" type="text/css" href="shogi.css">
+
+</head>
+<body lang=ja>
+<h1>コンピュータ将棋連続対局場所 (floodgate)</h1>
+
+<h2>これは何?</h2>
+
+<div>
+<ul>
+  <li>shogi-server 上で将棋プログラムを連続対戦させる企画。
+      2008年2月9日公開。
+  <li>対戦を重ねるとレーティングが計算される。
+  <li>開発者の方はぜひご参加下さい。目指せ<a
+      href="http://cgos.boardspace.net/">CGOS</a>?。
+  <li>持時間が少なすぎるかと思いますが、人間の方の参加も歓迎します。名前に _human を含めていただけると分かりやす
+      いです。
+
+</ul>
+</div>
+
+<h2>現在の状態</h2>
+
+<div>
+<a href="/shogi/view/latest-table.cgi?event=LATEST&amp;filter=floodgate&amp;show_self_play=1">最近の対局</a>,
+<a href="logs/LATEST/players-floodgate.html">レーティング</a>
+      (<a href="/shogi/LATEST/players-floodgate14.html">最近二週間</a>,
+      <a href="/shogi/LATEST/rating/14.html">グラフ</a>), 
+
+<a href="/shogi/view/statistics.cgi">統計情報</a>,
+<a href="floodgate-history.html">月間最多勝</a>,
+</div>
+
+<!--
+<h2>過去の棋譜</h2>
+
+<ul>
+  <li><a href="logs/floodgate2008.tar.gz">2008年全対局</a> (50620棋譜,
+      tar.gz形式, 111MB)
+</ul>
+-->
+
+<h2>参加するには?</h2>
+
+<ol>
+  <li>プログラムを<a href="http://www.computer-shogi.org">コンピュータ
+      将棋協会 (CSA)</a>規定の<a
+      href="http://www.computer-shogi.org/protocol/tcp_ip_server_112.html">TCP/IPプロトコル</a>で対戦可能にする。(<a href="http://www.computer-shogi.org/index_e.html">English</a>)
+  <li>時間制限に対応させる。現在の設定は持ち時間10分、秒読み10秒。
+  <li>サーバに接続する
+      <ul>
+
+<li>ホスト: wdoor.c.u-tokyo.ac.jp
+<li>ポート: 4081
+<li>ログイン名: 任意 (登録等は不要です)。
+    <ul>
+      <li>他のプログラムと重なると不便なので
+    なるべくオリジナルのものを。
+      <li>例: gps, gps_2cpu, gps_3sec など。
+    </ul>
+<li>パスワード: floodgate-600-10,trip
+    <ul>
+      <li>tripの部分はユーザ固有の何らかの文字列で置き換える。
+      <li>同名ユーザの区別に使うためオリジナルのものにする。
+      <li>(平文で流れるため盗聴されて困るものは使わないこと)
+    </ul>
+
+      </ul>
+  <li>毎時0分, 30分近辺で参加プログラム同士の対戦が行われる。
+  <li>終了後はログアウト状態に戻る。<br>
+      <span style="color:red">不具合: 2/9現在の実装では、プロトコル1.1
+      の仕様と異なり、
+      LOGOUT:completedがクライアントに送信されません。対策検討中です。
+      
+      ご迷惑をおかけして申し訳ありません。</span>
+  <li>1に戻り再び接続する。(手動でも問題ないが自動にしておく方が便利)
+  <li>15試合程度でレーティングが計算される。
+</ol>
+
+<h2>参加するには? (拡張モードの場合)</h2>
+
+<ol>
+  <li>ログイン時のパスワードは任意。floodgate-600-10のような<a href="http://shogi-server.sourceforge.jp/protocol.html#gamename">gamename</a> を含める必要はなく、上記CSAモードにおけるtripに相当する部分だけでよい。
+  <li><a
+      href="http://shogi-server.sourceforge.jp/protocol.html#pp-game">%%GAME</a>の際の
+<a href="http://shogi-server.sourceforge.jp/protocol.html#gamename">gamename</a>
+をfloodgate-600-10にして対局する。手番の指定はできないので "*" とする。
+  <li>終了後は connected 状態に戻るので、また%%GAMEコマンドにより
+      対局を繰り返す。
+  <li>対局開始が毎時0,30になる他は、拡張モードでの対局と同じ。
+</ol>
+
+<h2>参加するには? (人間が指す場合)</h2>
+
+<ul>
+  <li><a href="view/81SquareShogi/">フラッシュクライアント</a>
+  <li>外部のクライアント:以下の記述は筆者が試したわけではないので誤りがある可能性があります
+<ul>
+  <li><a href="http://www.junichi-takada.jp/sficp/">SFICP</a>のJava
+      アプリケーションを利用する 「人間側の手番では10秒毎にビープ音が
+      鳴ります」とのこと
+  <li><a href="http://www.geocities.jp/shogidokoro/">将棋所</a>を使う
+  <li><a href="http://www.geocities.jp/shogi_depot/">プチ将棋</a>を使う 
+</ul>
+</ul>
+
+<h2><a name="floodgate-9000-45">参加するには? (長時間モードの場合)</a></h2>
+
+<p><span class="warning">長時間モードは不定期開催で、持ち時間や開始時
+刻はその都度変わります。</span>(以下は過去の2時間半モードでの事例)</p>
+<ul>
+  <li>floodgate-900-0の部分をfloodgate-9000-45 に置き換えます。
+  <li>試合開始の定刻は、1,7,13,19時です。待っている参加者が複数いる場
+  合には、定刻の一時間後にも試合が組まれます。
+</ul>
+
+<h2>Q&amp;A</h2>
+<h3>基本編</h3>
+<ul>
+<!--
+  <li>ログイン出来たか確認するには?<br>
+      ブラウザで<a
+      href="http://wdoor.c.u-tokyo.ac.jp/shogi-server/who">ログインリ
+      スト</a>を見て名前を確認する 
+-->
+  <li>0,30分になったが対局が始まらない<br>
+      -- サーバの<a href="http://wdoor.c.u-tokyo.ac.jp/shogi/x/shogi-server.log">ログ</a>を確認する。次の場合は、接続しなおせば良いと思われる。
+      <ul>
+<li>相手が対局を拒否した、または自分もしくは相手の接続が切れた
+<li>奇数で手空き (2/19以降、gps500以外では起こらないはず)
+      </ul>
+
+  <li>対戦相手の決定方法は?<br>
+      -- <a
+  href="http://www.sgtpepper.net/kaneko/diary/20080514.html#p03">現在
+  の仕様</a>は、勝ち同士、負け同士をレートの近さを考慮して組み合わせる。
+      勝ちの場合は各プレイヤのレーティングにrandom(800)を負けの場合はrandom(200)を
+  加えてsortして順に組み合わせる。<!-- 2008年2月現在はランダム。2月19日より、
+      勝者同士、敗者同士の対戦を優先。--> 引き続き、良いアルゴリズ
+      ム募集中
+  <li>コメントを送る<br>
+      -- ひとまず<a
+      href="http://www.sgtpepper.net/kaneko/diary/">日記
+      </a>にお願いします。
+  <li>引き分けの扱いは?<br>
+      -- ノーカウントです
+  <li>timeupの扱いは?<br>
+      -- カウントです
+  <li>abnormalの扱いは?<br>
+      -- 手数が閾値以下であればノーカウント、それ以上であればカウントです。2014年07月26日現在、30手がその閾値となっていますので、対局早々のabnormalであればカウントされません。
+  <li>拡張モードとcsa互換モードでレーティングを共有するには?<br>
+      -- csa互換モードのトリップ(パスワードに指定する
+      floodgate-600-10,XXX のXXX部分)を、拡張モードのパスワードとして
+      ください。
+  <li>自分のPlayer IDを確認するには?<br>
+      -- サーバの<a href="http://wdoor.c.u-tokyo.ac.jp/shogi/x/shogi-server.log">ログ</a>を確認し、ログイン時に出力されるメッセージを見る。例:
+<pre>
+2015-02-01T15:23:54 [INFO] user yowai_gps0 login
+2015-02-01T15:23:54 [INFO] user yowai_gps0+a1df8b6fb8a5f17228b3fe4169a89747 run in CSA mode
+</pre>
+      
+</ul>      
+<h3>重箱の隅</h3>
+<ul>
+  <li>"floodgate"を打ち間違えると何が起こる? -- 同じ文字列で誰かがロ
+      グインすると対局が始まる
+  <li>600-10の意味は? -- 持ち時間10分、切れたら、秒読み10秒。拡張プロトコルの文法<a
+      href="http://shogi-server.sourceforge.jp/protocol.html#gamename">gamename</a>に同じ。
+  <li>tripが空文字列の場合は? -- レーティングが計算されない。
+</ul>
+
+<h3>重箱の隅:棋譜表示</h3>
+<ul>
+  <li>http://wdoor.c.u-tokyo.ac.jp/shogi/view/2011/04/08/wdoor+floodgate-900-0+ponanza+gpsshogi_expt+20110408040000.csa
+      のようにviewの後にwdoorに存在する棋譜を指定するとCSA Viewerで内
+      容を表示します
+  <li>http://wdoor.c.u-tokyo.ac.jp/shogi/view/2011/04/08/wdoor+floodgate-900-0+ponanza+gpsshogi_expt+20110408040000.csa/105
+      のように手数を指定することもできます
+  <li>上記のURLの場合はtwitterでつぶやくためのボタンが表示されます
+  <li>CSA ViewerをCGIの
+      URL(http://wdoor.c.u-tokyo.ac.jp/shogi/view/index.cgi?)から使う
+      ことでより多くの機能を利用できます。この場合は、現時点では、
+      twitterとの連携はできません。
+</ul>
+
+<h2>その他の設定候補 (必要に応じて)</h2>
+
+<h3>観戦</h3>
+<ul>
+  <li><a href="http://www.adobe.com/jp/svg/viewer/install/">svg</a>(画
+      像形式)をブラウザで
+      見られるようにしておくと、棋譜再生時に形勢判断グラフが表示される。
+      (形勢判断をサーバに送る拡張に対応したクライアントの対局を観戦す
+      る場合のみ)
+</ul>
+
+<h3>対局</h3>
+<ul>
+  <li>keep alive: 試合がない状態が続いても通信が切れない対策候補
+      <ul>
+
+<li>空白+改行をおくる (サーバは無視する) (注意: 拡張仕様,
+						    選手権では使用不可)
+<li>改行のみ送る (サーバは改行を返す) (対局中など条件付きでCSA仕様)
+      </ul>
+
+  <li>観戦者の楽しみのために<! --a
+      href="http://www.sgtpepper.net/kaneko/diary/20060410.html#p01"-->
+      <a href="http://shogi-server.sourceforge.jp/protocol.html#record-pv">
+      形勢判断を送る</a> (CSA公式サーバは対応していないので注意。
+      この機能はwdoorに接続する時だけonにする必要がある。)
+</ul>
+
+<h2><span style="color:red">重要な注意点</span></h2>
+<div><span class="warning">Warning</span> wdoorを含めてshogi-serverで対局できても、<a href="http://www.computer-shogi.org">CSA</a>のサーバでの対局する際に不具合が起こ
+らないとは限りません。CSA選手権などに参加される方は、必ずCSAのサーバで
+テストを行って下さい。改行コード(\r\nか\nか), keep-alive, CHALLENGEの有無などは
+shogi-serverの方が寛容に受け付けています。他にも差異がある可能性があり
+ます。
+
+<br>
+CSAのサーバで対局できれば、shogi-serverでもほとんど変更なく対局でき
+るとは思います。</div>
+
+<h2>観戦プログラム作成用interface</h2>
+
+<ul>
+  <li><a
+  href="http://wdoor.c.u-tokyo.ac.jp/shogi/LATEST/playing.txt">http://wdoor.c.u-tokyo.ac.jp/shogi/LATEST/playing.txt</a>
+  (対局中の試合一覧)<br>
+      <code>ファイル名 先手 後手 指手の数 先手消費時間 後手消費時間</code>
+  <li><a href="http://wdoor.c.u-tokyo.ac.jp/shogi/LATEST/floodgate-players.txt">http://wdoor.c.u-tokyo.ac.jp/shogi/LATEST/floodgate-players.txt</a><br>
+      <code>プレイヤ名 レーティング レーティング2週間 通算勝数 通算負数 今日の勝数 今日の負数</code>
+  <li><a href="http://wdoor.c.u-tokyo.ac.jp/shogi/logs/LATEST/floodgate-history.txt">http://wdoor.c.u-tokyo.ac.jp/shogi/logs/LATEST/floodgate-history.txt</a><br>
+<code>プレイヤ名1 プレイヤ名2 プレイヤ1から見た勝 プレイヤ1から見た負 同今日の勝 同今日の負</code>
+</ul>
+<p>将来はプレイヤ名にtripがつく予定</p>
+
+<h2>関連文書</h2>
+<ul>
+  <li><a href="./index.html">shogi-server@wdoor</a>
+  <li>サーバの実装: <a
+      href="http://shogi-server.sourceforge.jp/">shogi-server</a> revision
+      1.78以降
+  <li><a
+      href="http://shogi-server.sourceforge.jp/rating.html">レーティン
+      グ計算方法</a>
+
+</ul>
+
+</body>
+</html>

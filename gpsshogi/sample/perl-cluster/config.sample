@@ -1,0 +1,22 @@
+# use '#' for comment line
+### master program
+# extended commands
+# - go book
+# - genmove_probability
+/path/to/gpsusi
+### slave programs
+# extended commands
+# - ignore_moves 6h7g ...
+# - echo string
+# standard commands
+# - go byoyomi msec
+# - go infinite
+# - go mate msec
+/path/to/gpsusi
+/path/to/gpsusi
+/path/to/gpsusi
+/path/to/gpsusi
+ssh remotehost /path/to/gpsusi
+ssh remotehost /path/to/gpsusi
+ssh remotehost /path/to/gpsusi
+ssh remotehost /path/to/gpsusi

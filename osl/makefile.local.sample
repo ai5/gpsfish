@@ -1,0 +1,96 @@
+### --------  --------  --------  --------  -------- 
+### build options
+### --------  --------  --------  --------  -------- 
+
+###### CPUOPTION (default: -march=native)
+### build option for smp (need more memory than sequential version)
+CPUOPTION = -march=native -DOSL_SMP
+### specialized build for endgame analysis or checkmate search (need more memory than above)
+CPUOPTION = -march=native -DOSL_SMP -DOSL_DFPN_SMP_SEARCH -DMORE_CHECKMATE_IF_CAPTURE_MAJOR
+CPUOPTION = -march=native -DOSL_SMP -DOSL_DFPN_SMP_SEARCH -DOSL_DFPN_MAX_DEPTH=2048
+### for gcc-4.[1-3]
+CPUOPTION = -march=native -fno-strict-aliasing 
+
+
+###### postfix of boost library (default: null)
+BOOST_POSTFIX = -gcc
+BOOST_POSTFIX_MT = -gcc-mt
+
+###### path to gcc (default: g++)
+GXX = /usr/local/gcc-4.4/bin/g++
+CXX = /usr/local/gcc-4.4/bin/g++
+CXX_HOME = /usr/local/gcc-4.4
+
+###### path to library
+INCLUDES += -I/usr/include/boost-1_40_0
+
+### --------  --------  --------  --------  -------- 
+### examples
+### --------  --------  --------  --------  -------- 
+
+### linux
+#
+
+### FreeBSD
+CXXOPTFLAGS += -O2
+CPUOPTION = -march=native -fno-strict-aliasing
+LDFLAGS += -L/usr/local/lib -pthread
+INCLUDES += -I/usr/local/include -I/usr/X11R6/include
+QMAKEENV = QMAKESPEC=freebsd-g++ QTDIR=/usr/X11R6
+LOADLIBES += -lkvm -liconv
+
+### snow leopard
+CPUOPTION = -march=core2
+USE_TBB_SCALABLE_ALLOCATOR = 1
+USE_TCMALLOC = 0
+LOADLIBES += -lboost_system -liconv
+QMAKEENV = QMAKESPEC=macx-g++
+QMAKEPATH = /Developer/Tools/Qt
+
+### --------  --------  --------  --------  -------- 
+### performance options
+### --------  --------  --------  --------  -------- 
+
+##### memory allocator
+### tcmalloc (recommended in Linux) (default: 1)
+USE_TCMALLOC = 1
+### specify version
+# (e.g., g++ 4.7.3 Ubuntu 13.04)
+# TCMALLOC = gperftools-2.1
+TCMALLOC = google-perftools-1.7
+# TCMALLOC = tcmalloc-0.93
+
+### TBB allocator (intel threading building blocks) (recommended in Mac OS X) (default: 0)
+USE_TBB_SCALABLE_ALLOCATOR = 1
+### boost::fast_pool_allocator (maybe useful in Windows XP) (default: 0)
+USE_BOOST_POOL_ALLOCATOR = 1
+
+##### TBB containers: slight gain in efficiency with a bit more memory use (default: 0, OSL_SMP only)
+USE_TBB = 1
+
+### --------  --------  --------  --------  -------- 
+### options for developer
+### --------  --------  --------  --------  -------- 
+
+# gdb debug 中以外はおすすめ (testの実行が速い)
+CXXOPTFLAGS += -O
+
+# 詰将棋デバッグ single thread only
+CXXOPTFLAGS += -DCHECKMATE_DEBUG
+
+# ntesuki を使う場合
+#USE_NTESUKI = true
+
+# # icc 用
+# LDFLAGS +=  -L/opt/intel/compiler70/ia32/lib
+# INCLUDES += -I /usr/local/include
+
+# cygwin gcc 3.4.4
+WARN_FIELD_INITIALIZER=
+INCLUDES += -I/usr/include/boost-1_33_1
+CXXOPTFLAGS = -O
+CPUOPTION= -march=pentium-m
+# USE_GPL_POOL_ALLOCATOR = 0
+BOOST_POSTFIX = -gcc-mt
+BOOST_POSTFIX_MT = -gcc-mt
+

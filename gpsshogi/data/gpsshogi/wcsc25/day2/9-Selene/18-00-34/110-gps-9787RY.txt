@@ -1,0 +1,14 @@
+2015-05-04T18:24:41.548899 status=3 elapsed 68 msec-max 8000
+root - -29993 -9787RY+5756OU-8776RY+6566HI-7867GI+5646OU-7666RY+4645OU (8 2) 1050k solved 8.3s (8.3s)
+  -9787RY + -29993 +5756OU-8776RY+6566HI-7867GI+5646OU-7666RY (7 1) 37k solved 9.2s (9.2s)
+P1 * -KE *  *  *  * -GI-KE-KY
+P2 *  *  *  * -KI-OU-KI *  * 
+P3 * +TO * -FU-FU-FU * -FU * 
+P4 *  * -FU *  *  * -FU-KY * 
+P5 * +KE * +HI+FU *  *  * -FU
+P6 *  * +FU *  *  *  *  *  * 
+P7-RY+FU *  * +OU+FU+FU+FU+FU
+P8 *  * -GI * +KY+GI+GI *  * 
+P9 *  *  *  *  *  * -KA+KE+KY
+P-00KA00KI00KI00FU00FU00FU
+-

@@ -1,0 +1,15 @@
+2015-05-05T11:38:53.214404 status=4 elapsed 11214 msec-max 8000
+root + 29994 +0054KE-6252OU+3342NK-4142KI+5442NK-5242OU+4443TO-4251OU (8 3) 2148k solved 8.1s (8.1s)
+  +0054KE - 29994 -6252OU+3342NK-4142KI+5442NK-5242OU+4443TO (7 2) 43k solved 9.0s (9.0s)
+P1-KY * -HI *  * -KI *  * -KY
+P2 *  *  * -OU * -KI *  *  * 
+P3-FU *  * -FU *  * +NK+RY * 
+P4 *  * +KI *  * +FU *  * -FU
+P5 *  *  *  *  *  *  *  *  * 
+P6 *  * -FU+FU+UM *  *  *  * 
+P7+FU *  *  * +FU *  *  * +FU
+P8 * +OU+FU-KI *  *  *  *  * 
+P9+KY+FU * -UM *  *  *  * +KY
+P+00GI00GI00KE00FU00FU00FU00FU
+P-00GI00GI00KE00KE00FU00FU00FU
++

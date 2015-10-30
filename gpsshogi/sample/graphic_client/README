@@ -1,0 +1,12 @@
+Generate position image files from SFEN strings
+===============================================
+
+Dependecies
+-----------
+
+libmagick++-dev
+ttf-vlgothic
+
+
+
+http://shrouded-lake-7285.herokuapp.com/sfen/ln2k2nl/1r2g1gb1/p1p1p2p1/3pspP1p/9/2P4R1/PPBPPP2P/2GSK1G2/LN5NL%20w%20S2Psp%201

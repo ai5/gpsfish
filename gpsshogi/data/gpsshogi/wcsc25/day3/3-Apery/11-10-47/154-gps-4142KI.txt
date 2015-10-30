@@ -1,0 +1,14 @@
+2015-05-05T11:39:02.847385 status=3 elapsed 68 msec-max 8000
+root - 29994 -4142KI+5442NK-5242OU+4443TO-4251OU (5 5) 2k [6] solved (18.7s)
+P1-KY * -HI *  * -KI *  * -KY
+P2 *  *  *  * -OU+NK *  *  * 
+P3-FU *  * -FU *  *  * +RY * 
+P4 *  * +KI * +KE+FU *  * -FU
+P5 *  *  *  *  *  *  *  *  * 
+P6 *  * -FU+FU+UM *  *  *  * 
+P7+FU *  *  * +FU *  *  * +FU
+P8 * +OU+FU-KI *  *  *  *  * 
+P9+KY+FU * -UM *  *  *  * +KY
+P+00KI00GI00GI00FU00FU00FU00FU
+P-00GI00GI00KE00KE00FU00FU00FU
+-

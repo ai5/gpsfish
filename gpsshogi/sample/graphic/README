@@ -1,0 +1,27 @@
+Generate position image files from SFEN strings
+===============================================
+
+Apache
+------
+
+$ cat /usr/local/bin/graphic_rewritemap.sh
+LANG=C /path/to/graphic_rewritemap -d /image/dir
+
+
+Broker
+------
+
+$ LANG=C /path/to/graphic_broker -d /image/dir
+
+
+Client
+------
+
+$ LANG=C /path/to/graphic_client --checkmate-limit 100000
+
+
+Browser
+------
+
+http://localhost/wdoor/images/sfen.lnsgkgsnl_1r5b1_ppppppppp_9_9_9_PPPPPPPPP_1B5R1_LNSGKGSNL.b.-.png
+http://localhost/wdoor/images/sfen.l4g2l_1r4sk1_p3p2pp_1p3bp2_5n1N1_3P2P2_PP2PP1PP_4K2GG_LNSG2@l1@r.w.N3Pb2sp.1.moves.B*7f.png

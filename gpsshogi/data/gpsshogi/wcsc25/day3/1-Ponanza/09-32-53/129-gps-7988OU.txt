@@ -1,0 +1,17 @@
+2015-05-05T09:57:35.758385 status=3 elapsed 601 msec-max 6701
+root + -29996 +7988OU-8187RY+8887OU-0075KE+8778OU (5 4) 1k w1=11 solved 0.0s (0.0s)
+  +7988OU - -29996 -8187RY+8887OU-0075KE+8778OU (4 3) 254k p 2 solved (0.4s)
+  +7968OU - -29999 -0067KI+6879OU-0068GI+7988OU-6877NG (5 4) 0k p 2 solved (0.0s)
+  +7978OU - -29999 -0067KI+7888OU-6877NG (3 2) 0k p 2 solved
+P1-KY-HI *  *  *  *  *  * -KY
+P2 *  *  *  * -KI *  *  *  * 
+P3 *  *  *  * -FU-FU *  *  * 
+P4-FU * -FU-OU *  *  * -FU-FU
+P5 *  *  *  * +KE * +GI *  * 
+P6 *  *  *  * -GI *  *  *  * 
+P7+FU+FU+FU *  * -NK *  * +FU
+P8 *  *  * -GI+FU *  *  *  * 
+P9+KY+KI+OU *  *  *  * +HI+KY
+P+00KI00KE
+P-00KA00KA00KI00GI00KE00FU00FU00FU00FU00FU00FU00FU
++

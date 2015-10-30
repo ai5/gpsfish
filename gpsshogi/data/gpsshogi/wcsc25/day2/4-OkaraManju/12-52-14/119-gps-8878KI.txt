@@ -1,0 +1,17 @@
+2015-05-04T13:17:57.547757 status=3 elapsed 245 msec-max 8500
+root + 29981 +8878KI-0022KI+2343RY-0033KA+0023KA-0088GI+7988OU-0032FU+0052KI (9 2) 5735k solved 8.0s (1.9s)
+  others  + 29985 +8878KI-0022KI+2343RY-0033KA+0023KA-0088GI (14 17) 5467k [2] solved (8.0s)
+  +8878KI - 29981 -0022KI+2343RY-0033KA+0023KA-0088GI+7988OU (8 1) 111k solved 1.9s (1.9s)
+  +7978OU - 29973 -0022KI+0052KA-0032GI+5243UM-3243GI+0032FU (10 2) 917k solved 8.0s (1.9s)
+P1 *  *  *  * +RY-KE-OU * -KY
+P2 * +TO *  *  * -KE *  *  * 
+P3-FU * +NY *  * -KI * +RY-FU
+P4 *  *  *  * -FU *  *  *  * 
+P5 * -FU *  *  * -FU-GI-FU+FU
+P6 *  *  *  * +KE * -KE *  * 
+P7+FU+FU+FU+FU+FU *  *  *  * 
+P8 * +KI-FU+GI * +GI *  *  * 
+P9+KY * +OU * +KI *  *  * +KY
+P+00KA
+P-00KA00KI00GI00FU00FU00FU00FU
++

@@ -1,0 +1,16 @@
+2015-05-05T11:39:02.777224 status=4 elapsed 9561 msec-max 8000
+root + 29994 +3342NK-4142KI+5442NK-5242OU+4443TO-4251OU (6 1) 21k solved 18.7s (18.7s)
+  +3342NK - 29994 -4142KI+5442NK-5242OU+4443TO-4251OU (5 5) 2k [6] solved (18.7s)
+  others  + 29993 +3343NK-5261OU+0062GI-6172OU+6271NG-7271OU (7 5) 19k [3] solved (18.7s)
+P1-KY * -HI *  * -KI *  * -KY
+P2 *  *  *  * -OU-KI *  *  * 
+P3-FU *  * -FU *  * +NK+RY * 
+P4 *  * +KI * +KE+FU *  * -FU
+P5 *  *  *  *  *  *  *  *  * 
+P6 *  * -FU+FU+UM *  *  *  * 
+P7+FU *  *  * +FU *  *  * +FU
+P8 * +OU+FU-KI *  *  *  *  * 
+P9+KY+FU * -UM *  *  *  * +KY
+P+00GI00GI00FU00FU00FU00FU
+P-00GI00GI00KE00KE00FU00FU00FU
++

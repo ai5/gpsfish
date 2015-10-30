@@ -1,0 +1,17 @@
+2015-05-04T10:47:08.730936 status=4 elapsed 3694 msec-max 6700
+root - -29994 -1524OU+3727KI-0058HI+4858OU (4 1) 299k solved 2.7s (2.7s)
+  -2324FU + -29995 +3727KI-0058HI+4858OU (3 1) 96k solved 3.7s (3.7s)
+  -1524OU + -29994 +3727KI-0058HI+4858OU (3 5) 15k [3] solved (2.7s)
+  -1514OU + -7858 +2413NG-1424OU+1323NG-2423OU+0057FU-0068HI (8 6) 187k [10] (2.7s)
+P1 *  *  *  *  *  *  *  *  * 
+P2 *  *  *  *  * -KI-KI *  * 
+P3-FU * -KE-FU * -FU * -FU * 
+P4 *  *  *  * -FU * -FU+GI * 
+P5 * -FU *  *  *  *  * +KE-OU
+P6 *  *  *  * -GI+KY+FU+FU-RY
+P7+FU+FU *  *  * +FU+KI-GI * 
+P8 *  * +FU *  * +OU+KY *  * 
+P9 *  *  *  *  *  *  *  *  * 
+P+00KE
+P-00HI00KA00KA00KI00GI00KE00KY00KY00FU00FU00FU00FU00FU
+-

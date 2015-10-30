@@ -1,0 +1,15 @@
+message Moves {
+  repeated int32 moves = 1;
+}
+
+message PvPerIter {
+  message Iter {
+    required int32 depth = 1;
+    required int32 value = 2;
+    required Moves pv = 3;
+  }
+  repeated Iter iter = 1;
+  optional int32 progress = 2;
+  optional int32 static_value = 3;
+  optional int32 ply = 4;
+}

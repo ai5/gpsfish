@@ -1,0 +1,43 @@
+Source: gpsshogi
+Section: games
+Priority: optional
+Maintainer: Daigo Moriwaki <beatles@sgtpepper.net>
+Build-Depends: debhelper (>= 7), cdbs, libosl-dev (>= 0.2.0), libboost1.40-all-dev, libgoogle-perftools-dev, libtbb-dev, chrpath, help2man
+Standards-Version: 3.8.1
+Homepage: http://gps.tanaka.ecc.u-tokyo.ac.jp/gpsshogi/pukiwiki.php
+
+Package: gpsshogi
+Architecture: i386 amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, gpsshogi-data (= ${binary:Version})
+Description: Shogi playing program based on OpenShogiLib
+ GPSShogi is a Shogi playing program based on OpenShogiLib and won the 19th
+ World Computer Shogi Championship. This package contains several binaries to
+ play with computer Shogi.
+ - gpsshogi: support the CSA protocol.
+ - gpsusi: support the USI protocol.
+
+Package: gpsshogi-data
+Architecture: all
+Recommends: gpsshogi
+Description: data files for gpsshogi
+ GPSShogi is a Shogi playing program based on OpenShogiLib and won the 19th
+ World Computer Shogi Championship. This package contains several binaries to
+ play with computer Shogi.
+ - gpsshogi: support the CSA protocol.
+ - gpsusi: support the USI protocol.
+ .
+ This package contains data files defining parameters of evaluation functions,
+ an opening book for gpsshogi
+
+Package: gpsshogi-dbg
+Priority: extra
+Section: debug
+Architecture: i386 amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, gpsshogi (= ${binary:Version})
+Description: Shogi playing program based on OpenShogiLib
+ GPSShogi is a Shogi playing program based on OpenShogiLib and won the 19th
+ World Computer Shogi Championship
+ .
+ This package is provided primarily to provide a backtrace with names in a
+ debugger and makes it easier to interpret core dumps. Most users will not
+ need this package.

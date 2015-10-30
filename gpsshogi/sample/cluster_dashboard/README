@@ -1,0 +1,87 @@
+# gpsdashboard
+
+GPSShogi Cluster Dashboard, providing a server collecting UDP packets and GUI monitor.
+
+## Pre-require
+
+### Treeviz
+
+version 1.1.1
+http://www.randelshofer.ch/treeviz/
+
+% cd Treeviz/dist
+% mvn install:install-file -DgroupId=ch.randelshofer -DartifactId=treeviz -Dversion=1.1.1 -Dpackaging=jar -DgeneratePom=true -Dfile=Treeviz.jar
+
+## Architecture
+
+many gpsusi's -- UDP --> Server <-- TCP --> GUI or CUI clients
+
+## Usage
+
+### Server
+
+If you have a binary,
+
+    gopteron0% java -d64 -server -classpath gpsdashboard-*-standalone.jar gpsdashboard.core [-h]
+   
+or you can build and run from source by using lein,
+
+    gopteron0% lein compile
+    gopteron0% lein run --dump-interval 1
+
+### GUI Client
+
+If you have a binary,
+
+    notepc% LANG=ja_JP.EUC-JP java -d64 -server -classpath gpsdashboard-*-standalone.jar gpsdashboard.monitor_swing [-h]
+
+or you can build and run from source by using lein,
+
+    notepc% LANG=ja_JP.EUC-JP lein compile
+    notepc% LANG=ja_JP.EUC-JP lein run -m gpsdashboard.monitor_swing --read-dump-file dump.log.20130331_111437
+    notepc% LANG=ja_JP.EUC-JP lein run -m gpsdashboard.monitor_swing --host 127.0.0.1
+
+### libosl.so
+
+libosl.so allows the client display position boards and moves in Japanese.
+Note that LANG should ja_JP.EUC-JP
+
+    notepc% cd /path/to/osl/release-so
+    notepc% make make-directories && make libosl.so.1.0
+    notepc% export LD_LIBRARY_PATH=/path/to/osl/release-so
+
+The client works without the shared library.
+
+### ssh tunneling
+
+    notepc% ssh [-f] -L 8240:macpro:8240 macpro -N
+
+### leiningen ("lein" command)
+
+For Debian sid/wheezy,
+
+    % sudo aptitude install leiningen
+
+or you can install it from the original repository: https://github.com/technomancy/leiningen
+
+    % wget https://raw.github.com/technomancy/leiningen/stable/bin/lein
+    % chmod 755 lein
+    % mv lein ~/bin
+
+## Release
+
+### Check
+
+- Use clojure.jar downloaded from the official repository. Debian's library depends on the ASM library.
+- INFO logging.
+
+    $ % mvn install:install-file -DgroupId=ch.randelshofer -DartifactId=treeviz -Dversion=1.0.4 -Dpackaging=jar -DgeneratePom=true -Dfile=Treeviz.jar
+    $ lein deps
+    $ lein ubjerjar
+    $ java -classpath ./gpsdashboard-*-standalone.jar ...
+
+## License
+
+Copyright (C) 2012 Team GPS.
+
+Distributed under the GPLv2 or later, the same as gpsshogi.

@@ -1,0 +1,16 @@
+2015-05-04T14:15:14.229351 status=4 elapsed 10164 msec-max 8500
+root - 29991 -6251GI+0063GI-7263KI+8563UM-0083GI+0072KI (6 2) 2042k solved 8.2s (7.2s)
+  -6251GI + 29991 +0063GI-7263KI+8563UM-0083GI+0072KI (5 1) 103k solved 14.4s (14.4s)
+  -6171OU + 29992 +1121RY-2221KI+0083GI-0098HI+0058FU-9858RY (8 1) 1937k solved 7.2s (7.2s)
+  others  - 29996 -6151OU (1 5) 1k [8] solved (8.2s)
+P1 * -KE * -OU+TO *  * -KI+HI
+P2 *  * -KI-GI *  *  * -KI * 
+P3 *  *  *  * -FU *  * -KE-FU
+P4-KY+KE * -GI * -FU+FU *  * 
+P5-FU+UM+FU *  *  * -FU *  * 
+P6 *  *  * +FU * +KE * +HI+KY
+P7+FU+FU * +KI * +FU * +GI * 
+P8 *  *  *  *  *  * +OU *  * 
+P9-UM *  *  * +KY *  *  *  * 
+P+00GI00KY00FU00FU00FU00FU00FU00FU
+-

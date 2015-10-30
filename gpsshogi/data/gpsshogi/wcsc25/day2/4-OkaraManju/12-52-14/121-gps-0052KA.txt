@@ -1,0 +1,15 @@
+2015-05-04T13:18:09.297660 status=3 elapsed 224 msec-max 8500
+root + 29981 +0052KA-0088GI+7988OU-3223KI+5141RY-3122OU+5243UM-0098HI+9998KY (9 2) 27k w1=11 p 6 solved (0.1s)
+  +0052KA - 29981 -0088GI+7988OU-3223KI+5141RY-3122OU+5243UM (8 1) 27k solved 0.1s (0.1s)
+P1 *  *  *  * +RY-KE-OU * -KY
+P2 * +TO *  *  * -KE-KI *  * 
+P3-FU * +NY *  * -KI * +RY-FU
+P4 *  *  *  * -FU *  *  *  * 
+P5 * -FU *  *  * -FU-GI-FU+FU
+P6 *  *  *  * +KE * -KE *  * 
+P7+FU+FU+FU+FU+FU *  *  *  * 
+P8 *  * +KI+GI * +GI *  *  * 
+P9+KY * +OU * +KI *  *  * +KY
+P+00KA00FU
+P-00KA00GI00FU00FU00FU00FU
++

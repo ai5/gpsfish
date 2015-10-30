@@ -1,0 +1,15 @@
+2015-05-04T15:01:47.824664 status=3 elapsed 104 msec-max 8000
+root - 29993 -3132OU+0024KE-3233OU+0032KI-3323OU+0015KE-2324OU (7 3) 927k solved 32.6s (31.6s)
+  -3132OU + 29993 +0024KE-3233OU+0032KI-3323OU+0015KE-2324OU (6 2) 927k solved 31.6s (31.6s)
+P1-KY *  *  *  *  * -OU-KE-KY
+P2 * +TO *  *  *  * +RY *  * 
+P3 *  *  *  * -FU-KI *  * -FU
+P4-FU * +KI * -KY * -FU *  * 
+P5 *  * -GI *  *  *  *  *  * 
+P6 * +FU *  *  * +FU+FU *  * 
+P7+FU *  * +KI+FU * +KE * +FU
+P8 *  *  *  *  *  *  *  *  * 
+P9-UM * +OU *  *  *  *  * +KY
+P+00HI00KI00GI00KE00KE00FU00FU00FU00FU00FU00FU
+P-00KA00GI00GI00FU
+-

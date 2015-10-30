@@ -1,0 +1,16 @@
+2015-05-04T16:16:27.716199 status=4 elapsed 3697 msec-max 36300
+root - 29981 -5748NK+4948KI-0027KE+3938OU-2739NK+3839OU-9394FU+0064FU (8 1) 530k solved 10.9s (10.9s)
+  -5748NK + 29981 +4948KI-0027KE+3938OU-2739NK+3839OU-9394FU (7 18) 178k [4] solved (10.9s)
+  others  - 29990 -0027KE+3928OU-6859UM+4152RY-6252OU+0074KA (9 11) 351k [3] solved (10.9s)
+P1+GI *  * -FU * +RY *  * -KY
+P2 * +KI * -OU-HI *  *  *  * 
+P3-FU * -KE * -FU * +NY-FU-FU
+P4 *  *  *  *  *  * -FU *  * 
+P5 * -FU-GI * +KI-FU * +FU * 
+P6 *  *  *  *  *  * +FU *  * 
+P7+FU+FU * +GI-NK+FU+GI * +FU
+P8 *  *  * -KA *  *  *  *  * 
+P9+KY *  *  *  * +KI+OU+KE+KY
+P+00KA00KI00FU
+P-00KE00FU00FU00FU
+-

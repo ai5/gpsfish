@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+# gpsshogiのあるディレクトリ test/TC_kisen.rbで使用
+GPSSHOGI_HOME='../../gpsshogi'
+
+# UsiProgramsの定義に使用
+SmpCmd='/home/ktanaka/smp/gpsshogi/bin/gpsusione --book-width 10'
+
+# 使用するマシン群の [コマンド, speed]のペアの例
+UsiPrograms=[['ssh macpro2 '+SmpCmd,130],
+             ['ssh gopteron5 '+SmpCmd,100],
+             ['ssh gopteron8 '+SmpCmd,80],
+             ['ssh gopteron10 '+SmpCmd,80],
+             ['ssh gopteron11 '+SmpCmd,80],
+             ['ssh opop2 '+SmpCmd,31],
+             ['ssh opop2 '+SmpCmd,31]]
+# 浅い読みに使うミリ秒数
+TimeFirst=1000
+# 浅い読みでbestvalueよりもどれだけ劣る値をカットせずに読むか? (100が歩1枚分)
+MultiPVWidth=500
+# 無限大を表す値これは変更しない
+Infty=10000000
+# オプションのデフォルト値
+Params={
+  :kisen_file => '/home/ktanaka/work/gpsshogi-nodist/data/59junisen/59.kif',
+  :issente => false,
+  :byoyomi => 0,
+  :ponder => false,
+  :verbose => false,
+  :xmode => false,
+  :time_limit => 60*25,
+  :book_moves => 30 }

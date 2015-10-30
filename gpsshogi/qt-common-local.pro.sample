@@ -1,0 +1,21 @@
+# for mp
+DEFINES += OSL_SMP 
+
+# use specific g++ command
+QMAKE_CXX = g++-4.3
+QMAKE_GXX = g++-4.3
+QMAKE_LINK = g++-4.3
+
+# for gcc 4.4
+QMAKE_CXXFLAGS_RELEASE = -O2 -fno-strict-aliasing -march=native
+QMAKE_CXXFLAGS = -O2 -fno-strict-aliasing -march=native
+
+# to specify library path
+QMAKE_LIBDIR_FLAGS = -L/usr/local/gcc-4.1/lib
+#
+BOOST_POSTFIX = -gcc
+BOOST_POSTFIX_MT = -gcc-mt
+
+# tcmalloc 1.7
+TCMALLOC = google-perftools-1.7/.libs
+TCMALLOC_NAME = tcmalloc_minimal

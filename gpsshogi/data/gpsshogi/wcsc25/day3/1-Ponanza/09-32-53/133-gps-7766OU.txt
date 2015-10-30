@@ -1,0 +1,15 @@
+2015-05-05T09:57:43.055200 status=3 elapsed 96 msec-max 6901
+root + -29999 +7766OU-0077KA+6656OU-7755UM (4 3) 0k solved 2.9s (2.9s)
+  +7766OU - -29999 -0077KA+6656OU-7755UM (3 2) 79k solved 3.0s (2.9s)
+P1-KY-HI *  *  *  *  *  * -KY
+P2 *  *  *  * -KI *  *  *  * 
+P3 *  *  *  * -FU-FU *  *  * 
+P4-FU * -FU-OU *  *  * -FU-FU
+P5 *  *  * -KE+KE * +GI *  * 
+P6 *  *  *  * -GI *  *  *  * 
+P7+FU+FU+OU *  * -NK *  * +FU
+P8 *  *  *  * +FU *  *  *  * 
+P9+KY+KI *  *  *  *  * +HI+KY
+P+00KI00GI00KE
+P-00KA00KA00KI00GI00FU00FU00FU00FU00FU00FU00FU00FU
++

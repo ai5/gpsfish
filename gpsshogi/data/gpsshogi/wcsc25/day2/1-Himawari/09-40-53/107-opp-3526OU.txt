@@ -1,0 +1,16 @@
+2015-05-04T09:59:10.180074 status=4 elapsed 3797 msec-max 6900
+root + -29995 +3526OU-0025KY+2625OU (3 1) 6k solved 7.7s (7.7s)
+  +3526OU - -29995 -0025KY+2625OU (2 5) 6k [4] solved (7.7s)
+  others  + -29996 +3525OU (1 5) 0k [9] solved (7.7s)
+P1-KY *  *  *  *  * +RY *  * 
+P2 *  *  * -KI-OU-GI *  *  * 
+P3-FU * -KE *  * -FU * -FU-FU
+P4 *  * -FU-GI-FU-KI * -KE * 
+P5 *  *  * +FU *  * +OU * +FU
+P6+FU+FU * +KI *  *  *  *  * 
+P7 *  * +GI-FU+FU+FU+FU *  * 
+P8 * +KA *  *  *  * -KI+FU * 
+P9+KY *  *  *  *  *  *  *  * 
+P+00HI00KA00FU00FU00FU
+P-00GI00KE00KE00KY00KY
++

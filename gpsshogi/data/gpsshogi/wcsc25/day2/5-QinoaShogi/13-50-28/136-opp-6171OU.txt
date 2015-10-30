@@ -1,0 +1,14 @@
+2015-05-04T14:15:25.428870 status=4 elapsed 3799 msec-max 7201
+root - 29999 -6171OU+8472NK (2 1) 0k solved 7.4s
+  -6171OU + 29999 +8472NK (1 0) 0k NC solved
+P1 * -KE * -OU-GI *  * -KI+HI
+P2 *  *  *  *  *  *  * -KI * 
+P3 * +UM-KI+GI-FU *  * -KE-FU
+P4 * +KE * -GI * -FU+FU *  * 
+P5-FU * +FU *  *  * -FU *  * 
+P6 *  *  * +FU * +KE * +HI+KY
+P7+FU+FU * +KI * +FU * +GI * 
+P8 *  *  *  *  *  * +OU *  * 
+P9-UM *  *  * +KY *  *  *  * 
+P+00KY00KY00FU00FU00FU00FU00FU00FU00FU
+-

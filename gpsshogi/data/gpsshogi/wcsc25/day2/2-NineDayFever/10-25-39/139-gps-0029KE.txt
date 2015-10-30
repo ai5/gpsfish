@@ -1,0 +1,18 @@
+2015-05-04T10:47:20.382837 status=3 elapsed 100 msec-max 6850
+root + -29999 +0029KE-0068GI (2 1) 0k w1=11 solved 0.1s (0.0s)
+  others  + -29998 +0029GI (1 5) 0k [5] solved (0.0s)
+  +0049KE - -29999 -0068GI (1 0) 0k NC solved
+  +0029KE - -29999 -0068GI (1 0) 0k NC solved
+  +0039KE - -29999 -0068GI (1 0) 0k NC solved
+P1 *  *  *  *  *  *  *  *  * 
+P2 *  *  *  *  * -KI-KI *  * 
+P3-FU * -KE-FU * -FU * -FU * 
+P4 *  *  *  * -FU * -FU-OU * 
+P5 * -FU *  *  *  *  * +KE * 
+P6 *  *  *  * -GI+KY+FU+FU * 
+P7+FU+FU *  * -KA+FU * +KI * 
+P8 *  * +FU *  * -KI+KY *  * 
+P9 *  *  * +OU *  *  *  * -RY
+P+00GI00KE
+P-00HI00KA00GI00GI00KE00KY00KY00FU00FU00FU00FU00FU
++

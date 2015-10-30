@@ -1,0 +1,7 @@
+makefile.local
+qt-common-local.pro
+.svn
+*.o
+*.lo
+*.a
+.deps

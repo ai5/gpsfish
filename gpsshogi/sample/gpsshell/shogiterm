@@ -1,0 +1,5 @@
+#!/bin/sh
+afont=-*-fixed-medium-r-normal--16-*-iso8859-1
+rfont=-shogi2-fixed-medium-r-normal--16-150-75-75-c-160-jisx0208.1983-0
+kfont=-shogi2-fixed-medium-r-normal--16-150-75-75-c-160-jisx0208.1983-0
+kterm -fn $afont -fr $rfont -fk $kfont -n shogiterm

@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" 
+  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="4cm" height="4cm" viewBox="0 0 300 300"
+     xmlns="http://www.w3.org/2000/svg">
+  <path d="M 75 50 L 75 250 L 250 150 z"
+        fill="black" stroke="black" stroke-width="3" />
+</svg>
+

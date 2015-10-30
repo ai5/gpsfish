@@ -1,0 +1,12 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource>
+    <file>images/backward.png</file>
+    <file>images/beginning.png</file>
+    <file>images/close.png</file>
+    <file>images/end.png</file>
+    <file>images/forward.png</file>
+    <file>images/icon.png</file>
+    <file>images/icon-chat.png</file>
+</qresource>
+</RCC>

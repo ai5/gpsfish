@@ -1,0 +1,258 @@
+<!doctype html public "-//ietf//dtd html//en">
+<html> <head>
+<meta http-equiv="content-type" content="text/html; charset=iso-2022-jp">
+<link rel="StyleSheet" type="text/css" href="shogi.css">
+<link rel="shortcut icon" href="/shogi/favicon.ico" type="image/jpeg" />
+<title>コンピュータ将棋対局場</title>
+</head>
+
+<body>
+<h1>コンピュータ将棋対局場</h1>
+
+<h2>お知らせ</h2>
+
+<ul>
+  <li>2015-07-27 24日から続いていましたシステム障害から復旧しました
+  <li>2015-03-07 システムトラブルがありました（原因が判明し対処しました）
+  <li>2015-03-05 システムトラブルがありました
+  <li>2015-03-02 システムトラブルがありました
+  <li>2015-02-01 floodgate-600-10の始動<br>
+    下記のお知らせどおり、floodgate-600-10が開始されました。floodgate-900-0は廃止され、そのようなgamenameを指定しても自動対局は始まりませんので、ご注意ください。<br>
+    Shogi-serverがバージョンアップしました。レートを持つプレーヤーが対戦すると、棋譜に、その時点でのレート値が次のようなコメント文として記載されるようになりました。
+    <pre>
+      'rating:Test_sente+275876e34cf609db118f3d84b799a790:Test_gote+275876e34cf609db118f3d84b799a790
+      'black_rate:Test_sente+275876e34cf609db118f3d84b799a790:2763.0
+      'white_rate:Test_gote+275876e34cf609db118f3d84b799a790:2345.0
+    </pre>
+  <li>2015-01-23 Floodgateにおける対局条件の変更について<br>
+    <a href="http://www.computer-shogi.org/wcsc25/">第25回世界コンピュータ将棋選手権</a>において、通信プロトコルの更新(<a href="http://www.computer-shogi.org/protocol/tcp_ip_server_121.html">CSAサーバ プロトコル ver.1.2.1</a>)や対局条件の変更(持ち時間10分, 秒読み10秒、1秒未満の消費時間を切り捨て、256手で引き分け)がなされます。Floodgateもそれに倣い、以下のように標準ゲーム設定を変更いたします。
+      <ul>
+        <li>新gamename: floodgate-600-10 (持ち時間10分, 秒読み10秒)。floodgate-900-0は廃止。
+        <li>CSAサーバ プロトコル ver.1.2.1を使用。1秒未満の消費時間を切り捨て。256手で引き分け。
+        <li>なお、毎時0/30分開始に変更はありませんが、対局時間が30分を超えて次の開始時刻に間に合わず、ひとつ飛びに参加するプレーヤーが発生しえます。開始時刻や対局条件の見直しが必要かどうか、今後の対局状況を注視したく思います。
+      </ul>
+      1月31日(土)〜2月1日(日)までサーバーを停止し、更新作業をします。<br>
+      2月2日(月)より、新設定で稼動予定です。
+<!--
+  <li>2014-12-27 23時半頃、緊急メンテナンスのため、再起動しました。
+  <li>2014-12-02 <a href="http://wdoor.c.u-tokyo.ac.jp/shogi/view/latest-table.cgi?filter=floodgate-21600-60&show_self_play=1">コンピュータ将棋順位戦(仮)</a>のお誘い<br>
+  2014年も師走に入り、コンピュータ将棋開発者のみなさまも、お正月のプランをたてられている頃かと思います。今年も、年末恒例となりました長時間版Floodgateを開催したいと思います。お休み中、ふだんは機会の少ない長時間の対局でマシンを活用し、棋譜を鑑賞してみませんか。
+  <ul>
+    <li>開催期間: 12月23日(火)〜1月4日(日)までの13日間
+    <li>対局ルール: 毎日午前10時開始、持ち時間各6時間（チェスクロック方式）切れたら秒読み1分（休憩時間はありません）。その他の対局ルールは通常の15分版Floodgateと同様です。なお、接続失敗時等の予備として念のため11時にも組み合わせを行います。
+    <li>対局組み合わせ方法は通常の15分版Floodgateと同様で、開始時刻に対局が組まれます。対戦相手は事前には分かりません。レートの近いプレーヤー同士が比較的組み合わされやすくなります。
+    <li>参加資格: （15分版Floodgateにて）<a href="logs/LATEST/players-floodgate.html">レート</a>を取得済みのプレーヤー。レートが未算出のプレーヤーが接続しても対局は組まれません。
+    <li>参加方法: 開始時刻までに、gamenameを"floodgate-21600-60"として、接続してください。
+    <li>プレーヤーIDにご注意ください: レートの有無はパスワード/trip部を含むプレーヤーIDで判断しますので(例: gpsfish_XeonX5680_12c+08b94d045e0e3bd09d671c403854d2bc)、ユーザー名とパスワードの組み合わせは同一ものをご使用ください。レートが算出されたプレーヤーIDは<a href="logs/LATEST/players-floodgate.html">Shogi Server Ratingページ</a>で確認できます。ログイン中のプレーヤーIDは(shogi-serverに接続後の)拡張コマンド%%WHOでご覧頂けます。
+  </ul>
+  <li>2014-12-02 停電のため、12月13〜14日の間、停止予定です。
+  <li>2014-11-30 レーティングにおけるベンチマークプレーヤーの変更: 算出されたレートの表記にあたり、長らくgps_normalのレートを2150に固定していましたが、今後は、gpsfish_normal_1cのレートを2800として表示します。
+    <ul>
+      <li>旧環境: gps_normal (2150), AMD Opteron Processor 248 (1 coreを使用)
+      <li>新環境: gpsfish_normal_1c (2800), AMD Phenom II X6 1090T Processor (1 coreを使用)
+    </ul>
+  <li>2014-11-29 システムメンテナンス作業のため、11月29〜30日の間、停止します。
+  <li>2014-07-26 "abnormal"な対局結果の扱いを変更し、手数が一定数を超えた対局の結果はレーティングに反映されるようになりました（現在の閾値は30手）。
+  <li>2014-01-23 ネットワークトラブルにより、再起動しました。
+  <li>2014-01-07 サーバー緊急メンテナンスのため、再起動およびアップグレードしました。
+  <li>2013-12-22 <a href="view/latest-table.cgi?filter=floodgate-21600-60&show_self_play=1">コンピュータ将棋順位戦(仮) 6時間版</a> 
+  <li>2013-12-15 復旧しました。
+  <li>2013-12-11 サーバーアップグレード作業および週末の停電のため、12月13日(金)17時頃から16日(月)夜にかけて停止予定です。
+  <li>2013-12-09 コンピュータ将棋順位戦(仮)のお誘い<br>
+  はやいもので2013年も残りわずかとなりました。コンピュータ将棋開発者のみなさまも、ゆっくりお正月を過ごされるのではないかと思います。そこで、年末恒例(?)となりました長時間版Floodgateを開催したいと思います。お休み中、ふだんは機会の少ない長時間の対局でマシンを活用し、棋譜を鑑賞してみませんか。
+  <ul>
+    <li>開催期間: 12月22日(日)〜1月5日(日)までの15日間
+    <li>対局ルール: 毎日午前10時開始、持ち時間各6時間（チェスクロック方式）切れたら秒読み1分（休憩時間はありません）。その他の対局ルールは通常の15分版
+  Floodgateと同様です。なお、接続失敗時等の予備として念のため11時にも組み合わせを行います。
+    <li>対局組み合わせ方法は通常の15分版Floodgateと同様で、開始時刻に対局が組まれます。対戦相手は事前には分かりません。レートの近いプレーヤー同士が比較的組み合わされやすくなります。
+    <li>参加資格: （15分版Floodgateにて）<a href="logs/LATEST/players-floodgate.html">レート</a>を取得済みのプレーヤー。レートが未算出のプレーヤーが接続しても対局は組まれません。
+    <li>参加方法: 開始時刻までに、gamenameを"floodgate-21600-60"として、接続してください。
+  </ul>
+  <li>2013-11-04 再開しました。Floodgateの対戦組み合わせに関し、レーティングの近いプレーヤーが組まれやすい傾向を強めました（ランダムに作った10通りの組み合わせセットのうち、レーティング差の合計が最小となるセットを選ぶというのが骨子です）[<a href="http://www.sgtpepper.net/kaneko/diary/20120511.html#c01">参考</a>]。
+  <li><s>2013-12-09 12月14日、サーバーアップグレード作業のため停止予定です。17時頃から2時間程度を予定しています。</s>
+  <li>2013-10-30 11月2日〜4日の間、サーバーアップグレード作業のため停止予定です。
+  <li>2013-08-22 瞬間的な停電があってから、shogi-serverが止まっています。
+近日中に復旧させる予定です。
+  <li>2012-12-08 停電のため停止します
+  <li>2011-12-10 停電のため停止します
+  <li>2011-06-30 floodgateの運用は当面夜間と休日をメインに行います。
+  (秋になったので元に戻しました)
+  <li>2011-01-28 2010年の棋譜集をダウンロード用に整備
+  <li>2010-12-11,12 停電で停止予定
+  <li>2010-10-01 <a
+  href="http://wdoor.c.u-tokyo.ac.jp/shogi/view/latest-table.cgi?filter=lympiad">
+  コンピュータオリンピアード将棋部門非公式会場</a>
+  <li>2010-02-23 人間用<a href="view/81SquareShogi/">フラッシュクライアント</a>設置
+-->
+</ul>
+
+<h2>概要</h2>
+
+<p><a href="http://shogi-server.sourceforge.jp/">shogi-server</a>
+を運用中．
+CSAプロトコル対応のクライアントで対局可能．
+</p>
+
+<h2>観戦</h2>
+
+<ul>
+  <li>対局リスト: <a href="view/latest-table.cgi?filter=floodgate&show_self_play=1">floodgate</a>,
+  <a href="view/latest-table.cgi?show_self_play=1">全て</a><br>
+  (ウェブブラウザで見たい対局の時刻の部分をクリックすると、最新の局面が表示されます. 自動更新されないため時々リロードする必要があります.)
+  <li>Floodgateレーティング: <a href="logs/LATEST/players-floodgate.html">長期間</a>,
+                             <a href="/shogi/LATEST/players-floodgate14.html">最近二週間</a>
+  <li>便利なクライアント (disclaimer: これらのクライアントの安全性等の
+  判断は使用者の責任で行ってください．)
+  <ul>
+    <li>floodgate 観戦室 (<a href="http://www.geocities.jp/shogi_depot/">将棋ソフトのページ</a>)
+    <li><a href="http://homepage2.nifty.com/kakinoki_y/floodgate.html">floodgate 観戦プログラム『FloodGate』</a> (柿木さん)
+    <li><a href="http://www.shogi-chess.net/i/floodgate/watch.cgi">floodgate Live</a> (柿木さん)
+    <li><a href="http://www.geocities.jp/draobdoolf/">Floodboard</a>
+        (<a href="http://www.sgtpepper.net/kaneko/diary/20080713.html#c07">うぉっちゃ</a>さん)
+  </ul>
+  <li>2010-02-23 人間対局用<a href="view/81SquareShogi/">フラッシュクライアント</a>設置
+</ul>
+
+<h2>対局</h2>
+<p>
+人間の方も含めて基本的に自由に対局してください(アカウント登録等はしていません)．
+本名である必要
+はありませんが，test等の紛らわしいものでなくユニークな名前を歓迎します．<br>
+</p>
+
+<h3>連続対局 (floodgate)</h3>
+
+<div>
+ログインしていると毎時0分と30分に対局が組まれます．ログイン方法は
+<ul>
+  <li>拡張モードの場合: <a href="http://shogi-server.sourceforge.jp/protocol.html#gamename">GAMENAME</a>を
+<code>floodgate-900-0</code>とする
+  <li>CSAモードの場合: パスワードを<code>floodgate-900-0,trip</code>と
+      した上で，tripの部分を各自の秘密の文字列で置き換える．
+      (<a
+      href="http://shogi-server.sourceforge.jp/rating.html#csalogin">trip
+      は同名のユーザを区別するための仕組み</a>)
+</ul>
+<p>(<a href="floodgate.html">詳細</a>)</p>
+</div>
+
+<h3>通常対局</h3>
+
+<p>対局開始条件が揃ったクライアントが二つ揃うと対局が始まります．
+(<a href="http://shogi-server.sourceforge.jp/#play">詳細</a>)
+</p>
+
+<h3>常駐テストプレーヤー</h3>
+次のgamenameでテストプレーヤーが常駐していますので、対局のテスト等にご利用ください。
+<ul>
+  <li>gps-600-10
+  <li>yowai_gps-0-10
+</ul>
+
+<h2>免責</h2>
+
+<p>disclaimer: このサーバは"as is"で設置されているもので，
+仮に予想外の事態が生じたとしてもサーバ運営者は何ら責任を負いませ
+ん．例えば:</p>
+<ul>
+  <li>(今までの実績ではそれなりに安定して運用されていますが)サーバは予告なく停止
+      する場合があります．
+  <li>(今のところセキュリティを脅かすような不具合の報告はありませんが)自己責任でご利用下さい．
+  <li>shogi-serverのログや棋譜は公開されています．
+      もしそれに不都合がある場合は接続や対局を避けることで不都合を避けてください．
+</ul>
+
+<h2 id="resources">情報収集</h2>
+<ul>
+  <li><a href="x/shogi-server.log">shogi-server のログ</a>: ログイン失敗などのさいは、まずはログをご確認ください
+  <li><a href="https://sourceforge.jp/projects/shogi-server/scm/git/shogi-server/tree/master/">shogi-serverのソースコード</a>
+    <ul>
+      <li>wdoor-stable branch: 本サイトで稼働中のバージョン. タグがgo live日付になっています.
+      <li>master branch: 開発ブランチ
+    </ul>
+  <li>棋譜倉庫: 圧縮CSAファイル(7z形式)
+      <ul>
+	<li><a href="x/wdoor2015.7z">2015年</a>（日次更新）
+        <li><a href="x/kifuarchive-daily/">2015年日次ファイル</a>（毎時更新）
+        <li>2014年以前の棋譜は<a href="https://sourceforge.jp/projects/shogi-server/releases/">sourcefore.jp</a>からどうぞ
+          <ul>
+            <li><a href="https://sourceforge.jp/projects/shogi-server/downloads/62552/wdoor2014.7z/">2014年</a>: 90,387局
+                (md5: 0dc57d7fd48980c2794d49e68b64bf45  wdoor2014.7z)
+            <li><a href="http://sourceforge.jp/projects/shogi-server/downloads/60957/wdoor2013.7z/">2013年</a>: 113,707局
+                (md5: eae462326d9d1b79e531faff3d27e5c7  wdoor2013.7z)
+            <li><a href="http://sourceforge.jp/projects/shogi-server/downloads/60960/wdoor2012.7z/">2012年</a>: 116,441局
+                (md5: 2e6655306648c9ba8c4259b82d29aeda  wdoor2012.7z)
+            <li><a href="http://sourceforge.jp/projects/shogi-server/downloads/60961/wdoor2011.7z/">2011年</a>: 86,932局
+                (md5: 8bc4540fe23ad47f31268335ed7c13cb  wdoor2011.7z)
+            <li><a href="http://sourceforge.jp/projects/shogi-server/downloads/60962/wdoor2010.7z/">2010年</a>: 108,518局
+                (md5: d16f41d3ddee21956415a220278173fe  wdoor2010.7z)
+            <li><a href="http://sourceforge.jp/projects/shogi-server/downloads/60963/wdoor2009.7z/">2009年</a>: 73,053局
+                (md5: 65494116eb0b6f977a7543b9abc2af40  wdoor2009.7z)
+            <li><a href="http://sourceforge.jp/projects/shogi-server/downloads/60964/wdoor2008.7z/">2008年</a>: 50,617局
+                (md5: e610abcc761da054f30e0784db7e2303  wdoor2008.7z)
+          </ul>
+	<li>プレイヤ別一覧: <a href="x/html/current/">今月</a>,
+	    <a href="x/html/2015">2015年</a>,
+	    <a href="x/html/2014">2014年</a>,
+	    <a href="x/html/2013">2013年</a>,
+	    <a href="x/html/2012">2012年</a>,
+	    <a href="x/html/2011">2011年</a>,
+	    <a href="x/html/2010">2010年</a>,
+	    <a href="x/html/2009">2009年</a>,
+	    <a href="x/html/2008">2008年</a>
+         <li>日付別一覧:
+           <a href="x/2015/">2015年</a>,
+           <a href="x/2014/">2014年</a>,
+           <a href="x/2013/">2013年</a>,
+           <a href="x/2012/">2012年</a>,
+           <a href="x/2011/">2011年</a>,
+           <a href="x/2010/">2010年</a>,
+           <a href="x/2009/">2009年</a>,
+           <a href="x/2008/">2008年</a> 
+        <br>
+        (2008年8月4日以降(部分的にしか残っていません)と2008年2月8日以前
+        (まったく残っていません)の棋譜をまとめて保存されている方がもしいらっしゃいましたら御一報下さい．)
+      </ul>
+      
+      <li>長時間対局（コンピュータ将棋順位戦）の記録
+        <ul>
+          <li>2014-12-23 <a href="view/latest-table.cgi?filter=floodgate-21600-60&show_self_play=1">コンピュータ将棋順位戦(仮) 6時間版</a> [<a href="http://www.sgtpepper.net/hyspro/diary/20150110.html">結果集計</a>]
+          <li>2013-12-22 <a href="view/latest-table.cgi?filter=floodgate-21600-60&show_self_play=1">コンピュータ将棋順位戦(仮) 6時間版</a> [<a href="http://www.sgtpepper.net/hyspro/diary/20140106.html">結果集計</a>]
+          <li>2012-12-30 <a href="view/latest-table.cgi?filter=floodgate-14400-60&show_self_play=1">コンピュータ将棋順位戦(仮,その2) 4時間版</a> 
+          <li>2010-09-19
+              <a href="view/latest-table.cgi?filter=floodgate-9000-45&show_self_play=1">コンピュータ将棋順位戦(仮) 2時間30分版</a>
+          <li>2010-07-25
+              <a href="view/latest-table.cgi?filter=floodgate-10800-60&show_self_play=1">コンピュータ将棋順位戦(仮) 3時間版</a>
+        </ul>
+      <li>過去のレーティング
+        <ul>
+          <li><a href="x/rating/players-floodgate-20140514.html">2014-05-14</a>
+          <li><a href="x/rating/players-floodgate-20130514.html">2013-05-14</a>
+          <li><a href="x/rating/players-floodgate-20120514.html">2012-05-14</a>
+          <li><a href="x/rating/players-floodgate-20110514.html">2011-05-14</a>
+          <li><a href="x/rating/players-floodgate-20100514.html">2010-05-14</a>
+          <li><a href="x/rating/players-floodgate-20090528.html">2009-05-28</a>
+          <li><a href="x/rating/players-floodgate-20080516.html">2008-05-16</a>
+        </ul>
+</ul>
+
+<h2>歴史</h2>
+
+<ul>
+  <li>shogi-serverは2005年頃より運用されていました．
+  <li>連続対局(floodgate)モードは2008年2月9日より運用されていました．
+  <li>2009年11月 再スタート
+  <li>2009年年末時点の資料: <a href="http://www.graco.c.u-tokyo.ac.jp/~kaneko/papers/floodgate-csa20.pdf">自動対戦サーバFloodgate</a>
+      森脇大悟, 金子知適. コンピュータ将棋協会誌 Vol. 20, pp. 3--10 (2010). 
+  <li>2014-11-30 レーティングにおけるベンチマークプレーヤーの変更: 算出されたレートの表記にあたり、長らくgps_normalのレートを2150に固定していましたが、今後は、gpsfish_normal_1cのレートを2800として表示します。
+    <ul>
+      <li>旧環境: gps_normal (2150), AMD Opteron Processor 248 (1 coreを使用)
+      <li>新環境: gpsfish_normal_1c (2800), AMD Phenom II X6 1090T Processor (1 coreを使用)
+    </ul>
+  <li>2015-02-01 floodgate-900-0の廃止。CSAサーバ プロトコル ver.1.2.1を使用。1秒未満の消費時間を切り捨て。256手で引き分け。floodgate-600-10の開始。
+</ul>
+
+<hr>
+<address></address>
+Last modified: $Date::                           $
+</body> </html>

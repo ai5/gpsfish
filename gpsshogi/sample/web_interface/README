@@ -1,0 +1,14 @@
+### Build and Deploy
+
+There are two places to put project version
+  * project.jar
+  * web.clj
+
+
+Compile a jar file:
+
+  $ lein uberjar
+
+Run a web server:
+
+  $ java -Dwdoor.ip=127.0.0.1 -Dshogiserver.user=username -Dshogiserver.password=password -jar webinterface-1.1.0-standalone.jar 8888

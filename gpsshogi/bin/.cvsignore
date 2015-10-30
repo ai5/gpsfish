@@ -1,0 +1,14 @@
+*.html
+*.dot
+*.ps
+HUMAN*.csa
+alphabetastat
+checkstat
+generatorstat
+gpsshogi
+mtdfstat
+pairstat
+printMove
+printPdp
+printPiece
+sente

@@ -1,0 +1,228 @@
+import toolset : flags ;
+import feature : feature ;
+import os ;
+import testing ;
+import boost ;
+
+path-constant TOP : . ;
+
+#
+# Put your Boost configuration in ~/user-config.jam
+# See tools/build/v2/contrib/boost.jam
+#
+boost.use-project ;
+
+rule my-rule ( properties * )
+{
+    local result ;
+    ECHO "$(properties)" ;
+
+    # +++++ Common +++++
+  
+    #   +++ address-model
+    if <address-model>64 in $(properties)
+    {
+        ECHO "+++ <address-model>64 +++" ;
+        result += <define>__WORDSIZE=64 ;
+    } # 64 bits
+
+    if <address-model>32 in $(properties)
+    {
+        ECHO "+++ <address-model>32 +++" ;
+        result += <define>__WORDSIZE=32 ;
+    } # 32 bits
+
+    if <instruction-set>pentium3 in $(properties)
+    {
+       result += <define>OSL_NO_SSE=1 ;
+    }
+
+    #   +++ DEBUG macro
+    if <optimization>off in $(properties)
+    {
+        if ! <define>NDEBUG in $(properties)
+        {
+            result += <define>DEBUG ;
+        }
+    }
+
+    if <optimization>speed in $(properties)
+    {
+        ECHO "+++ <optimization>speed +++" ;
+        if ! <define>DEBUG in $(properties)
+        {
+            result += <define>NDEBUG ;
+        }
+    }
+
+    #  +++ SMP
+    if <optimization>off in $(properties)
+    {
+        if ! <smp>on in $(properties)
+        {
+            ECHO "+++ SMP OFF +++" ; 
+            result += <smp>off ; 
+        }
+        else
+        {
+            ECHO "+++ SMP ON +++" ; 
+        }
+    }
+
+    if <optimization>speed in $(properties)
+    {
+        if ! <smp>off in $(properties)
+        {
+            ECHO "+++ SMP ON +++" ; 
+            result += <smp>on ; 
+        }
+        else
+        {
+            ECHO "+++ SMP OFF +++" ;
+        }
+    }
+
+    # common switches
+    result += <define>OSL_PUBLIC_RELEASE=1 ;
+
+    # +++++ GCC on all platforms +++++
+    if <toolset>gcc in $(properties) || <toolset>darwin in $(properties)
+    {
+        result += <define>_REENTRANT ;
+        result += <cxxflags>"-pipe" ;
+
+        if <optimization>speed in $(properties)
+        {
+            result += <cxxflags>"-Wextra -Wno-deprecated -Wno-unused-parameter -Wno-missing-field-initializers -Wwrite-strings -Wstrict-aliasing=2 -Woverloaded-virtual -Wcast-align -Wwrite-strings -Wpointer-arith -fomit-frame-pointer -funroll-loops -funswitch-loops -fpeel-loops --param large-function-growth=48000 " ;
+        }
+
+        if <inlining>full in $(properties)
+        {
+            ECHO "+++ <inlining>full +++" ;
+            result += <cxxflags>"--param inline-unit-growth=8000 --param max-inline-insns-single=8000" ;
+        }
+        if <profiling>off in $(properties)
+        {
+            # nothing 
+        }
+    }
+
+    # +++++ UNIX +++++
+    if <os>LINUX in $(properties)
+    {
+        # +++ UNIX with gcc
+        if <toolset>darwin in $(properties)
+        {
+            # nothing
+        } # UNIX with GCC
+
+        # +++ UNIX with icc
+        if <toolset>intel in $(properties)
+        {
+            result += <cxxflags>-w1 ;
+
+            if <optimization>speed in $(properties)
+            {
+                result += <cxxflags>"-wp_ipo -ipo_obj -unroll8" ;
+            }
+        }
+    }
+    
+    if <os>MACOSX in $(properties)
+    {
+        # +++ MACOSX with gcc
+        if <toolset>gcc in $(properties) || <toolset>darwin in $(properties)
+        {
+            result += <cxxflags>"-fno-common" ;
+            result += <linkflags>"-flat_namespace -undefined suppress" ;
+            if <address-model>64 in $(properties)
+            {
+                result += <library-path>/usr/local/lib64 ;
+            } # 64 bits
+        } # MAXOSX with GCC (Darwin)
+    } # MAXOSX
+
+    if <target-os>windows in $(properties)
+    {
+      result += <define>USE_BOOST_POOL_ALLOCATOR=1 ;
+      result += <define>_WIN32_WINNT=0x0500 ; # Windows 2000 or later; see w32api.h in detail
+      result += <threadapi>win32 ;
+    } # for windows
+    return $(result) ;
+}   
+
+
+rule usage-requirements ( properties * )
+{
+    local result ;
+    result += <threading>multi ;
+
+    if <target-os>windows in $(properties)
+    {
+        result += <library>$(TOP)//psapi ;
+        result += <include>$(TOP)/../gpsshogi/include ;
+    }
+    else
+    {
+        result += <library>$(TOP)/lib/third_party/tcmalloc-0.93//libosltcmalloc-0.93 ;
+    }
+    return $(result) ;
+}
+
+rule require-requirements ( properties * )
+{
+    local result ;
+    result += <threading>multi ;
+
+    if <target-os>windows in $(properties) 
+    {
+        result += <use>$(TOP)//psapi ;
+        result += <include>$(TOP)/../gpsshogi/include ;
+    }
+    else
+    {
+        result += <use>$(TOP)/lib/third_party/tcmalloc-0.93//libosltcmalloc-0.93 ;
+    }
+    return $(result) ;
+}
+
+
+rule run-tests ( sources * : extra-sources * : requirements * )
+{
+     for local s in $(sources)
+     {
+         local testexe = [ MATCH ^(.+)\.[^\.]+$ : $(s) ] ;
+         run $(s) $(extra-sources)
+             : "-s"
+             :
+             : $(requirements)  
+             ;
+         # unit-test $(testexe) : $(s) $(extra-sources) : $(requirements) ;
+     }
+} 
+
+
+rule osl-sources ( name : sources * : requirements * )
+{
+  lib $(name) 
+        : $(sources) 
+        : $(requirements) 
+          <include>$(TOP)/include
+          <define>OSL_HOME=\"\\\"/usr/local/share/osl/\\\"\"
+          <use>/boost//filesystem
+          <use>/boost//thread
+          <conditional>@require-requirements
+          # Set off (or comment out) for mingw
+#          <variant>release:<warnings-as-errors>on
+        : 
+        : <include>$(TOP)/include
+          <library>/boost//filesystem
+          <library>/boost//thread
+          <conditional>@usage-requirements
+        ;
+}
+
+project
+    : requirements <conditional>@my-rule
+    ;
+

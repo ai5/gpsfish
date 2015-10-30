@@ -1,0 +1,2 @@
+#!/bin/sh -
+env GPSOPTS="-Pa -x" SHOGIUSER=gps30 SHOGIPASS=gps30 GAMENAME=gps-0-30 LOOP=-1 LIMIT=2000 NODELIMIT=3200000 ./network_x1.pl

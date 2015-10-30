@@ -1,0 +1,14 @@
+2015-05-05T13:31:27.815784 status=4 elapsed 3897 msec-max 8000
+root + -29990 +0091GI-8293OU+9182GI-9382OU+2726FU-0015GI+1627OU (7 5) 93k [2] solved (21.1s)
+P1 *  * -KI-FU *  * -KY * -KY
+P2-FU-OU *  *  *  *  * -KI * 
+P3 * +KE-FU-KI-FU *  * -FU * 
+P4 * -FU *  *  * -KE *  * -FU
+P5-KY * +FU *  *  * +KE *  * 
+P6 * +HI+KI *  * -KA+GI * +OU
+P7 *  *  *  *  * -UM+FU+FU+FU
+P8 *  *  * -HI *  *  *  *  * 
+P9 *  *  *  *  *  * +GI+KE+KY
+P+00GI
+P-00GI00FU00FU00FU00FU00FU00FU00FU
++
