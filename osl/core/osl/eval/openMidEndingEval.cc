@@ -199,6 +199,105 @@ OpenMidEndingEval::resetWeights(const int *w, size_t length)
   doResetWeights(reader);
 }
 
+#if (defined(ANDROID) || defined(__ANDROID__))
+/*
+ boostを使わなくていいようにgpsfish minimalからテキストベースの評価値を読むこむように変更
+  =>あまりに遅いんでバイナリ化 形式が違うのせ注意
+ */
+#if false
+struct IntReader{
+  std::ifstream& is;
+  int nextVal;
+  bool nextIsValid;
+  bool failed_flag;
+  IntReader(std::ifstream& is_) :is(is_),nextIsValid(false),failed_flag(false) {}
+  bool hasNext(){
+    if(nextIsValid) return true;
+    return ( nextIsValid = bool(is >> nextVal) );
+  }
+  int read(){
+    if(!hasNext()) {
+      failed_flag=true; return 0;
+    }
+    nextIsValid=false;
+    return nextVal;
+  }
+  bool failed() const{
+    return failed_flag;
+  }
+};
+#endif
+
+struct IntReader {
+	std::ifstream& is;
+	int nextVal;
+
+	bool failed_flag;
+	char buf[4096];
+	int readlen;
+	int pos;
+
+	IntReader(std::ifstream& is_) :is(is_), failed_flag(false)
+	{
+		is.read(buf, sizeof(buf));
+		readlen = is.gcount();
+		pos = 0;
+	}
+
+	bool hasNext() {
+
+		if (pos < readlen)
+		{
+			return true;
+		}
+
+		if (readlen == sizeof(buf))
+		{
+			is.read(buf, sizeof(buf));
+			readlen = is.gcount();
+			pos = 0;
+		}
+
+		return pos < readlen;
+	}
+
+
+	int read() {
+		if (!hasNext()) {
+			failed_flag = true; return 0;
+		}
+
+		int nextVal = buf[pos] | (int)buf[pos + 1] << 8;
+		pos += 2;
+
+		return nextVal;
+	}
+
+	bool failed() const {
+		return failed_flag;
+	}
+};
+
+
+bool osl::eval::ml::OpenMidEndingEval::setUp(const char *filename)
+{
+  static std::mutex initialize_mutex;
+  std::lock_guard<std::mutex> lk(initialize_mutex);
+  if (initialized_flag == Loaded)
+    return true;
+  typedef IntReader reader_t;
+  std::ifstream is(filename, std::ios_base::binary);
+  reader_t reader(is);
+  if (! reader.hasNext()) {
+    initialized_flag = Zero;
+    std::cerr << "file " << filename << std::endl;
+    return false;
+  }
+  doResetWeights(reader);
+  return initialized_flag == Loaded;
+}
+
+#else
 bool osl::eval::ml::OpenMidEndingEval::setUp(const char *filename)
 {
   std::lock_guard<std::mutex> lk(initialize_mutex);
@@ -215,6 +314,7 @@ bool osl::eval::ml::OpenMidEndingEval::setUp(const char *filename)
   doResetWeights(reader);
   return initialized_flag == Loaded;
 }
+#endif
 
 template <class Reader>
 void osl::eval::ml::
@@ -486,7 +586,11 @@ OpenMidEndingEval::doResetWeights(Reader& reader)
 std::string osl::eval::ml::OpenMidEndingEval::defaultFilename()
 {
   std::string filename = OslConfig::home();
+#if (defined(ANDROID) || (__ANDROID__))
   filename += "/data/eval.bin";
+#else
+  filename += "/data/eval.bin";
+#endif
   return filename;
 }
 

@@ -3304,9 +3304,9 @@ void ThreadsManager::idle_loop(int threadID, SplitPoint* sp) {
   }
 }
 
-#if (defined GPSFISHONE) || (! defined GPSFISH_DFPN)
+#if (! defined GPSFISH_DFPN)
 void do_checkmate(Position& pos, int mateTime){
-  cout << "checkmate notimplemented";
+	cout << "checkmate notimplemented" << endl;
   return;
 }
 #else
@@ -3315,7 +3315,7 @@ void do_checkmate(Position& pos, int mateTime){
   osl::NumEffectState state(pos.osl_state);
 #if (! defined ALLOW_KING_ABSENCE)
   if (state.kingSquare(state.turn()).isPieceStand()) {
-    cout << "checkmate notimplemented";
+	  cout << "checkmate notimplemented" << endl;
     return;
   }
 #endif

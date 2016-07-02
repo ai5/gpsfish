@@ -51,48 +51,65 @@ namespace osl
     class LightMutex {
       LightMutex(const LightMutex&) = delete;
       LightMutex& operator=(const LightMutex&) = delete;
-      
+#if defined(ANDROID) || defined(__ANDROID)
+      std::mutex m;
+#endif
       volatile int data;
     public:
       typedef LightScopedLock<LightMutex> scoped_lock;
       class unlockable_lock;
       LightMutex() :data(0) {}
+		
       bool tryLock(){
-	if(data!=0) return false;
-	int dummy;
+		  if(data!=0) return false;
+		  int dummy;
+#if defined(ANDROID) || defined(__ANDROID__)
+		  dummy = m.try_lock();
+		  return dummy == -1;
+#else
 #ifdef __GNUC__
-	asm __volatile__(" movl $1,%0" "\n\t"
-			 " xchgl (%1),%0" "\n\t"
-			 : "=&q"(dummy)
-			 : "q"(&data)
-			 : "cc");
+		  asm __volatile__(" movl $1,%0" "\n\t"
+						   " xchgl (%1),%0" "\n\t"
+						   : "=&q"(dummy)
+						   : "q"(&data)
+						   : "cc");
 #else
 #  error "not supported"
 #endif
-	return dummy==0;
-      }
-      bool waitLock(int counter){
-	for(int i=0;i<counter;i++){
-#ifdef __GNUC__
-	  asm __volatile__(" pause" "\n\t");
+		  return dummy==0;
 #endif
-	  if(data==0)
-	    return true;
-	}
-	return false;
-      }
-      void lock(){
-	while(!tryLock()){
-	  for(int i=0;i<2;i++){
-	    if(!waitLock(100)) break;
-	    if(tryLock()) return;
 	  }
-	  std::this_thread::yield();
-	}
-      }
+		
+      bool waitLock(int counter){
+		  for(int i=0;i<counter;i++){
+#if defined(ANDROID) || defined(__ANDROID__)
+#else
+#ifdef __GNUC__
+			  asm __volatile__(" pause" "\n\t");
+#endif
+#endif
+			  if(data==0)
+				  return true;
+		  }
+		  return false;
+	  }
+		
+      void lock(){
+		  while(!tryLock()){
+			  for(int i=0;i<2;i++){
+				  if(!waitLock(100)) break;
+				  if(tryLock()) return;
+			  }
+			  std::this_thread::yield();
+		  }
+	  }
+		
       void unlock(){
-	data=0;
-      }
+		  data=0;
+#if defined(ANDROID) || defined(__ANDROID__)
+		  m.unlock();
+#endif
+	  }
     };
     
     /** requirement: thread local */

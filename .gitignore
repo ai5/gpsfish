@@ -194,3 +194,4 @@ $RECYCLE.BIN/
 *.d
 *.o
 *.exe
+gpsfish_dev/libs/

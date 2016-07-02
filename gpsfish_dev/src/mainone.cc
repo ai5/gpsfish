@@ -53,7 +53,9 @@
 #include "../../osl/core/osl/eval/eval_pieceStand.cc"
 #include "../../osl/core/osl/eval/eval_pin.cc"
 #include "../../osl/core/osl/eval/weights.cc"
+#if !(defined(ANDROID) || defined(__ANDROID__))
 #include "../../osl/core/osl/bits/binaryIO.cc"
+#endif
 #include "../../osl/core/osl/oslConfig.cc"
 #include "../../osl/core/osl/bits/pieceStand.cc"
 #include "../../osl/core/osl/book/openingBook.cc"

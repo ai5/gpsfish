@@ -500,12 +500,16 @@ void osl::OslConfig::setDfpnMaxDepth(int new_depth)
 std::string osl::OslConfig::configuration()
 {
   return
+#if defined(ANDROID) || defined(__ANDROID__)
+    ""
+#else
     "wordsize " +std::to_string(OSL_WORDSIZE)+""
 # ifdef __GNUC__
   " gcc " __VERSION__
 # endif
 #ifndef OSL_USE_SSE 
     " nosse"
+#endif
 #endif
 # ifndef NDEBUG
     " (debug)"
